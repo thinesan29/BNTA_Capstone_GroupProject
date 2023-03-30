@@ -49,8 +49,8 @@ const NewMoviesSlider = ({ movies, deleteMovie, addToWatchList}) => {
 
   return (
     <div className="new-movie">
-      <h2>New added Movies</h2>
-      <p>Watch recently arrived movies!</p>
+      <h2>Recently Added Movies</h2>
+      <p>Discover new movies that might interest you!</p>
       <Slider {...settings}>
         {newMovies.map(movie => {
         return <Movie key={movie.movieId} movie={movie} deleteMovie={deleteMovie} addToWatchList={addToWatchList}/>

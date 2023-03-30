@@ -1,5 +1,5 @@
 import TopRated from "../Components/TopRated";
-import NewMoviesSlider from "../Components/newMoviesSlider";
+import NewMoviesSlider from "../Components/NewMoviesSlider";
 
 const LandingPageContainer = ({movies, deleteMovie, addToWatchList}) => {
 

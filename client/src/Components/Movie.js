@@ -14,12 +14,12 @@ const Movie = ({movie, deleteMovie, addToWatchList}) => {
         <div className="movie-card">
             <img id="image" src={pics[`${movie.title}.jpeg`]} alt={movie.title}/>
             <h4><strong>Movie: </strong>{movie.title}</h4>
-            <p><strong>Genre: </strong>{movie.genre}</p>
             <p><strong>Duration: </strong>{movie.duration}</p>
+            <p><strong>Watch List: </strong>{movie.watchList}</p>
             <p><strong>Language: </strong>{movie.language}</p>
+            <p><strong>Genre: </strong>{movie.genre}</p>
             <p><strong>Review: </strong>{movie.review}</p>
             <p><strong>Rating: </strong>{movie.rating}</p>
-            <p><strong>Watch List: </strong>{movie.watchList}</p>
             <button className="add" onClick={handleAddToWatchList}>Add to Watch List</button>
             <button className="delete" onClick={()=> deleteMovie(movie.movieId)}>Delete</button>
         </div>

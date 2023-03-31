@@ -34,10 +34,10 @@ public class DataLoader implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         // ACTION
         Movie movie1 = new Movie("John Wick 4", 169, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Incredible performances, stunning cinematography.", 3);
-        Movie movie2 = new Movie("Avatar: The Way of Water", 192, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Page-turner, couldn't put it down.", 4);
+        Movie movie2 = new Movie("Avatar The Way of Water", 192, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Page-turner, couldn't put it down.", 4);
         Movie movie3 = new Movie("Fast and Furious 5", 130, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Thought-provoking and emotionally resonant.", 4);
         Movie movie4 = new Movie("The Dark Knight", 152, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Engaging and thoroughly entertaining throughout.", 5);
-        Movie movie5 = new Movie("Top Gun : Maverick", 131, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Masterful storytelling, beautifully crafted.", 3);
+        Movie movie5 = new Movie("Top Gun Maverick", 131, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Masterful storytelling, beautifully crafted.", 3);
 
         Cast cast1 = new Cast("Keanu Reeves", 58, "Keanu Reeves, a versatile actor born in Beirut in 1964, gained fame for roles in The Matrix, John Wick, and Bill & Ted. Known for his humility and philanthropy, he captivates fans worldwide.");
         Cast cast2 = new Cast("Lance Reddick", 61, "Lance Reddick is a versatile actor known for his commanding presence on screen, spanning television, film, and video games.");
@@ -182,7 +182,7 @@ public class DataLoader implements ApplicationRunner {
         Movie movie27 = new Movie("Creed 3", 117, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Inspiring", 8);
         Movie movie28 = new Movie("Run", 89, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS.HORROR, "Thrilling", 4);
         Movie movie29 = new Movie("Fall",106, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Explosive, suspenseful, thriller", 4);
-        Movie movie30 = new Movie("Luther: The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS. ACTION, "Ominous, gritty, dark.", 5);
+        Movie movie30 = new Movie("Luther The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS. ACTION, "Ominous, gritty, dark.", 5);
 
         Cast cast49 = new Cast("Jenna Ortega", 20, "Jenna Ortega, born in 2002, is an American actress known for Stuck in the Middle, You, and Wednesday");
         Cast cast50 = new Cast("Christina Ricci", 43, "Christina Ricci, born in 1980, is an American actress celebrated for roles in The Addams Family, Casper, and Sleepy Hollow.");

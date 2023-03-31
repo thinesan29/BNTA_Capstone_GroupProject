@@ -190,7 +190,7 @@ public class DataLoader implements ApplicationRunner {
         Cast cast52 = new Cast("Jonathan Majors", 33, "American actor, known for roles in Lovecraft Country, The Last Black Man in San Francisco, and Da 5 Bloods." );
         Cast cast53 = new Cast("Kiera Allen", 25, "Kiera Allen is a talented actress known for her captivating performances in movies like Run and Ethan and Sophie." );
         Cast cast54 = new Cast("Grace Caroline Currey", 32, "Grace Caroline Currey is a rising actress and model known for her work in projects like Lucifer, S.W.A.T, and Bizaardvark.");
-        Cast cast55 = new Cast("Vrginia Gardner", 35, "Virginia Gardner is an American actress best known for her roles in Marvel's Runaways, Project Almanac, and Halloween.");
+        Cast cast55 = new Cast("Virginia Gardner", 35, "Virginia Gardner is an American actress best known for her roles in Marvel's Runaways, Project Almanac, and Halloween.");
         Cast cast56 = new Cast("Idris Elba",50 , "Idris Elba is a multi-talented British actor, producer, and musician, known for his work in Luther, The Wire, Thor, and Mandela: Long Walk to Freedom.");
         Cast cast57 = new Cast("Cynthia Erivo", 36, "Cynthia Erivo is a Tony, Emmy, and Grammy award-winning actress and singer, known for her performances in Harriet, The Color Purple, and Genius.");
 

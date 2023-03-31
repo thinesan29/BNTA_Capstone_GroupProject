@@ -7,7 +7,7 @@ const Cast = ({cast,onDelete}) => {
       const pics = importAll(require.context('../pics/Cast', false, /\.(png|jpg|svg)$/));
     return (
         <div className="cast">
-            <img id="image" src={pics[`${cast.name}.jpg`]} alt={cast.name}/>
+            <img id="image" src={pics[`${cast.name.trim()}.jpg`]} alt={cast.name.trim()}/>
             <h3>{cast.name}</h3>
             <p>Actor's Age: {cast.age}</p>
             <p>Actor's Bio: {cast.bio}</p>

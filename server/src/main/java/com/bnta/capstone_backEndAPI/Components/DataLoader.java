@@ -123,7 +123,7 @@ public class DataLoader implements ApplicationRunner {
 
         Movie movie16 = new Movie("Scream", 111, LanguageEnum.ENGLISH.SPANISH.KOREAN, GenreEnum.HORROR, "Excellent, classic, well-cast", 5);
         Movie movie17 = new Movie("The Conjuring", 112, LanguageEnum.ENGLISH.SPANISH.FRENCH.HINDI, GenreEnum.HORROR, "Terrifying, gripping, suspenseful", 5);
-        Movie movie18 = new Movie("Winnie The Pooh: Blood & Honey", 111, LanguageEnum.ENGLISH, GenreEnum.HORROR, "Awful.", 1);
+        Movie movie18 = new Movie("Winnie The Pooh Blood & Honey", 111, LanguageEnum.ENGLISH, GenreEnum.HORROR, "Awful.", 1);
         Movie movie19 = new Movie("The Orphanage", 97, LanguageEnum.SPANISH.ENGLISH, GenreEnum.HORROR, "Spine-Chilling", 5);
         Movie movie20 = new Movie("Bird Box", 124, LanguageEnum.ENGLISH.FRENCH.SPANISH.KOREAN, GenreEnum.HORROR, "Gripping, intense, touching.", 3);
 

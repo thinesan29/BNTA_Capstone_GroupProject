@@ -154,7 +154,7 @@ public class DataLoader implements ApplicationRunner {
         Movie movie21 = new Movie("The Last Dance", 500,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Feel-Good",5);
         Movie movie22 = new Movie("Tiger King", 350,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Provocative, Investigative",3);
         Movie movie23 = new Movie("I AM BOLT", 117,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inpsiring, Feel-Good, Exciting",3);
-        Movie movie24 = new Movie("HARRY & MEGHAN", 360,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Investigative, Intimate",2);
+        Movie movie24 = new Movie("Harry & Meghan", 360,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Investigative, Intimate",2);
         Movie movie25 = new Movie("Stutz", 96,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inspiring, Intimate, Heartfelt",4);
 
 

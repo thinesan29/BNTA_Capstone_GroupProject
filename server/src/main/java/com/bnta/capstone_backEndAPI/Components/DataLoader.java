@@ -33,9 +33,9 @@ public class DataLoader implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         // ACTION
-        Movie movie1 = new Movie("John Wick 4 ", 169, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Incredible performances, stunning cinematography.", 3);
+        Movie movie1 = new Movie("John Wick 4", 169, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Incredible performances, stunning cinematography.", 3);
         Movie movie2 = new Movie("Avatar: The Way of Water", 192, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Page-turner, couldn't put it down.", 4);
-        Movie movie3 = new Movie("Fast and Furious 5 ", 130, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Thought-provoking and emotionally resonant.", 4);
+        Movie movie3 = new Movie("Fast and Furious 5", 130, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Thought-provoking and emotionally resonant.", 4);
         Movie movie4 = new Movie("The Dark Knight", 152, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Engaging and thoroughly entertaining throughout.", 5);
         Movie movie5 = new Movie("Top Gun : Maverick", 131, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Masterful storytelling, beautifully crafted.", 3);
 
@@ -91,22 +91,22 @@ public class DataLoader implements ApplicationRunner {
         MovieCastMember movieCastMember20 = new MovieCastMember(cast20, movie10);
 
         // COMEDY
-        Movie movie11 = new Movie("Coming 2 America ", 169, LanguageEnum.ENGLISH.SPANISH.GERMAN.FRENCH, GenreEnum.COMEDY, "Charming", 4);
-        Movie movie12 = new Movie("Red Notice ", 118, LanguageEnum.ENGLISH.SPANISH, GenreEnum.COMEDY, "Entertaining", 4);
-        Movie movie13 = new Movie("The French Dispatch ", 108, LanguageEnum.ENGLISH.FRENCH, GenreEnum.COMEDY, "Quirky", 4);
-        Movie movie14 = new Movie("Jolt ", 91, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Action-Packed", 3);
-        Movie movie15 = new Movie("Thunder Force ", 107, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Silly", 3);
+        Movie movie11 = new Movie("Coming 2 America", 169, LanguageEnum.ENGLISH.SPANISH.GERMAN.FRENCH, GenreEnum.COMEDY, "Charming", 4);
+        Movie movie12 = new Movie("Red Notice", 118, LanguageEnum.ENGLISH.SPANISH, GenreEnum.COMEDY, "Entertaining", 4);
+        Movie movie13 = new Movie("The French Dispatch", 108, LanguageEnum.ENGLISH.FRENCH, GenreEnum.COMEDY, "Quirky", 4);
+        Movie movie14 = new Movie("Jolt", 91, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Action-Packed", 3);
+        Movie movie15 = new Movie("Thunder Force", 107, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Silly", 3);
 
-        Cast cast21 = new Cast("Eddie Murphy ", 60, "An iconic comedian and actor known for his roles in Beverly Hills Cop, The Nutty Professor and Shrek.");
-        Cast cast22 = new Cast("Arsenio Hal ", 65, "A multi-talented comedian, actor, and talk show host who has appeared in films like Harlem Nights and Coming to America.");
+        Cast cast21 = new Cast("Eddie Murphy", 60, "An iconic comedian and actor known for his roles in Beverly Hills Cop, The Nutty Professor and Shrek.");
+        Cast cast22 = new Cast("Arsenio Hal", 65, "A multi-talented comedian, actor, and talk show host who has appeared in films like Harlem Nights and Coming to America.");
         Cast cast23 = new Cast("Dwayne Johnson", 50, "A former professional wrestler turned actor known for his roles in The Fast and the Furious franchise, Jumanji and Moana.");
         Cast cast24 = new Cast("Gal Gadot", 36, "An Israeli actress and model known for her roles in Wonder Woman, Batman v Superman and Justice League.");
-        Cast cast25 = new Cast("Bill Murray ", 71, "A comedic actor known for his roles in Ghostbusters, Lost in Translation and Caddyshack.");
-        Cast cast26 = new Cast("Tilda Swinton ", 26, "A British actress known for roles in We Need To Talk About Kevin, Doctor Strange and Snowpiercer.");
-        Cast cast27 = new Cast("Kate Beckinsale ", 48, "A British actress known for her roles in Underworld, Pearl Harbor and Love & Friendship. ");
+        Cast cast25 = new Cast("Bill Murray", 71, "A comedic actor known for his roles in Ghostbusters, Lost in Translation and Caddyshack.");
+        Cast cast26 = new Cast("Tilda Swinton", 26, "A British actress known for roles in We Need To Talk About Kevin, Doctor Strange and Snowpiercer.");
+        Cast cast27 = new Cast("Kate Beckinsale", 48, "A British actress known for her roles in Underworld, Pearl Harbor and Love & Friendship. ");
         Cast cast28 = new Cast("Jai Courtney", 35, "An Australian actor known for his roles in Terminator Genisys, Suicide Squad and Divergent ");
         Cast cast29 = new Cast("Melissa McCarthy", 51, "An American actress known for her roles in Bridesmaids, The Heat and Spy ");
-        Cast cast30 = new Cast("Octavia Spencer ", 51, "An American actress known for her roles in The Help, Hidden Figures and Ma ");
+        Cast cast30 = new Cast("Octavia Spencer", 51, "An American actress known for her roles in The Help, Hidden Figures and Ma ");
 
         MovieCastMember movieCastMember21 = new MovieCastMember(cast21, movie11);
         MovieCastMember movieCastMember22 = new MovieCastMember(cast22, movie11);

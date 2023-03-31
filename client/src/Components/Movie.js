@@ -5,7 +5,7 @@ const Movie = ({movie,onDelete}) => {
         r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
         return images;
       }
-      const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpeg|svg)$/));
+      const pics = importAll(require.context('../pics', false, /\.(png|jpeg|svg)$/));
     return (
         <div className="movie">
             <img id="image" src={pics[`${movie.title}.jpeg`]} alt={movie.title}/>

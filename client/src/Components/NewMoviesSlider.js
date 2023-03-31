@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const NewMoviesSlider = ({ movies, deleteMovie, addToWatchList}) => {
+const NewMoviesSlider = ({ movies, onDelete}) => {
   
     const newMovies = getRandomSubarray(movies, 5);
 
@@ -53,7 +53,7 @@ const NewMoviesSlider = ({ movies, deleteMovie, addToWatchList}) => {
       <p>Discover new movies that might interest you!</p>
       <Slider {...settings}>
         {newMovies.map(movie => {
-        return <Movie key={movie.movieId} movie={movie} deleteMovie={deleteMovie} addToWatchList={addToWatchList}/>
+        return <Movie key={movie.movieId} movie={movie} onDelete={onDelete} />
     })}
       </Slider>
     </div>

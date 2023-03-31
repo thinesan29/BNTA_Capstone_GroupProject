@@ -1,99 +1,86 @@
 import { useState } from "react";
 
-const MovieForm = ({ movies, onSubmit }) => {
-  const [addedMovie, setAddedMovie] = useState({
-    title: "",
-    duration:0,
-    watchList:false,
-    review:"",
-    rating:0,
-    language:"",
-    genre:"",
-  });
+const MovieForm = ({onMovieSubmission}) => {
+    const [title, setTitle] = useState("");
+    const [duration, setDuration] = useState("");
+    const [review, setReview] = useState("");
+    const [rating, setRating] = useState("");
+    const [language , setLanguage] = useState("");
+    const [genre, setGenre] = useState("");
 
-  const handleChange = (event) => {
-    const inputTitle = event.target.title;
-    const copiedMovie = { ...addedMovie };
-    copiedMovie[inputTitle] = event.target.value;
-    setAddedMovie(copiedMovie);
-  };
+    const handleTitleChange = (event) => {
+        setTitle(event.target.value);
+    }
 
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
-    onSubmit(addedMovie);
-    console.log(addedMovie);
-  };
+    const handleDurationChange = (event) => {
+        setDuration(event.target.value);
+    }
 
-  return (
-    <form className="movie-form" onSubmit={handleFormSubmit}>
-      <h3>Add a New Movie</h3>
+    const handleReviewChange = (event) => {
+        setReview(event.target.value);
+    }
 
-      <label htmlFor="product-movie">Movie Title:</label>
-      <input
-        id="movie-name"
-        name="title"
-        type="text"
-        placeholder="Enter Movie Title"
-        onChange={handleChange}
-      />
+    const handleRatingChange = (event) => {
+        setRating(event.target.value);
+    }
 
-    <label htmlFor="movie-duration">Movie Duration:</label>
-      <input
-        id="movie-duration"
-        name="duration"
-        type="number"
-        placeholder="Enter Movie Duration"
-        onChange={handleChange}
-      />
+    const handleLanguageChange = (event) => {
+        setLanguage(event.target.value);
+    }
 
-    <label htmlFor="movie-watchList">Movie Watch-List:</label>
-      <input
-        id="movie-watchList"
-        name="watchList"
-        type="checkbox"
-        onChange={handleChange}
-      />
-      
-    <label htmlFor="movie-language">Movie Language:</label>
-      <input
-        id="movie-language"
-        name="language"
-        type="text"
-        placeholder="Enter movie's language"
-        onChange={handleChange}
-      />
+    const handleGenreChange = (event) => {
+        setGenre(event.target.value);
+    }
 
-      <label htmlFor="movie-genre">Movie Genre:</label>
-      <input
-        id="movie-genre"
-        name="genre"
-        type="text"
-        placeholder="Enter movie genre"
-        onChange={handleChange}
-      />
+    const handleFormSubmit = (event) => {
+        event.preventDefault();
+
+        const newMovie = {
+            title: title,
+            duration:duration,
+            review:review,
+            rating:rating,
+            language:language,
+            genre:genre,
+        }
+
+        onMovieSubmission(newMovie);
+    }
+
+    return (
+        <div className="form-container">
+            <h3>Add New Movie:</h3>
+            <form onSubmit={handleFormSubmit}>
+                <div className="form-element">
+                    <label htmlFor="title">Movie's Title:</label>
+                    <input type="text" id="title" value={title} onChange={handleTitleChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="duration">Movie's Duration (mins):</label>
+                    <input type="number" id="duration" value={duration} onChange={handleDurationChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="review">Movie's Review:</label>
+                    <input type="text" id="review" value={review} onChange={handleReviewChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="rating">Movie's Rating:</label>
+                    <input type="number" id="rating" value={rating} onChange={handleRatingChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="language">Movie's Language:</label>
+                    <input type="text" id="language" value={language} onChange={handleLanguageChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="genre">Movie's Genre:</label>
+                    <input type="text" id="genre" value={genre} onChange={handleGenreChange}/>
+                </div>
+                <input type="submit" value="Add Movie"/>
+            </form>
+        </div>
+    )
 
 
-    <label htmlFor="movie-review">Movie Review:</label>
-      <input
-        id="movie-review"
-        name="review"
-        type="text"
-        placeholder="Enter a movie review"
-        onChange={handleChange}
-      />
-
-    <label htmlFor="movie-rating">Movie Rating:</label>
-      <input
-        id="movie-rating"
-        name="rating"
-        type="number"
-        placeholder="Enter a movie rating"
-        onChange={handleChange}
-      />
-
-      <input type="submit" value="Add Movie" />
-    </form>
-  );
-};
+}
 
 export default MovieForm;

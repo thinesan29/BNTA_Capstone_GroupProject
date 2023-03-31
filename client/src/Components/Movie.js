@@ -1,29 +1,19 @@
-const Movie = ({movie, deleteMovie, addToWatchList}) => {
-    function importAll(r) {
-        let images = {};
-        r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-        return images;
-      }
 
-      const handleAddToWatchList = () => {
-        addToWatchList(movie);
-      };
-      
-      const pics = importAll(require.context('../pics', false, /\.(png|jpeg|svg)$/));
-    return(
-        <div className="movie-card">
-            <img id="image" src={pics[`${movie.title}.jpeg`]} alt={movie.title}/>
-            <h4><strong>Movie: </strong>{movie.title}</h4>
-            <p><strong>Duration: </strong>{movie.duration}</p>
-            <p><strong>Watch List: </strong>{movie.watchList}</p>
-            <p><strong>Language: </strong>{movie.language}</p>
-            <p><strong>Genre: </strong>{movie.genre}</p>
-            <p><strong>Review: </strong>{movie.review}</p>
-            <p><strong>Rating: </strong>{movie.rating}</p>
-            <button className="add" onClick={handleAddToWatchList}>Add to Watch List</button>
-            <button className="delete" onClick={()=> deleteMovie(movie.movieId)}>Delete</button>
+const Movie = ({movie,onDelete}) => {
+    return (
+        <div className="movie">
+            <h3>{movie.title}</h3>
+            <p>Movie Duration (mins): {movie.duration}</p>
+            <p>Movie Review: {movie.review}</p>
+            <p>Movie Rating: {movie.rating}</p>
+            <p>Movie Language: {movie.language}</p>
+            <p>Movie Genre: {movie.genre}</p>
+
+            <button onClick={() => onDelete(movie.id)}>Remove Movie</button>
         </div>
     )
+
+
 }
 
 export default Movie;

@@ -6,17 +6,13 @@ import NavBar from './Components/NavBar';
 // import Banner from './Components/Banner';
 import Footer from './Components/Footer';
 import ExtraInfo from './Components/ExtraInfo';
-import MovieForm from './Components/MovieForm';
+import MovieContainer from './Containers/MovieContainer';
+import CastContainer from './Containers/CastContainer';
 
 function App() {
 
   return (
     <>
-    <Header />
-    <NavBar/>
-    <ExtraInfo/>
-    <MovieForm/>
-    <Footer />
     </>
   );
 

@@ -15,8 +15,6 @@ const Header = () => {
       <div id="header-container">
         <div className="header-nav">
           <Link to="/Home">Home</Link>
-          <Link to="/Movie">Movie</Link>
-          <Link to="/Cast">Cast</Link>
           <Link to="/MyList">MyList</Link>
           <Link to="/Login">Login</Link>
           <Link to="/Admin">Admin</Link>

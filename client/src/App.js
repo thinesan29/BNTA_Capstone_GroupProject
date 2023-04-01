@@ -7,6 +7,7 @@ import HomePage from './ Header Pages/HomePage';
 import MoviePage from './ Header Pages/MoviePage';
 import CastPage from './ Header Pages/CastPage';
 import LoginPage from './ Header Pages/LoginPage';
+import AdminPage from './ Header Pages/AdminPage';
 import SubscribePage from './ Header Pages/SubscribePage';
 import OriginalsPage from './Nav Bar Pages /OriginalsPage';
 import TopRatedPage from './Nav Bar Pages /TopRatedPage';
@@ -24,8 +25,9 @@ function App() {
       <NavBar/>
     <Routes>
       <Route path="/Home" element={<HomePage/>}/>
-      <Route path="/Movie" element={<MoviePage/>}/>
-      <Route path="/Cast" element={<CastPage/>}/>
+      <Route path="/Admin" element={<AdminPage/>}/>
+      <Route path="/Admin/Movie" element={<MoviePage/>}/>
+      <Route path="/Admin/Cast" element={<CastPage/>}/>
       <Route path="/Subscribe" element={<SubscribePage/>}/>
       <Route path="/Login" element={<LoginPage/>}/>
       <Route path="/Blockbuster_Originals" element={<OriginalsPage/>}/>

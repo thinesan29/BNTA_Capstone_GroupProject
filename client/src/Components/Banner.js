@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 // add in movie images Friday
 // import { Link } from "react-router-dom";
 // import movie1 from "./movie1.jpg";

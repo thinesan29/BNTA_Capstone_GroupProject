@@ -10,6 +10,7 @@ import SubscribePage from './ Header Pages/SubscribePage';
 import OriginalsPage from './Nav Bar Pages /OriginalsPage';
 import TopRatedPage from './Nav Bar Pages /TopRatedPage';
 import ActionPage from './Nav Bar Pages /ActionPage';
+import ComedyPage from './Nav Bar Pages /ComedyPage';
 function App() {
 
   return (
@@ -24,6 +25,8 @@ function App() {
       <Route path="/Blockbuster_Originals" element={<OriginalsPage/>}/>
       <Route path="/Top_Rated" element={<TopRatedPage/>}/>
       <Route path="/Action" element={<ActionPage/>}/>
+      <Route path="/Comedy" element={<ComedyPage/>}/>
+
     </Routes>
     <Footer/>
     </div>

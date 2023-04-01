@@ -1,63 +1,56 @@
-import Movie from "./Movie";
+import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const NewMoviesSlider = ({ movies, onDelete}) => {
+const NewMoviesSlider = () => {
+  function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => {
+      images[item.replace('./', '')] = r(item);
+    });
+    return images;
+  }
   
-    const newMovies = getRandomSubarray(movies, 5);
+  const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$/));
+  
+  const [movies, setMovies] = useState([]);
 
-  //https://stackoverflow.com/a/11935263
-
-  // getting random subset from larger array
-  function getRandomSubarray(arr, size) {
-    // if array is smaller or equal size to number given, give back array
-    if (arr.length <= size) return arr;
-    // variable declaration line, shuffled is copy of array given, i is length of given array,
-    // min = length - size, temp is a temporary variable for storing a value mid algorithm (for comparison purposes),
-    // index is the index
-    var shuffled = [...arr],
-      i = arr.length,
-      min = i - size,
-      temp,
-      index;
-    // while loop - for loop that changes something
-    // i-- function that returns a value, compares i to min (min tells you how
-    // many times to loop over array)
-    while (i-- > min) {
-      // every time it loops, get a random item in array (number between 0 and i-1)
-      index = Math.floor((i + 1) * Math.random());
-      // assign it to temp
-      temp = shuffled[index];
-      shuffled[index] = shuffled[i];
-      shuffled[i] = temp;
-    }
-    // takes the length - min(th) values
-    // if min was 0 would take all in array, if min was 1, it would take all but the 1st(0th) value
-    return shuffled.slice(min);
+  const loadMovieData = () => {
+    fetch("http://localhost:8080/movies/random")
+      .then(response => response.json())
+      .then(data => setMovies(data));
   }
 
-  //configures the behaviour of the slider
-  const settings = {
-    className: "react__slick__slider__parent",
+  useEffect(loadMovieData, []);
+
+  const sliderSettings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-  };
+    slidesToShow: 3,
+    slidesToScroll: 1
+  }
 
   return (
-    <div className="new-movie">
-      <h2>Recently Added Movies</h2>
-      <p>Discover new movies that might interest you!</p>
-      <Slider {...settings}>
-        {newMovies.map(movie => {
-        return <Movie key={movie.movieId} movie={movie} onDelete={onDelete} />
-    })}
+    <div className="new-movies-slider-container">
+      <h3>Recently Added Movies</h3>
+      <Slider {...sliderSettings}>
+        {movies.map(movie => (
+          <div key={movie.id}>
+            <h3>{movie.title}</h3>
+            <img id="image" src={pics[`${movie.title}.jpg`]} alt={movie.title} />
+            <p>Movie Duration (mins): {movie.duration}</p>
+            <p>Movie Review: {movie.review}</p>
+            <p>Movie Rating: {movie.rating}</p>
+            <p>Movie Language: {movie.language}</p>
+            <p>Movie Genre: {movie.genre}</p>
+          </div>
+        ))}
       </Slider>
     </div>
-  );
+  )
+   
 };
 
 export default NewMoviesSlider;

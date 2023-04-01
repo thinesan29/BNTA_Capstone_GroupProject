@@ -8,6 +8,7 @@ import MoviePage from './ Header Pages/MoviePage';
 import CastPage from './ Header Pages/CastPage';
 import SubscribePage from './ Header Pages/SubscribePage';
 import OriginalsPage from './Nav Bar Pages /OriginalsPage';
+import TopRatedPage from './Nav Bar Pages /TopRatedPage';
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/Cast" element={<CastPage/>}/>
       <Route path="/Subscribe" element={<SubscribePage/>}/>
       <Route path="/Blockbuster_Originals" element={<OriginalsPage/>}/>
+      <Route path="/Top_Rated" element={<TopRatedPage/>}/>
     </Routes>
     <Footer/>
     </div>

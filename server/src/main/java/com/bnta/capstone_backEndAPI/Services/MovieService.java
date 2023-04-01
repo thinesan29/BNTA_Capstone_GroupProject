@@ -8,8 +8,10 @@ import com.bnta.capstone_backEndAPI.Repositories.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class MovieService {
@@ -61,16 +63,10 @@ public class MovieService {
         return movieRepository.save(existingMovie);
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    public List<Movie> getRandomMovies(int count) {
+        List<Movie> allMovies = movieRepository.findAll();
+        Collections.shuffle(allMovies);
+        return allMovies.stream().limit(count).collect(Collectors.toList());
+    }
 
 }

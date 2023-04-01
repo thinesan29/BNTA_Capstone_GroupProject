@@ -79,5 +79,13 @@ public class MovieController {
         return new ResponseEntity<>(movies, HttpStatus.OK);
     }
 
+    @GetMapping("/random")
+    public ResponseEntity<List<Movie>> getRandomMovies() {
+        List<Movie> movies = movieService.getRandomMovies(5);
+        return new ResponseEntity<>(movies, HttpStatus.OK);
+    }
+
+
+
 
 }

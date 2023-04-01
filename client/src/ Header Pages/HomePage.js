@@ -1,17 +1,28 @@
 import NewMoviesSlider from "../Components/NewMoviesSlider";
+import OriginalsPage from "../Nav Bar Pages /OriginalsPage";
+import TopRatedPage from "../Nav Bar Pages /TopRatedPage";
+import ActionPage from "../Nav Bar Pages /ActionPage";
+import ComedyPage from "../Nav Bar Pages /ComedyPage";
+import DocumentariesPage from "../Nav Bar Pages /DocumentariesPage";
+import HorrorPage from "../Nav Bar Pages /HorrorPage";
 import MovieContainer from "../Containers/MovieContainer";
 import SubscribeForm from "../Components/SubscribeForm";
 import ExtraInfo from "../Components/ExtraInfo";
+
 
 const HomePage = () => {
 return(
     <>
     <h3>Trending Movies</h3>
     <NewMoviesSlider />
-    <hr/>
     <h3>Recently Added Movies</h3>
     <NewMoviesSlider />
-    <MovieContainer />
+    <OriginalsPage/>
+    <TopRatedPage/>
+    <ActionPage/>
+    <ComedyPage/>
+    <DocumentariesPage/>
+    <HorrorPage/>
     <SubscribeForm />
     <ExtraInfo />
     </>

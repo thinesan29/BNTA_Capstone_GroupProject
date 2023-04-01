@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './ Header Pages/HomePage';
 import MoviePage from './ Header Pages/MoviePage';
 import CastPage from './ Header Pages/CastPage';
+import LoginPage from './ Header Pages/LoginPage';
 import SubscribePage from './ Header Pages/SubscribePage';
 import OriginalsPage from './Nav Bar Pages /OriginalsPage';
 import TopRatedPage from './Nav Bar Pages /TopRatedPage';
@@ -26,6 +27,7 @@ function App() {
       <Route path="/Movie" element={<MoviePage/>}/>
       <Route path="/Cast" element={<CastPage/>}/>
       <Route path="/Subscribe" element={<SubscribePage/>}/>
+      <Route path="/Login" element={<LoginPage/>}/>
       <Route path="/Blockbuster_Originals" element={<OriginalsPage/>}/>
       <Route path="/Top_Rated" element={<TopRatedPage/>}/>
       <Route path="/Action" element={<ActionPage/>}/>

@@ -71,16 +71,23 @@ public class MovieController {
     }
 
     @GetMapping("/genre/{genre}")
+    // Declares a public method named getMoviesByGenre that takes a GenreEnum path variable named genre and returns a ResponseEntity object containing a list of Movie objects.
     public ResponseEntity<List<Movie>> getMoviesByGenre(@PathVariable GenreEnum genre) {
+        // Declares a new List variable named movies and initializes it with the result of calling the getMoviesByGenre method on the movieService object with the genre variable.
         List<Movie> movies = movieService.getMoviesByGenre(genre);
+        // Checks if the movies list is null or empty, and if so, returns a new ResponseEntity object with an HTTP status code of NOT_FOUND (404).
         if (movies == null || movies.isEmpty()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
+        // Returns a new ResponseEntity object containing the movies list and an HTTP status code of OK (200) if the movies list is not null or empty.
         return new ResponseEntity<>(movies, HttpStatus.OK);
+
     }
 
     @GetMapping("/random")
+    //Declares a public method named getRandomMovies that returns a ResponseEntity object containing a list of Movie objects.
     public ResponseEntity<List<Movie>> getRandomMovies() {
+        // Declares a new List variable named movies and initializes it with the result of calling the getRandomMovies method on the movieService object with a count of 5.
         List<Movie> movies = movieService.getRandomMovies(5);
         return new ResponseEntity<>(movies, HttpStatus.OK);
     }

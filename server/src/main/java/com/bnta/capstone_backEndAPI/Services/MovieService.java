@@ -42,8 +42,12 @@ public class MovieService {
         List<Movie> titles = movieRepository.findByTitle(title);
         return titles;
     }
+
+    // Declares a public method named getMoviesByGenre that takes a GenreEnum parameter named genre and returns a list of Movie objects.
     public List<Movie> getMoviesByGenre(GenreEnum genre){
+        //Declares a new List variable named genres and initializes it with the result of calling the findByGenre method on the movieRepository object with the genre parameter.
         List<Movie> genres = movieRepository.findByGenre(genre);
+        // Returns the genres list, which contains all the movies with the specified genre.
         return genres;
     }
 
@@ -63,10 +67,16 @@ public class MovieService {
         return movieRepository.save(existingMovie);
     }
 
+    // Gets Random Movies from the DataLoader
+    // Declares a public method named getRandomMovies that takes an integer parameter count and returns a list of Movie objects.
     public List<Movie> getRandomMovies(int count) {
+        // Retrieves all movies from a repository and initializes a new List variable named allMovies.
         List<Movie> allMovies = movieRepository.findAll();
+        // Shuffles the order of the elements in the allMovies list randomly.
         Collections.shuffle(allMovies);
+        // Returns a new list of Movie objects with the first count elements from the shuffled allMovies list, using the Java 8 Stream API.
         return allMovies.stream().limit(count).collect(Collectors.toList());
+
     }
 
 }

@@ -34,7 +34,6 @@ const NewMoviesSlider = () => {
 
   return (
     <div className="new-movies-slider-container">
-      <h3>Recently Added Movies</h3>
       <Slider {...sliderSettings}>
         {movies.map(movie => (
           <div key={movie.id}>

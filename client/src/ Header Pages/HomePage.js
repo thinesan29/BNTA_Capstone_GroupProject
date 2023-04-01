@@ -1,6 +1,4 @@
-import NavBar from "../Components/NavBar";
 import NewMoviesSlider from "../Components/NewMoviesSlider";
-import TopRated from "../Components/TopRated";
 import MovieContainer from "../Containers/MovieContainer";
 import SubscribeForm from "../Components/SubscribeForm";
 import ExtraInfo from "../Components/ExtraInfo";
@@ -8,8 +6,11 @@ import ExtraInfo from "../Components/ExtraInfo";
 const HomePage = () => {
 return(
     <>
+    <h3>Trending Movies</h3>
     <NewMoviesSlider />
-    {/* <TopRated /> */}
+    <hr/>
+    <h3>Recently Added Movies</h3>
+    <NewMoviesSlider />
     <MovieContainer />
     <SubscribeForm />
     <ExtraInfo />

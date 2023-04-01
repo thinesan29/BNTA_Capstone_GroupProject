@@ -9,6 +9,7 @@ import CastPage from './ Header Pages/CastPage';
 import SubscribePage from './ Header Pages/SubscribePage';
 import OriginalsPage from './Nav Bar Pages /OriginalsPage';
 import TopRatedPage from './Nav Bar Pages /TopRatedPage';
+import ActionPage from './Nav Bar Pages /ActionPage';
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/Subscribe" element={<SubscribePage/>}/>
       <Route path="/Blockbuster_Originals" element={<OriginalsPage/>}/>
       <Route path="/Top_Rated" element={<TopRatedPage/>}/>
+      <Route path="/Action" element={<ActionPage/>}/>
     </Routes>
     <Footer/>
     </div>

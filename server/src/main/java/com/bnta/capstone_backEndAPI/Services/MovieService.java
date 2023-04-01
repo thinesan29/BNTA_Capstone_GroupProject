@@ -1,5 +1,6 @@
 package com.bnta.capstone_backEndAPI.Services;
 
+import com.bnta.capstone_backEndAPI.Models.GenreEnum;
 import com.bnta.capstone_backEndAPI.Models.Movie;
 import com.bnta.capstone_backEndAPI.Models.MovieCastMember;
 import com.bnta.capstone_backEndAPI.Models.ReviewInputDTO;
@@ -39,7 +40,7 @@ public class MovieService {
         List<Movie> titles = movieRepository.findByTitle(title);
         return titles;
     }
-    public List<Movie> findByGenre(String genre){
+    public List<Movie> getMoviesByGenre(GenreEnum genre){
         List<Movie> genres = movieRepository.findByGenre(genre);
         return genres;
     }

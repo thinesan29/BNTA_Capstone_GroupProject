@@ -1,5 +1,6 @@
 package com.bnta.capstone_backEndAPI.Controllers;
 
+import com.bnta.capstone_backEndAPI.Models.GenreEnum;
 import com.bnta.capstone_backEndAPI.Models.Movie;
 import com.bnta.capstone_backEndAPI.Models.MovieCastMember;
 import com.bnta.capstone_backEndAPI.Models.ReviewInputDTO;
@@ -68,5 +69,15 @@ public class MovieController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
+
+    @GetMapping("/genre/{genre}")
+    public ResponseEntity<List<Movie>> getMoviesByGenre(@PathVariable GenreEnum genre) {
+        List<Movie> movies = movieService.getMoviesByGenre(genre);
+        if (movies == null || movies.isEmpty()) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(movies, HttpStatus.OK);
+    }
+
 
 }

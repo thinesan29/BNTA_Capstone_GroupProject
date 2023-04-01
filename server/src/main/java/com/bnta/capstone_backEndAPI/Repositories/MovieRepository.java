@@ -1,5 +1,6 @@
 package com.bnta.capstone_backEndAPI.Repositories;
 
+import com.bnta.capstone_backEndAPI.Models.GenreEnum;
 import com.bnta.capstone_backEndAPI.Models.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -7,7 +8,7 @@ import java.util.List;
 
 public interface MovieRepository extends JpaRepository <Movie, Long> {
     List<Movie> findByTitle(String title);
-    List<Movie> findByGenre(String genre);
+    List<Movie> findByGenre(GenreEnum genre);
 
     List<Movie> findByLanguage(String language);
 

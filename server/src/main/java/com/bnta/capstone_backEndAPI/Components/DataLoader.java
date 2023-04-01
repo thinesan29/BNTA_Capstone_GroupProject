@@ -180,9 +180,9 @@ public class DataLoader implements ApplicationRunner {
 
         Movie movie26 = new Movie("Wednesday", 28, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Witty, morbid, captivating, clever, unexpected.", 3);
         Movie movie27 = new Movie("Creed 3", 117, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Inspiring", 8);
-        Movie movie28 = new Movie("Run", 89, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS.HORROR, "Thrilling", 4);
+        Movie movie28 = new Movie("Run", 89, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Thrilling", 4);
         Movie movie29 = new Movie("Fall",106, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Explosive, suspenseful, thriller", 4);
-        Movie movie30 = new Movie("Luther The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS. ACTION, "Ominous, gritty, dark.", 5);
+        Movie movie30 = new Movie("Luther The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS, "Ominous, gritty, dark.", 5);
 
         Cast cast49 = new Cast("Jenna Ortega", 20, "Jenna Ortega, born in 2002, is an American actress known for Stuck in the Middle, You, and Wednesday");
         Cast cast50 = new Cast("Christina Ricci", 43, "Christina Ricci, born in 1980, is an American actress celebrated for roles in The Addams Family, Casper, and Sleepy Hollow.");

@@ -1,18 +1,37 @@
-/* .header-avatar {
-  position: fixed;
-  right: 20px;
-  width: 30px;
-  object-fit: contain;
+.App {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(102, 102, 102);
 }
 
-.header-logo-image{
-  position: fixed;
-  left: 20px;
-  width: 80px;
-  object-fit: contain;
+
+
+
+
+/* links */
+a{
+  color: rgb(102, 102, 102);
+  margin: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover{
+  color: rgb(204, 204, 204);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-.header{
+
+
+
+
+/* Header */
+.header {
+  /* display: flex; */
   justify-content: space-evenly;
   align-items: center;
   padding: 1px;
@@ -22,17 +41,186 @@
 .header-image {
   justify-content: left;
 }
-#header-container{
+#nav-container{
   flex-wrap: nowrap;
 }
-/* footer  */
-/* .footer {
-  background-color: rgb(224, 224, 224);
-  color: rgb(102, 102, 102);
+
+
+input[type="search"] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  margin: 10px;
+  width: 180px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+  box-shadow: inset 0px 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* Nav Bar */
+.navBar{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  padding: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(102, 102, 102);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/* product form */
+.product-form {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.product-form>h3 {
+  font-size: 24px;
+  text-align: left;
+}
+.product-form>label {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.product-form>input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+.product-form input[type="submit"] {
+  color: white;
+  background-color: rgb(144, 144, 144);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: rgb(102, 102, 102) 0.3s ease-in-out;
+}
+.product-form input[type="submit"]:hover {
+  background-color: rgb(102, 102, 102);
+}
+
+
+
+
+
+/* deal Banner */
+.dealBanner{
+  padding: 0.1px;
+  background-color: rgb(224, 224, 224);
   text-align: center;
+  font-size: 1.1em;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-} */ 
+}
+.dealBanner>p:hover {
+  color: #bfaccf;
+}
+
+
+
+
+
+/* product card */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  color: rgb(102, 102, 102);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.product-card:hover {
+  /* moves card up slightly on hover */
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+.product-card #image {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-height: 250px;
+  margin-bottom: 30px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.product-card>h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.product-card>p {
+  margin-bottom: 20px;
+}
+.product-card>button {
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(102, 102, 102);
+  border-color: rgb(102, 102, 102);
+  border-width: 1.5px;
+  border-radius: 6px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+.product-card>button:hover {
+  background-color: #bfaccf;
+  color: rgb(0, 0, 0);
+}
+
+/* slider */
+.new-products{
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.15)
+}
+.new-products>h2{
+  text-align: left;
+}
+.new-products>p{
+  text-align: left;
+  font-size: 0.8em;
+  padding-bottom: 10px;
+}
+.react__slick__slider__parent {
+  position: relative;
+}
+
+.react__slick__slider__parent .slick-prev,
+.react__slick__slider__parent .slick-next {
+  position: absolute;
+  top: 50%;
+}
+.react__slick__slider__parent .slick-prev {
+  left: 1% !important;
+  z-index: 1 !important;
+}
+.react__slick__slider__parent .slick-next {
+  right: 1% !important;
+  z-index: 1 !important;
+}
+
+.react__slick__slider__parent .slick-prev:before, .slick-next:before {
+  color: rgb(57, 57, 57) !important;
+}

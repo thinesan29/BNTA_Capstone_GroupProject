@@ -3,10 +3,11 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import HomePage from './Pages/HomePage';
-import MoviePage from './Pages/MoviePage';
-import CastPage from './Pages/CastPage';
-import SubscribePage from './Pages/SubscribePage';
+import HomePage from './ Header Pages/HomePage';
+import MoviePage from './ Header Pages/MoviePage';
+import CastPage from './ Header Pages/CastPage';
+import SubscribePage from './ Header Pages/SubscribePage';
+import OriginalsPage from './Nav Bar Pages /OriginalsPage';
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Movie" element={<MoviePage/>}/>
       <Route path="/Cast" element={<CastPage/>}/>
       <Route path="/Subscribe" element={<SubscribePage/>}/>
+      <Route path="/Blockbuster_Originals" element={<OriginalsPage/>}/>
     </Routes>
     <Footer/>
     </div>

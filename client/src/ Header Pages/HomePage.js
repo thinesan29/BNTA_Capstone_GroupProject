@@ -8,11 +8,13 @@ import HorrorPage from "../Nav Bar Pages /HorrorPage";
 import MovieContainer from "../Containers/MovieContainer";
 import SubscribeForm from "../Components/SubscribeForm";
 import ExtraInfo from "../Components/ExtraInfo";
+import Banner from "../Components/Banner";
 
 
 const HomePage = () => {
 return(
     <>
+    <Banner/>
     <h3>Trending Movies</h3>
     <NewMoviesSlider />
     <h3>Recently Added Movies</h3>

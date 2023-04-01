@@ -11,6 +11,7 @@ import OriginalsPage from './Nav Bar Pages /OriginalsPage';
 import TopRatedPage from './Nav Bar Pages /TopRatedPage';
 import ActionPage from './Nav Bar Pages /ActionPage';
 import ComedyPage from './Nav Bar Pages /ComedyPage';
+import DocumetariesPage from './Nav Bar Pages /DocumentariesPage';
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/Top_Rated" element={<TopRatedPage/>}/>
       <Route path="/Action" element={<ActionPage/>}/>
       <Route path="/Comedy" element={<ComedyPage/>}/>
+      <Route path="/Documetaries" element={<DocumetariesPage/>}/>
 
     </Routes>
     <Footer/>

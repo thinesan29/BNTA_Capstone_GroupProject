@@ -5,7 +5,7 @@ const NavBar = () => {
       <a href="/Top_Rated">Top Rated</a>
       <a href="/Action">Action</a>
       <a href="/Comedy">Comedy</a>
-      <a href="/Documetaries">Documetaries</a>
+      <a href="/Documentaries">Documetaries</a>
       <a href="/Horror">Horror</a>
     </div>
   );

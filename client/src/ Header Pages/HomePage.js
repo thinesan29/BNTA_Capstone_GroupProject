@@ -8,7 +8,6 @@ import ExtraInfo from "../Components/ExtraInfo";
 const HomePage = () => {
 return(
     <>
-    <NavBar/>
     {/* <NewMoviesSlider /> */}
     {/* <TopRated /> */}
     <MovieContainer />

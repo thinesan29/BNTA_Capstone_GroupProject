@@ -12,12 +12,15 @@ import TopRatedPage from './Nav Bar Pages /TopRatedPage';
 import ActionPage from './Nav Bar Pages /ActionPage';
 import ComedyPage from './Nav Bar Pages /ComedyPage';
 import DocumetariesPage from './Nav Bar Pages /DocumentariesPage';
+import HorrorPage from './Nav Bar Pages /HorrorPage';
+import NavBar from './Components/NavBar';
 function App() {
 
   return (
     <BrowserRouter>
     <div className="App">
       <Header/>
+      <NavBar/>
     <Routes>
       <Route path="/Home" element={<HomePage/>}/>
       <Route path="/Movie" element={<MoviePage/>}/>
@@ -27,7 +30,8 @@ function App() {
       <Route path="/Top_Rated" element={<TopRatedPage/>}/>
       <Route path="/Action" element={<ActionPage/>}/>
       <Route path="/Comedy" element={<ComedyPage/>}/>
-      <Route path="/Documetaries" element={<DocumetariesPage/>}/>
+      <Route path="/Documentaries" element={<DocumetariesPage/>}/>
+      <Route path="/Horror" element={<HorrorPage/>}/>
 
     </Routes>
     <Footer/>

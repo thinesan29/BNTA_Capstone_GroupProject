@@ -876,6 +876,82 @@ input[type="submit"]:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-
 /* movie form css ends here */
+
+/* movielist starts here */
+
+.movie-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.movie-tile-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.movie-tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.movie-tile:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.movie-tile img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.movie-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-duration {
+  color: #f8d43b;
+  font-weight: bold;
+}
+
+.movie-rating {
+  color: #141414;
+  font-weight: bold;
+}
+
+.movie-language {
+  color: #141414;
+  font-weight: bold;
+}
+
+.movie-genre {
+  color: #141414;
+  font-weight: bold;
+}
+
+.movie-review {
+  flex: 1;
+  color: #141414;
+  margin-left: 1rem;
+}
+
+
+/* movie list css ends here */
 

@@ -561,3 +561,98 @@ colour at the bottom of the element.  */
 
 /* End of extra info CSS */
 
+/* Start of footer CSS */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+.contact,
+.payment,
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.contact p,
+.payment p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 1rem;
+  transition: all 0.2s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+.socials a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: black;
+}
+
+.payment p {
+  font-size: 1rem;
+}
+
+.payment svg {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  color: #ffd700;
+}
+
+.payment svg:last-child {
+  margin-left: 0.5rem;
+}
+
+.payment svg:hover {
+  color: white;
+  transform: rotate(45deg);
+}
+
+.payment svg:last-child:hover {
+  transform: scale(1.2) rotate(45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .socials {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .socials a {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .payment {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* end of footer CSS */
+

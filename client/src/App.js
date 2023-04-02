@@ -38,6 +38,7 @@ function App() {
       <Route path="/Horror" element={<HorrorPage/>}/>
 
     </Routes>
+    <br/>
     <Footer/>
     </div>
     </BrowserRouter>

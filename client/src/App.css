@@ -51,7 +51,14 @@ a:hover{
   left: 20px;
   width: 80px;
   object-fit: contain;
+}
 
+/* positioned user avatar logo -> possibly add as a button */
+.header-avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
 }
 
 

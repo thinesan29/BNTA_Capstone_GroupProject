@@ -29,37 +29,56 @@ body {
 }
 
 .login-form {
-  width: 400px;
-  margin: 5rem auto;
-  padding: 2rem;
-  background-color: #fff;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
 }
 
 .login-form h2 {
   font-size: 2rem;
   font-weight: bold;
-  text-align: center;
-  margin-bottom: 2rem;
   color: #e50914;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px #000;
 }
 
 .login-form label {
-  display: block;
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #222;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #000;
 }
 
-.login-form input[type="email"],
+.login-form input[type="text"],
 .login-form input[type="password"] {
   width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
+  padding: 1rem;
   border: none;
   border-radius: 0.3rem;
   font-size: 1.2rem;
+  background-color: #212121;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0 0 10px #e50914;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form input[type="text"]:hover,
+.login-form input[type="password"]:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #e50914;
+  outline: none;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #e50914;
+  outline: none;
 }
 
 .login-form input[type="submit"] {
@@ -70,27 +89,21 @@ body {
   font-size: 1.2rem;
   border-radius: 0.3rem;
   cursor: pointer;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0 0 10px #e50914;
   transition: all 0.3s ease-in-out;
 }
 
 .login-form input[type="submit"]:hover {
-  background-color: #ff0a16;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #e50914;
+  outline: none;
 }
 
-.login-form p {
-  margin-top: 1rem;
-  text-align: center;
-  color: #222;
-}
-
-.login-form p a {
-  color: #e50914;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.login-form p a:hover {
-  color: #ff0a16;
+.login-form input[type="submit"]:focus {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #e50914;
+  outline: none;
 }
 
 

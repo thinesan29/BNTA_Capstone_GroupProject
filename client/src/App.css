@@ -158,14 +158,17 @@ justify-content: space-evenly;
   object-fit: contain; 
 }
 
-/* positioned user avatar logo -> possibly add as a button (Rami Sunday) */
-/* .header-avatar {
+/* positioned user avatar logo -> possibly add as a button */
+.header-avatar {
   position: absolute;
   top: 20px;
-  right: 20px;
-  width: 30px;
+  right: calc(50% + 20px);
+  width: 20px !important;
+  height: 20px !important;
   object-fit: contain;
-} */
+}
+
+
 
 
 

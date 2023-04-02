@@ -59,7 +59,7 @@ const SubscribeForm = () => {
             </div>
 
             <div className="subscribe-timer">
-                <h3>Deals end in..</h3>
+                <h3>Our new Blockbuster Reborn Original drops in..</h3>
                 <div id="timer">Countdown Timer</div>
             </div>
 

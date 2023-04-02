@@ -108,23 +108,28 @@ input[type="search"] {
 
 /* banner */
 
+/* sets its text color to white, sets the object-fit property to contain */
 .banner {
   color: white;
   object-fit: contain;
   height: 448px;
 }
 
+/* targets an element */
 .banner-content {
   margin-left: 30px;
   padding-top: 140px;
   height: 190px;
 }
+
+/* title css */
 .banner-title {
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
 }
 
+/* descriptions need to be added Monday */
 .banner-description {
   width: 45rem;
   line-height: 1.3;
@@ -133,6 +138,8 @@ input[type="search"] {
   max-width: 360px;
   height: 80px;
 }
+
+/* targets button */
 .banner-button {
   cursor: pointer;
   color: #fff;
@@ -148,11 +155,16 @@ input[type="search"] {
   padding-bottom: 0.5rem;
 }
 
+/* hover feature for aesthetics */
 .banner-button:hover {
   color: #000;
   background-color: #e6e6e6;
   transition: all 0.2s;
 }
+
+/* Creates a gradient effect that starts as transparent at the top of the element, 
+gradually transitions to a semi-transparent grey colour, and ends with a solid black 
+colour at the bottom of the element.  */
 .banner-fadeBottom {
   height: 7.4rem;
   background-image: linear-gradient(

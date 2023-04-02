@@ -37,8 +37,8 @@ const HorrorPage = () => {
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>
-                <h3>{movie.title}</h3>
                 <img id="image" src={pics[`${movie.title}.jpg`]} alt={movie.title} />
+                <h3>{movie.title}</h3>
                 <p>Movie Duration (mins): {movie.duration}</p>
                 <p>Movie Review: {movie.review}</p>
                 <p>Movie Rating: {movie.rating}</p>

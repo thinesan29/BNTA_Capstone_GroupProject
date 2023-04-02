@@ -773,3 +773,109 @@ colour at the bottom of the element.  */
 
 /* end of footer CSS */
 
+/* movie form css begins here */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid #eee;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 600px;
+}
+
+.form-container h3 {
+  font-size: 2rem;
+  color: navy;
+  margin-bottom: 1rem;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-element label {
+  font-size: 1.5rem;
+  color: navy;
+  margin-bottom: 0.5rem;
+}
+
+.form-element input {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  background-color: #eee;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-element input:focus {
+  outline: none;
+  border: 2px solid #f8d43b;
+  box-shadow: 0 0 10px #f8d43b;
+}
+
+.form-element input:focus::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    #f8d43b,
+    #f8d43b 50%,
+    transparent 50%
+  );
+  background-size: 400%;
+  z-index: -1;
+  animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+.form-element input::placeholder {
+  color: #666;
+}
+
+input[type="submit"] {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: navy;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00BFFF;
+  color: navy;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+/* movie form css ends here */
+

@@ -33,11 +33,11 @@ public class DataLoader implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         // ACTION
-        Movie movie1 = new Movie("John Wick 4", 169, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Incredible performances, stunning cinematography.", 3);
-        Movie movie2 = new Movie("Avatar The Way of Water", 192, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Page-turner, couldn't put it down.", 4);
-        Movie movie3 = new Movie("Fast and Furious 5", 130, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Thought-provoking and emotionally resonant.", 4);
-        Movie movie4 = new Movie("The Dark Knight", 152, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Engaging and thoroughly entertaining throughout.", 5);
-        Movie movie5 = new Movie("Top Gun Maverick", 131, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Masterful storytelling, beautifully crafted.", 3);
+        Movie movie1 = new Movie("John Wick 4", 169, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Incredible performances, stunning cinematography.", 3, "https://www.youtube.com/embed/yjRHZEUamCc");
+        Movie movie2 = new Movie("Avatar The Way of Water", 192, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Page-turner, couldn't put it down.", 4, "https://www.youtube.com/embed/d9MyW72ELq0");
+        Movie movie3 = new Movie("Fast and Furious 5", 130, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Thought-provoking and emotionally resonant.", 4,"https://www.youtube.com/embed/OqjeOYeG5_A");
+        Movie movie4 = new Movie("The Dark Knight", 152, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Engaging and thoroughly entertaining throughout.", 5,"https://www.youtube.com/embed/PZpmTj1Q8Q");
+        Movie movie5 = new Movie("Top Gun Maverick", 131, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Masterful storytelling, beautifully crafted.", 3,"https://www.youtube.com/embed/giXco2jaZ_4");
 
         Cast cast1 = new Cast("Keanu Reeves", 58, "Keanu Reeves, a versatile actor born in Beirut in 1964, gained fame for roles in The Matrix, John Wick, and Bill & Ted. Known for his humility and philanthropy, he captivates fans worldwide.");
         Cast cast2 = new Cast("Lance Reddick", 61, "Lance Reddick is a versatile actor known for his commanding presence on screen, spanning television, film, and video games.");
@@ -62,11 +62,11 @@ public class DataLoader implements ApplicationRunner {
         MovieCastMember movieCastMember10 = new MovieCastMember(cast10, movie5);
 
         // TOP RATED
-        Movie movie6 = new Movie("Succession", 26, LanguageEnum.ENGLISH, GenreEnum.TOP_RATED, "Sharp, witty, compelling, complex, riveting.", 4);
-        Movie movie7 = new Movie("Cocaine Bear", 96, LanguageEnum.SPANISH, GenreEnum.TOP_RATED, "Darkly humorous, bizarre, captivating, unpredictable, entertaining.", 3);
-        Movie movie8 = new Movie("Vikram", 174, LanguageEnum.TAMIL, GenreEnum.TOP_RATED, "Innovative, engaging, thrilling, emotional, action-packed.", 5);
-        Movie movie9 = new Movie("KGF 2", 26, LanguageEnum.KANNADA, GenreEnum.TOP_RATED, "Gripping, intense, visually stunning, powerful.", 4);
-        Movie movie10 = new Movie("Modern Family", 23, LanguageEnum.ENGLISH, GenreEnum.TOP_RATED, "Heartwarming, hilarious, relatable, engaging, smart.", 4);
+        Movie movie6 = new Movie("Succession", 26, LanguageEnum.ENGLISH, GenreEnum.TOP_RATED, "Sharp, witty, compelling, complex, riveting.", 4,"https://www.youtube.com/embed/OzYxJV_rmE8");
+        Movie movie7 = new Movie("Cocaine Bear", 96, LanguageEnum.SPANISH, GenreEnum.TOP_RATED, "Darkly humorous, bizarre, captivating, unpredictable, entertaining.", 3,"https://www.youtube.com/embed/DuWEEKeJLMI");
+        Movie movie8 = new Movie("Vikram", 174, LanguageEnum.TAMIL, GenreEnum.TOP_RATED, "Innovative, engaging, thrilling, emotional, action-packed.", 5,"https://www.youtube.com/embed/OKBMCL-frPU");
+        Movie movie9 = new Movie("KGF 2", 26, LanguageEnum.KANNADA, GenreEnum.TOP_RATED, "Gripping, intense, visually stunning, powerful.", 4,"https://www.youtube.com/embed/JKa05nyUmuQ");
+        Movie movie10 = new Movie("Modern Family", 23, LanguageEnum.ENGLISH, GenreEnum.TOP_RATED, "Heartwarming, hilarious, relatable, engaging, smart.", 4,"https://www.youtube.com/embed/X0lRjbrH-L8");
 
         Cast cast11 = new Cast("Brian Cox", 76, "Brian Cox, born in 1946, is a distinguished Scottish actor known for roles in Succession, X-Men 2, and Troy.");
         Cast cast12 = new Cast("Sarah Snook", 35, "Sarah Snook, born in 1987, is an Australian actress acclaimed for her roles in Succession, Predestination, and Steve Jobs.");
@@ -91,11 +91,11 @@ public class DataLoader implements ApplicationRunner {
         MovieCastMember movieCastMember20 = new MovieCastMember(cast20, movie10);
 
         // COMEDY
-        Movie movie11 = new Movie("Coming 2 America", 169, LanguageEnum.ENGLISH.SPANISH.GERMAN.FRENCH, GenreEnum.COMEDY, "Charming", 4);
-        Movie movie12 = new Movie("Red Notice", 118, LanguageEnum.ENGLISH.SPANISH, GenreEnum.COMEDY, "Entertaining", 4);
-        Movie movie13 = new Movie("The French Dispatch", 108, LanguageEnum.ENGLISH.FRENCH, GenreEnum.COMEDY, "Quirky", 4);
-        Movie movie14 = new Movie("Jolt", 91, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Action-Packed", 3);
-        Movie movie15 = new Movie("Thunder Force", 107, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Silly", 3);
+        Movie movie11 = new Movie("Coming 2 America", 169, LanguageEnum.ENGLISH.SPANISH.GERMAN.FRENCH, GenreEnum.COMEDY, "Charming", 4,"https://www.youtube.com/embed/sY8gUtyeAKE");
+        Movie movie12 = new Movie("Red Notice", 118, LanguageEnum.ENGLISH.SPANISH, GenreEnum.COMEDY, "Entertaining", 4,"https://www.youtube.com/embed/Pj0wz7zu3Ms");
+        Movie movie13 = new Movie("The French Dispatch", 108, LanguageEnum.ENGLISH.FRENCH, GenreEnum.COMEDY, "Quirky", 4,"https://www.youtube.com/embed/TcPk2p0Zaw4");
+        Movie movie14 = new Movie("Jolt", 91, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Action-Packed", 3,"https://www.youtube.com/embed/3BSSoD73TSk");
+        Movie movie15 = new Movie("Thunder Force", 107, LanguageEnum.ENGLISH, GenreEnum.COMEDY, "Silly", 3,"https://www.youtube.com/embed/qnx6-YLXFwg");
 
         Cast cast21 = new Cast("Eddie Murphy", 60, "An iconic comedian and actor known for his roles in Beverly Hills Cop, The Nutty Professor and Shrek.");
         Cast cast22 = new Cast("Arsenio Hal", 65, "A multi-talented comedian, actor, and talk show host who has appeared in films like Harlem Nights and Coming to America.");
@@ -121,11 +121,11 @@ public class DataLoader implements ApplicationRunner {
 
         // HORROR
 
-        Movie movie16 = new Movie("Scream", 111, LanguageEnum.ENGLISH.SPANISH.KOREAN, GenreEnum.HORROR, "Excellent, classic, well-cast", 5);
-        Movie movie17 = new Movie("The Conjuring", 112, LanguageEnum.ENGLISH.SPANISH.FRENCH.HINDI, GenreEnum.HORROR, "Terrifying, gripping, suspenseful", 5);
-        Movie movie18 = new Movie("Winnie The Pooh Blood & Honey", 111, LanguageEnum.ENGLISH, GenreEnum.HORROR, "Awful.", 1);
-        Movie movie19 = new Movie("The Orphanage", 97, LanguageEnum.SPANISH.ENGLISH, GenreEnum.HORROR, "Spine-Chilling", 5);
-        Movie movie20 = new Movie("Bird Box", 124, LanguageEnum.ENGLISH.FRENCH.SPANISH.KOREAN, GenreEnum.HORROR, "Gripping, intense, touching.", 3);
+        Movie movie16 = new Movie("Scream", 111, LanguageEnum.ENGLISH.SPANISH.KOREAN, GenreEnum.HORROR, "Excellent, classic, well-cast", 5,"https://www.youtube.com/embed/beToTslH17s");
+        Movie movie17 = new Movie("The Conjuring", 112, LanguageEnum.ENGLISH.SPANISH.FRENCH.HINDI, GenreEnum.HORROR, "Terrifying, gripping, suspenseful", 5,"https://www.youtube.com/embed/k10ETZ41q5o");
+        Movie movie18 = new Movie("Winnie The Pooh Blood & Honey", 111, LanguageEnum.ENGLISH, GenreEnum.HORROR, "Awful.", 1,"https://www.youtube.com/embed/W3E74j_xFtg");
+        Movie movie19 = new Movie("The Orphanage", 97, LanguageEnum.SPANISH.ENGLISH, GenreEnum.HORROR, "Spine-Chilling", 5,"https://www.youtube.com/embed/UkuKtS-N1rM");
+        Movie movie20 = new Movie("Bird Box", 124, LanguageEnum.ENGLISH.FRENCH.SPANISH.KOREAN, GenreEnum.HORROR, "Gripping, intense, touching.", 3,"https://www.youtube.com/embed/o2AsIXSh2xo");
 
         Cast cast31 = new Cast("Courtney Cox", 58, "Courtney Cox: American actress, producer & director. Known for 'Friends', 'Scream', and 'Cougar Town'. Philanthropist.");
         Cast cast32 = new Cast("Neve Campbell", 49, "Neve Campbell: Canadian actress. Known for 'Scream' franchise, 'Party of Five', and 'Wild Things'. Dancer. Advocate for mental health awareness.");
@@ -151,11 +151,11 @@ public class DataLoader implements ApplicationRunner {
 
 
         // DOCUMENTARIES -
-        Movie movie21 = new Movie("The Last Dance", 500,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Feel-Good",5);
-        Movie movie22 = new Movie("Tiger King", 350,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Provocative, Investigative",3);
-        Movie movie23 = new Movie("I AM BOLT", 117,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inpsiring, Feel-Good, Exciting",3);
-        Movie movie24 = new Movie("Harry & Meghan", 360,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Investigative, Intimate",2);
-        Movie movie25 = new Movie("Stutz", 96,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inspiring, Intimate, Heartfelt",4);
+        Movie movie21 = new Movie("The Last Dance", 500,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Feel-Good",5,"https://www.youtube.com/embed/JQk2hJs2ToA");
+        Movie movie22 = new Movie("Tiger King", 350,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Provocative, Investigative",3,"https://www.youtube.com/embed/acTdxsoa428");
+        Movie movie23 = new Movie("I AM BOLT", 117,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inpsiring, Feel-Good, Exciting",3,"https://www.youtube.com/embed/XVje1n8K240");
+        Movie movie24 = new Movie("Harry & Meghan", 360,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Investigative, Intimate",2,"https://www.youtube.com/embed/2rlVhiXlcHU");
+        Movie movie25 = new Movie("Stutz", 96,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inspiring, Intimate, Heartfelt",4,"https://www.youtube.com/embed/UKCmefQdplI");
 
 
         Cast cast41 = new Cast("Michael Jordan",60, "Michael Jordan is a retired American professional basketball player and businessman. He was born on February 17, 1963, in Brooklyn, New York, and grew up in Wilmington, North Carolina." );
@@ -178,11 +178,11 @@ public class DataLoader implements ApplicationRunner {
 
         // BLOCKBUSTER ORIGINALS
 
-        Movie movie26 = new Movie("Wednesday", 28, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Witty, morbid, captivating, clever, unexpected.", 3);
-        Movie movie27 = new Movie("Creed 3", 117, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Inspiring", 8);
-        Movie movie28 = new Movie("Run", 89, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Thrilling", 4);
-        Movie movie29 = new Movie("Fall",106, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Explosive, suspenseful, thriller", 4);
-        Movie movie30 = new Movie("Luther The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS, "Ominous, gritty, dark.", 5);
+        Movie movie26 = new Movie("Wednesday", 28, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Witty, morbid, captivating, clever, unexpected.", 3,"https://www.youtube.com/embed/Di310WS8zLk");
+        Movie movie27 = new Movie("Creed 3", 117, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Inspiring", 8,"https://www.youtube.com/embed/AHmCH7iB_IM");
+        Movie movie28 = new Movie("Run", 89, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Thrilling", 4,"https://www.youtube.com/embed/EoGojQE4p-8");
+        Movie movie29 = new Movie("Fall",106, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Explosive, suspenseful, thriller", 4,"https://www.youtube.com/embed/iSspRSGc4Dk");
+        Movie movie30 = new Movie("Luther The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS, "Ominous, gritty, dark.", 5,"https://www.youtube.com/embed/EGK5qtXuc1Q");
 
         Cast cast49 = new Cast("Jenna Ortega", 20, "Jenna Ortega, born in 2002, is an American actress known for Stuck in the Middle, You, and Wednesday");
         Cast cast50 = new Cast("Christina Ricci", 43, "Christina Ricci, born in 1980, is an American actress celebrated for roles in The Addams Family, Casper, and Sleepy Hollow.");

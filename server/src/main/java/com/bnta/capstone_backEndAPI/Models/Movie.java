@@ -26,6 +26,9 @@ public class Movie {
     @Column
     private int rating;
 
+    @Column
+    private String trailer;
+
     @Enumerated(EnumType.STRING)
     private LanguageEnum language;
 
@@ -37,7 +40,7 @@ public class Movie {
     private List<MovieCastMember> movieCastMember;
 
     // Constructor
-    public Movie(String title, int duration, LanguageEnum language , GenreEnum genre, String review, int rating) {
+    public Movie(String title, int duration, LanguageEnum language , GenreEnum genre, String review, int rating, String trailer) {
         this.title = title;
         this.duration = duration;
 //        this.movieCastMember = movieCastMember;
@@ -46,7 +49,7 @@ public class Movie {
         this.genre = genre;
         this.review = review;
         this.rating = rating;
-
+        this.trailer = trailer;
 
     }
 
@@ -127,5 +130,13 @@ public class Movie {
 
     public void setRating(int rating) {
         this.rating = rating;
+    }
+
+    public String getTrailer() {
+        return trailer;
+    }
+
+    public void setTrailer(String trailer) {
+        this.trailer = trailer;
     }
 }

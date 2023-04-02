@@ -1060,3 +1060,61 @@ input[type="submit"]:hover {
 
 
 /* cast list css ends here */
+
+/*Home Page Backgroud Colour*/
+.App{
+  background-color: black;
+  color: white;
+}
+
+/* Header CSS */
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-logo-image {
+  margin-right: 20px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  margin-right: auto;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header-nav a:hover {
+  background-color: #e89e1c;
+  color: navy;
+}
+
+.header-search {
+  margin-left: auto;
+}
+
+.header-search input[type="search"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.header-avatar {
+  margin-left: 100px;
+}
+
+
+
+

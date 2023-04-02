@@ -13,7 +13,7 @@ import Banner from "../Components/Banner";
 
 const HomePage = () => {
 return(
-    <>
+    <div className="homepage">
     <br/>
     <Banner/>
     <br/>
@@ -43,7 +43,7 @@ return(
     <br/>
     <SubscribeForm />
     <ExtraInfo />
-    </>
+    </div>
 )
 }
 

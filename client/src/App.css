@@ -30,80 +30,79 @@ body {
 
 .login-form {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  flex-direction: column;
+  margin: 5rem auto;
 }
 
 .login-form h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #e50914;
-  margin-bottom: 2rem;
-  text-align: center;
-  text-shadow: 2px 2px #000;
-}
-
-.login-form label {
-  font-size: 1.2rem;
-  font-weight: bold;
   color: #fff;
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px #000;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px #f8d43b;
 }
 
-.login-form input[type="text"],
+.login-form input[type="text"], 
 .login-form input[type="password"] {
-  width: 100%;
   padding: 1rem;
   border: none;
   border-radius: 0.3rem;
-  font-size: 1.2rem;
-  background-color: #212121;
-  color: #fff;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
-  text-shadow: 1px 1px #000;
-  box-shadow: 0 0 10px #e50914;
-  transition: all 0.3s ease-in-out;
-}
-
-.login-form input[type="text"]:hover,
-.login-form input[type="password"]:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #e50914;
-  outline: none;
-}
-
-.login-form input[type="text"]:focus,
-.login-form input[type="password"]:focus {
-  transform: scale(1.1);
-  box-shadow: 0 0 30px #e50914;
-  outline: none;
+  color: navy;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px #888;
 }
 
 .login-form input[type="submit"] {
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   border: none;
-  background-color: #e50914;
+  background-color: transparent;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border-radius: 0.3rem;
-  cursor: pointer;
-  text-shadow: 1px 1px #000;
-  box-shadow: 0 0 10px #e50914;
+  border: 2px solid #f8d43b;
   transition: all 0.3s ease-in-out;
 }
 
 .login-form input[type="submit"]:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #e50914;
-  outline: none;
+  background-color: #f8d43b;
+  color: #141414;
+  box-shadow: 2px 2px 4px #888;
+}
+
+.login-form input[type="submit"]:active {
+  transform: translateY(2px);
 }
 
 .login-form input[type="submit"]:focus {
-  transform: scale(1.1);
-  box-shadow: 0 0 30px #e50914;
   outline: none;
+}
+
+.login-form input[type="submit"]::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.login-form input[type="submit"]::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.login-form input[type="submit"]:-moz-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.login-form input[type="submit"]::-moz-placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.login-form input[type="submit"]:-ms-input-placeholder {
+  color: #fff;
+  opacity: 0.7;
 }
 
 

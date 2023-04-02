@@ -55,15 +55,14 @@ a:hover{
 
 /* positioned user avatar logo -> possibly add as a button */
 .header-avatar {
-  position: fixed;
+  position: absolute;
+  top: 20px;
   right: 20px;
   width: 30px;
   object-fit: contain;
 }
 
-.nav-black {
-  background-color: #111;
-}
+
 
 input[type="search"] {
   padding: 5px;

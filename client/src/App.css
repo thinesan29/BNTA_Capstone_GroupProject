@@ -159,14 +159,14 @@ justify-content: space-evenly;
 }
 
 /* positioned user avatar logo -> possibly add as a button. FIX!! */
-.header-avatar {
+/* .header-avatar {
   position: absolute;
   top: 20px;
   right: calc(50% + 20px);
   width: 20px !important;
   height: 20px !important;
   object-fit: contain;
-}
+} */
 
 
 

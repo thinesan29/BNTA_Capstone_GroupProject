@@ -45,6 +45,15 @@ a:hover{
   flex-wrap: nowrap;
 }
 
+/* logo image positioned to left  */
+.header-logo-image {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+
+}
+
 
 input[type="search"] {
   padding: 5px;

@@ -34,7 +34,6 @@ const HorrorPage = () => {
     
       return (
         <div className="horror-container">
-          <h2>Horror</h2>
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>

@@ -34,7 +34,6 @@ const ActionPage = () => {
     
       return (
         <div className="action-container">
-          <h2>Action</h2>
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>

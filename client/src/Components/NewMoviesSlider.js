@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const NewMoviesSlider = () => {
   function importAll(r) {
@@ -32,6 +33,12 @@ const NewMoviesSlider = () => {
     slidesToScroll: 1
   }
 
+   // Trailer Button Function 
+   const [showTrailer, setShowTrailer] = useState(false); // initialize state to false
+   const handleTrailerVideo = () => {
+     setShowTrailer(!showTrailer); // toggle state on button click
+   }
+
   return (
     <div className="new-movies-slider-container">
       <Slider {...sliderSettings}>
@@ -44,6 +51,21 @@ const NewMoviesSlider = () => {
             <p>Movie Rating: {movie.rating}</p>
             <p>Movie Language: {movie.language}</p>
             <p>Movie Genre: {movie.genre}</p>
+            {showTrailer && (
+            <iframe
+              src={`${movie.trailer}`}
+              title="YouTube video"
+              allowFullScreen
+              height="200"
+              width="300"
+            ></iframe>
+          )}
+          <button onClick={handleTrailerVideo}>
+            {showTrailer ? "Hide Trailer" : "Watch Trailer"}
+          </button> 
+          <Link to="/Login">
+        <button>Watch Movie</button>
+        </Link>
           </div>
         ))}
       </Slider>

@@ -413,21 +413,46 @@ colour at the bottom of the element.  */
   background-color: rgb(102, 102, 102);
 }
 
-/* newmovieslider css starts here */
+/* newmovieslider css starts here FIX!! */
 
 .new-movies-slider-container {
-  max-width: 90%;
-  margin: 2rem auto;
+  margin: 2rem;
+  overflow-x: scroll;
+}
+
+.new-movies-slider-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.new-movies-slider-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.new-movies-slider-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.new-movies-slider-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .slick-slide {
-  outline: none;
+  margin-right: 1rem;
+  width: 300px;
 }
 
 .slick-slide img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   border-radius: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.slick-slide:hover img {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .slick-slide h3 {
@@ -437,40 +462,16 @@ colour at the bottom of the element.  */
 }
 
 .slick-slide p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
   margin-bottom: 0.5rem;
-}
-
-.slick-slide:hover img {
-  transform: scale(1.1);
-}
-
-.slick-slide:hover h3 {
-  color: #00BFFF;
+  max-height: 3.6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .slick-slide:hover p {
-  color: #00BFFF;
-}
-
-.slick-list {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-}
-
-.slick-slide {
-  flex: 0 0 auto;
-  margin-right: 1rem;
-}
-
-@media screen and (min-width: 768px) {
-  .slick-slide {
-    flex-basis: 33.33%;
-  }
+  max-height: none;
 }
 
 

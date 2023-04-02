@@ -48,7 +48,7 @@ const Banner = () => {
         />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/d9MyW72ELq0"
               title="YouTube video"
               allowFullScreen
@@ -66,7 +66,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Creed 3.jpg`]} alt="Creed 3" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/AHmCH7iB_IM"
               title="YouTube video"
               allowFullScreen
@@ -85,7 +85,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`John Wick 4.jpg`]} alt="John Wick 4" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/yjRHZEUamCc"
               title="YouTube video"
               allowFullScreen
@@ -105,7 +105,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Modern Family.jpg`]} alt="Modern Family" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/X0lRjbrH-L8"
               title="YouTube video"
               allowFullScreen
@@ -125,7 +125,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Red Notice.jpg`]} alt="Red Notice" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/Pj0wz7zu3Ms"
               title="YouTube video"
               allowFullScreen
@@ -145,7 +145,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Run.jpg`]} alt="Run" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/EoGojQE4p-8"
               title="YouTube video"
               allowFullScreen
@@ -165,7 +165,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Succession.jpg`]} alt="Succession" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/OzYxJV_rmE8"
               title="YouTube video"
               allowFullScreen
@@ -189,7 +189,7 @@ const Banner = () => {
         />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/JQk2hJs2ToA"
               title="YouTube video"
               allowFullScreen
@@ -209,7 +209,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Vikram.jpg`]} alt="Vikram" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/OKBMCL-frPU"
               title="YouTube video"
               allowFullScreen
@@ -229,7 +229,7 @@ const Banner = () => {
         <img className="banner-image" src={pics[`Wednesday.jpg`]} alt="Wednesday" />
         </center>
         {showTrailer && (
-            <iframe
+            <iframe className="banner-trailer"
               src="https://www.youtube.com/embed/Di310WS8zLk"
               title="YouTube video"
               allowFullScreen

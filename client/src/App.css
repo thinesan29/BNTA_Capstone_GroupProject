@@ -396,6 +396,12 @@ and remove the margin on the left and right respectively. */
   object-fit: cover;
 }
 
+.banner-trailer {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
 button {
   background-color: #F5C518;
   border: none;

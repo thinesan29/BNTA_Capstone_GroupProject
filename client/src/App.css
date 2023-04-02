@@ -22,6 +22,8 @@ a:hover{
   transition: all 0.2s;
 }
 
+/* Links end here */
+
 /* Login Page CSS starts here */
 
 .login-form {
@@ -261,112 +263,12 @@ and remove the margin on the left and right respectively. */
 
 
 
-/* banner */
+/* banner css starts here */
 
-/* sets its text color to white, sets the object-fit property to contain */
-.banner {
-  color: white;
-  object-fit: contain;
-  height: 448px;
-}
+/* banner css ends here */
 
-/* targets an element */
-.banner-content {
-  margin-left: 30px;
-  padding-top: 140px;
-  height: 190px;
-}
-
-/* title css */
-.banner-title {
-  font-size: 3rem;
-  font-weight: 800;
-  padding-bottom: 0.3rem;
-}
-
-/* descriptions need to be added Monday */
-.banner-description {
-  width: 45rem;
-  line-height: 1.3;
-  padding-top: 1rem;
-  font-size: 0.8rem;
-  max-width: 360px;
-  height: 80px;
-}
-
-/* targets button */
-.banner-button {
-  cursor: pointer;
-  color: #fff;
-  outline: none;
-  border: none;
-  font-weight: 700;
-  border-radius: 0.2vw;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-right: 1rem;
-  padding-top: 0.5rem;
-  background-color: rgba(51, 51, 51, 0.5);
-  padding-bottom: 0.5rem;
-}
-
-/* hover feature for aesthetics */
-.banner-button:hover {
-  color: #000;
-  background-color: #e6e6e6;
-  transition: all 0.2s;
-}
-
-/* Creates a gradient effect that starts as transparent at the top of the element, 
-gradually transitions to a semi-transparent grey colour, and ends with a solid black 
-colour at the bottom of the element.  */
-.banner-fadeBottom {
-  height: 7.4rem;
-  background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37, 37, 37, 0.61),
-    #111
-  );
-}
-
-/* Categories CSS - to be clarified on Monday */
-
-.row {
-  color: white;
-  margin-left: 20px;
-}
-
-.row-posters {
-  display: flex;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  padding: 20px;
-}
-
-.row-posters::-webkit-scrollbar {
-  display: none;
-}
-
-.row-poster {
-  object-fit: contain;
-  width: 100%;
-  max-height: 100px;
-  margin-right: 10px;
-  transition: transform 450ms;
-}
-.row-poster:hover {
-  transform: scale(1.08);
-}
-.row-poster-large {
-  max-height: 250px;
-}
-.row-poster-large:hover {
-  transform: scale(1.09);
-}
 
 /* homepage CSS starts here */
-
 
 
 /* homepage CSS ends here */
@@ -412,67 +314,60 @@ colour at the bottom of the element.  */
 .product-form input[type="submit"]:hover {
   background-color: rgb(102, 102, 102);
 }
+/* product form ends here */
 
 /* newmovieslider css starts here FIX!! remove and redo */
 
-.new-movies-slider-container {
-  margin: 2rem;
-  overflow-x: scroll;
-}
-
-.new-movies-slider-container::-webkit-scrollbar {
-  height: 10px;
-}
-
-.new-movies-slider-container::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-.new-movies-slider-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-.new-movies-slider-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-.slick-slide {
-  margin-right: 1rem;
-  width: 300px;
-}
-
-.slick-slide img {
+.banner-image {
+  height: 600px;
   width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+button {
+  background-color: #F5C518;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-.slick-slide:hover img {
-  transform: scale(1.05);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+button:hover {
+  background-color: #00BFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.slick-slide h3 {
-  font-size: 1.5rem;
-  color: navy;
-  margin-bottom: 0.5rem;
-}
-
-.slick-slide p {
-  font-size: 1.2rem;
-  color: #666;
-  margin-bottom: 0.5rem;
-  max-height: 3.6em;
+.banner-container {
+  position: relative;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
-.slick-slide:hover p {
-  max-height: none;
+.banner-container iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+.banner-container button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-image {
+    height: 400px;
+  }
+}
+
 
 /* newmovieslider css ends here */
 

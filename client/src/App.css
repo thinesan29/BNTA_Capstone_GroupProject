@@ -77,7 +77,7 @@ input[type="search"] {
 } */
 
 /* navBar pseudocode alternative for navBar to move with page - check Monday morning */
-.navBar {
+/* .navBar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -89,7 +89,7 @@ input[type="search"] {
 
   transition-timing-function: ease-in;
   transition: all 0.5s;
-}
+} */
 
 
 

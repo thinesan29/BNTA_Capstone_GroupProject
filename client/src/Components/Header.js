@@ -1,8 +1,13 @@
 import logo from './Logo.png';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
+import React, { useEffect, useState } from "react"; //remove if errors
+
 
 const Header = () => {
+  const [show, handleShow] = useState(false); //added as show not defined 
   return (
+    // double check line 7 as reference and corresponding line 39 tag - add CSS 
+    <div className={`nav ${show ? "nav-black" : ""}`}>
     <div className="header">
       <div className="header-logo-image">
         <img
@@ -33,6 +38,7 @@ const Header = () => {
       />
       </div>
 
+    </div>
     </div>
   );
 };

@@ -39,6 +39,7 @@ return(
     <br/>
     <h2>Horror</h2>
     <HorrorPage/>
+    <br/>
     <SubscribeForm />
     <ExtraInfo />
     </>

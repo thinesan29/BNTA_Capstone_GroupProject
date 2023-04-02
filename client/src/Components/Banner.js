@@ -50,8 +50,6 @@ const Banner = () => {
               src="https://www.youtube.com/embed/d9MyW72ELq0"
               title="YouTube video"
               allowFullScreen
-              height="500"
-              width="950"
             ></iframe>
           )}
           <button onClick={handleTrailerVideo}>
@@ -68,8 +66,6 @@ const Banner = () => {
               src="https://www.youtube.com/embed/AHmCH7iB_IM"
               title="YouTube video"
               allowFullScreen
-              height="500"
-              width="950"
             ></iframe>
           )}
           <button onClick={handleTrailerVideo}>

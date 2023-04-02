@@ -14,6 +14,7 @@ import Banner from "../Components/Banner";
 const HomePage = () => {
 return(
     <>
+    <br/>
     <Banner/>
     <br/>
     <h2>Recently Added Movies</h2>

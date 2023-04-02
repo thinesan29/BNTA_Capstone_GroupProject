@@ -43,7 +43,9 @@ const ComedyPage = () => {
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>
+                <center>
                 <img id="image" src={pics[`${movie.title}.jpg`]} alt={movie.title} />
+                </center>
                 <h3>{movie.title}</h3>
                 <p>Movie Duration (mins): {movie.duration}</p>
                 <p>Movie Review: {movie.review}</p>

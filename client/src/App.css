@@ -117,6 +117,7 @@ input[type="search"] {
   letter-spacing: 0.05rem;
 }
 
+/* more rounded appearance and transition effect */
 .navBar a {
   color: white;
   text-decoration: none;
@@ -126,13 +127,17 @@ input[type="search"] {
   transition: all 0.2s;
 }
 
+/* r targets the anchor tags when they are hovered over 
+and sets the background colour to more of the blockbuster yellow */
 .navBar a:hover {
-  background-color: #8c7d41;
+  background-color: #ffd700;
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
+/*  target the first and last anchor tags in the navBar 
+and remove the margin on the left and right respectively. */
 .navBar a:first-child {
   margin-left: 0;
 }

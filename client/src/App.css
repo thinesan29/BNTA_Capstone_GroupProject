@@ -158,7 +158,7 @@ justify-content: space-evenly;
   object-fit: contain; 
 }
 
-/* positioned user avatar logo -> possibly add as a button */
+/* positioned user avatar logo -> possibly add as a button. FIX!! */
 .header-avatar {
   position: absolute;
   top: 20px;
@@ -413,7 +413,68 @@ colour at the bottom of the element.  */
   background-color: rgb(102, 102, 102);
 }
 
+/* newmovieslider css starts here */
 
+.new-movies-slider-container {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.slick-slide h3 {
+  font-size: 1.5rem;
+  color: navy;
+  margin-bottom: 0.5rem;
+}
+
+.slick-slide p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.slick-slide:hover img {
+  transform: scale(1.1);
+}
+
+.slick-slide:hover h3 {
+  color: #00BFFF;
+}
+
+.slick-slide:hover p {
+  color: #00BFFF;
+}
+
+.slick-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.slick-slide {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-slide {
+    flex-basis: 33.33%;
+  }
+}
+
+
+/* newmovieslider css ends here */
 
 
 

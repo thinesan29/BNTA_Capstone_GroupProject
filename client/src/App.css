@@ -403,7 +403,7 @@ colour at the bottom of the element.  */
 }
 
 
-/* Subscribe */
+/* Subscribe  */
 
 .subscribe {
   display: flex;
@@ -519,4 +519,45 @@ colour at the bottom of the element.  */
     text-shadow: 0 0 5px #fff;
   }
 }
+
+/* End of Subscribe CSS */
+
+/* Extra info CSS start */
+
+.extraInfo {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 50px;
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.extraInfo h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.extraInfo a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.extraInfo a:hover {
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.extraInfo > div {
+  flex-basis: 20%;
+}
+
+/* End of extra info CSS */
 

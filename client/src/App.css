@@ -401,3 +401,122 @@ colour at the bottom of the element.  */
 .react__slick__slider__parent .slick-prev:before, .slick-next:before {
   color: rgb(57, 57, 57) !important;
 }
+
+
+/* Subscribe */
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  padding: 3rem;
+  color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.subscribe h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-form label {
+  margin-right: 1rem;
+}
+
+.subscribe-form input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.subscribe-form input[type="submit"] {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ffd700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.subscribe-form input[type="submit"]:hover {
+  background-color: #ff8c00;
+}
+
+.subscribe-timer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.subscribe-timer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 0 0 5px #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #111;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  animation: glow 2s ease-in-out infinite;
+}
+
+.subscribed-users {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.subscribed-users h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.subscribed-users ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribed-users li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #ffd700;
+  text-shadow: 0 0 5px #fff;
+  animation: neon 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+}
+
+@keyframes neon {
+  0% {
+    color: #ffd700;
+    text-shadow: 0 0 5px #fff;
+  }
+  50% {
+    color: #fff;
+    text-shadow: 0 0 15px #ffd700;
+  }
+  100% {
+    color: #ffd700;
+    text-shadow: 0 0 5px #fff;
+  }
+}
+

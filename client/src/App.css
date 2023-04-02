@@ -64,7 +64,7 @@ input[type="search"] {
 
 
 /* Nav Bar */
-/* .navBar{
+.navBar{
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -74,7 +74,7 @@ input[type="search"] {
   background-color: rgb(255, 255, 255);
   color: rgb(102, 102, 102);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-} */
+}
 
 /* navBar pseudocode alternative for navBar to move with page - check Monday morning */
 /* .navBar {

@@ -413,7 +413,7 @@ colour at the bottom of the element.  */
   background-color: rgb(102, 102, 102);
 }
 
-/* newmovieslider css starts here FIX!! */
+/* newmovieslider css starts here FIX!! remove and redo */
 
 .new-movies-slider-container {
   margin: 2rem;
@@ -474,9 +474,13 @@ colour at the bottom of the element.  */
   max-height: none;
 }
 
-
 /* newmovieslider css ends here */
 
+/* navbar page css starts here - ACTION PAGE */
+
+
+
+/* navbar ACTION PAGE ends here */
 
 
 /* deal Banner */

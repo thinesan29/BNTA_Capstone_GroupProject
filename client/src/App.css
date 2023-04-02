@@ -24,7 +24,7 @@ a:hover{
 
 /* Login Page CSS starts here */
 
-  .login-form {
+.login-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,27 +33,26 @@ a:hover{
   }
   
   .login-form h2 {
-  color: #fff;
+  color: navy;
   font-size: 2rem;
   margin-bottom: 2rem;
-  text-shadow: 2px 2px #f8d43b;
   }
   
-  .login-form input[type="text"],
-  .login-form input[type="password"] {
+  .login-form input[type="text"] {
   padding: 1rem;
   border: none;
   border-radius: 0.3rem;
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: navy;
+  color: #f8d43b;
   background-color: #fff;
   box-shadow: 2px 2px 4px #888;
   transition: all 0.3s ease-in-out;
+  padding-left: 3rem;
+  position: relative;
   }
   
-  .login-form input[type="text"]:focus,
-  .login-form input[type="password"]:focus {
+  .login-form input[type="text"]:focus {
   outline: none;
   border: 2px solid #f8d43b;
   }
@@ -107,6 +106,26 @@ a:hover{
   color: #fff;
   opacity: 0.7;
   }
+  
+  .login-form label {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #f8d43b;
+  font-size: 1.5rem;
+  }
+  
+  .login-form label:first-of-type {
+  margin-top: 2rem;
+  }
+  
+  .login-form label:last-of-type {
+  margin-bottom: 2rem;
+  }
+  
+  .login-form input[type="text"]:placeholder {
+  color: #777;
+  }  
 
 /* Login Page CSS ends here */
 

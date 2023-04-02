@@ -21,7 +21,7 @@ const Header = () => {
           <Link to="/Subscribe">Subscribe</Link>
         </div>
 
-        <div>
+        <div className="header-search">
           <input type="search" placeholder="Search" />
         </div>
       </div>
@@ -30,6 +30,7 @@ const Header = () => {
       <img
         src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"
         alt="Avatar"
+        height = "120"
       />
       </div>
 

@@ -28,8 +28,8 @@ a:hover{
 
 /* Header */
 .header {
-  /* display: flex; */
-  justify-content: space-evenly;
+display: flex; 
+justify-content: space-evenly;
   align-items: center;
   padding: 1px;
   background-color: rgb(255, 255, 255);
@@ -40,17 +40,17 @@ a:hover{
 }
 #nav-container{
   flex-wrap: nowrap;
-}
+} 
 
 /* logo image positioned to left  */
 .header-logo-image {
   position: fixed;
   left: 20px;
   width: 80px;
-  object-fit: contain;
+  object-fit: contain; 
 }
 
-/* positioned user avatar logo -> possibly add as a button */
+/* positioned user avatar logo -> possibly add as a button (Rami Sunday) */
 /* .header-avatar {
   position: absolute;
   top: 20px;
@@ -130,7 +130,7 @@ input[type="search"] {
 /* r targets the anchor tags when they are hovered over 
 and sets the background colour to more of the blockbuster yellow */
 .navBar a:hover {
-  background-color: #ffd700;
+  background-color: #e89e1c;
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);

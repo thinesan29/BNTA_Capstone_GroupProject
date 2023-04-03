@@ -620,6 +620,36 @@ button:hover {
 
 /* action hover feature starts here */
 
+.action-container {
+  position: relative;
+}
+
+.action-container #image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.action-container #image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+.action-container center {
+  padding: 10px;
+  overflow: visible;
+}
+
+.action-container h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+
 /* action hover feature ends here */
 
 /* comedy hover feature starts here */
@@ -652,7 +682,6 @@ button:hover {
   z-index: 2;
   position: relative;
 }
-
 
 /* comedy hover feature ends here */
 

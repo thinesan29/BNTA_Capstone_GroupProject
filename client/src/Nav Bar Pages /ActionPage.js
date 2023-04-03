@@ -40,7 +40,7 @@ const handleTrailerVideo = () => {
  setShowTrailer(!showTrailer); // toggle state on button click
 }
   return (
-    <div className="comedy-container">
+    <div className="action-container">
       <h2>Action Movies</h2>
       <br/>
       <Slider {...sliderSettings}>

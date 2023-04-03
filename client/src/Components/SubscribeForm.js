@@ -46,9 +46,15 @@ const SubscribeForm = () => {
         }
     }, 1000);
 
+    // added a few handle functions
     const handleWatchTrailer = () => {
         window.open("https://www.youtube.com/watch?v=qN3wfuPYTI4", "_blank");
     }
+
+    const handleAddToMyList = () => {
+        alert("Movie added to MyList!");
+    };
+
 
     return (
         <div className="subscribe">
@@ -76,6 +82,9 @@ const SubscribeForm = () => {
                 />
                 <button onClick={handleWatchTrailer} style={{ display: "block", marginTop: "10px" }}>
                     Watch Trailer
+                </button>
+                <button onClick={handleAddToMyList}>
+                Add to MyList
                 </button>
             </div>
 

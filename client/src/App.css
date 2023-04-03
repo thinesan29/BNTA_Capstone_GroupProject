@@ -189,6 +189,7 @@ input[type="login-submit"]:hover::before {
     background-position: right;
     }
     }
+    
 /* Login Page CSS ends here */
 
 /* admin page css starts here */
@@ -751,7 +752,6 @@ button:hover {
 /* horror hover feature ends here  */
 
 /* navbar page css starts here - ACTION PAGE */
-
 
 
 /* navbar ACTION PAGE ends here */

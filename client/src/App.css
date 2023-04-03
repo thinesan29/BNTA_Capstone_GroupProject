@@ -48,7 +48,7 @@ a:hover{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #444;
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -57,6 +57,7 @@ a:hover{
 h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 form {
@@ -70,6 +71,7 @@ label {
   flex-direction: column;
   align-items: center;
   margin: 1rem 0;
+  color: #fff;
 }
 
 input[type="login-text"],
@@ -79,7 +81,7 @@ input[type="login-password"] {
   font-size: 1.5rem;
   padding: 0.5rem;
   background-color: transparent;
-  color: #333;
+  color: #eee;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -99,7 +101,7 @@ input[type="login-password"]:focus {
 
 input[type="login-text"]:not(:placeholder-shown),
 input[type="login-password"]:not(:placeholder-shown) {
-  color: black;
+  color: #eee;
 }
 
 input[type="login-text"]:not(:placeholder-shown) {
@@ -116,7 +118,7 @@ input[type="login-submit"] {
   padding: 0.5rem 2rem;
   border-radius: 5px;
   font-size: 1.5rem;
-  color: white;
+  color: #fff;
   margin-top: 2rem;
   cursor: pointer;
   transition: color 0.3s ease, box-shadow 0.3s ease;
@@ -140,7 +142,7 @@ input[type="login-submit"]:hover::before {
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.5)
     );
     opacity: 0.5;
@@ -166,6 +168,19 @@ input[type="login-submit"]:hover::before {
     background-color: #eee;
     }
     
+    .login-box input[type="login-text"]:not(:placeholder-shown),
+    .login-box input[type="login-password"]:not(:placeholder-shown) {
+    color: #eee;
+    }
+    
+    .login-box input[type="login-text"]:not(:placeholder-shown) {
+    box-shadow: 0 0 10px 2px gold;
+    }
+    
+    .login-box input[type="login-password"]:not(:placeholder-shown) {
+    box-shadow: 0 0 10px 2px navy;
+    }
+    
     @keyframes shimmer {
     0% {
     background-position: left;
@@ -174,6 +189,7 @@ input[type="login-submit"]:hover::before {
     background-position: right;
     }
     }
+
 
 /* Login Page CSS ends here */
 

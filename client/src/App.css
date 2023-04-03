@@ -153,12 +153,17 @@ a:hover{
   margin: 1rem 0;
 }
 
+.admin-link-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .admin-link {
   font-size: 2rem;
   padding: 1rem 2rem;
-  margin: 2rem;
-  background-color: #e89e1c;
-  color: #1c2237;
+  background: linear-gradient(to right, #1c2237, #e89e1c);
+  color: white;
   border-radius: 5px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -166,8 +171,7 @@ a:hover{
 
 .admin-link:hover {
   box-shadow: 0 0 10px 2px #e89e1c;
-  background-color: #ffd700;
-  color: #1c2237;
+  background: linear-gradient(to right, #1c2237, #ffd700);
 }
 
 .admin-link:hover::before {

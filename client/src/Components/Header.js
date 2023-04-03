@@ -16,12 +16,16 @@ const Header = () => {
       <Link to="/Login">Login</Link>
       <Link to="/Admin">Admin</Link>
       <Link to="/Subscribe">Subscribe</Link>
+      <div className="header-search">
+      <input type="search" placeholder="Search" />
+      </div>
+    </div>
     </div>
 
-    <div className="header-search">
+    {/* <div className="header-search">
       <input type="search" placeholder="Search" />
     </div>
-  </div>
+  </div> */}
 
   <div className="header-avatar-container">
     <img

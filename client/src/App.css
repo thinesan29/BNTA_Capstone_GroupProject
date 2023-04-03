@@ -1115,6 +1115,26 @@ input[type="submit"]:hover {
   margin-left: 100px;
 }
 
+/* CSS for nav dots in React Slider */
+.slick-dots-custom li {
+  display: inline-block;
+  margin:20px;
+}
+
+.slick-dots-custom li button {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.slick-dots-custom li.slick-active button {
+  background-color: aqua;
+}
+
+
+
+
 
 
 

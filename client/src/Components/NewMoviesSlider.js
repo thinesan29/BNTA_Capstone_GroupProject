@@ -27,11 +27,11 @@ const NewMoviesSlider = () => {
 
   const sliderSettings = {
     dots: true,
-    dotsClass: "slick-dots custom-dots-class", // add dotsClass property
+    dotsClass: "slick-dots-custom",
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
   }
 
    // Trailer Button Function 

@@ -27,6 +27,7 @@ const DocumentariesPage = () => {
     
       const sliderSettings = {
         dots: true,
+        dotsClass: "slick-dots-custom",
         infinite: true,
         speed: 500,
         slidesToShow: 3,

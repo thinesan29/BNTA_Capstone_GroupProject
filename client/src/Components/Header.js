@@ -17,7 +17,7 @@ const Header = () => {
       <Link to="/Subscribe">Subscribe</Link>
     </div>
 
-    <div className="header-search-container">
+    <div className="header-search">
       <input type="search" placeholder="Search" />
     </div>
   </div>

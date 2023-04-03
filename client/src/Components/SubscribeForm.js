@@ -46,6 +46,10 @@ const SubscribeForm = () => {
         }
     }, 1000);
 
+    const handleWatchTrailer = () => {
+        window.open("https://www.youtube.com/watch?v=qN3wfuPYTI4", "_blank");
+    }
+
     return (
         <div className="subscribe">
             <div className="subscribe-form">
@@ -61,6 +65,18 @@ const SubscribeForm = () => {
             <div className="subscribe-timer">
                 <h3>Our new Blockbuster Reborn Original drops in..</h3>
                 <div id="timer">Countdown Timer</div>
+            </div>
+
+            {/* new classname */}
+            <div className="new-movie">
+                <img
+                    src="https://pbs.twimg.com/media/FoDdNAcacAEqN91.jpg"
+                    alt="Leo October 2023"
+                    style={{ maxWidth: "100%", height: "auto" }}
+                />
+                <button onClick={handleWatchTrailer} style={{ display: "block", marginTop: "10px" }}>
+                    Watch Trailer
+                </button>
             </div>
 
             <div className="subscribed-users">

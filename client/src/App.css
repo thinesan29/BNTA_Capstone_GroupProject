@@ -811,6 +811,24 @@ button:hover {
   }
 }
 
+.new-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-movie img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.new-movie button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
 
 /* End of Subscribe CSS */
 

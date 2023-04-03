@@ -43,6 +43,8 @@ const HorrorPage = () => {
     
       return (
         <div className="horror-container">
+          <h2>Horror Movies</h2>
+          <br/>
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>

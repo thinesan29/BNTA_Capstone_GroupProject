@@ -42,6 +42,8 @@ const OriginalsPage = () => {
 
   return (
     <div className="originals-container">
+      <h2>Blockbuster Originals Movies</h2>
+      <br/>
       <Slider {...sliderSettings}>
         {movies.map(movie => (
           <div key={movie.id}>

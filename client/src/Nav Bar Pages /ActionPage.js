@@ -41,6 +41,8 @@ const handleTrailerVideo = () => {
 }
   return (
     <div className="comedy-container">
+      <h2>Action Movies</h2>
+      <br/>
       <Slider {...sliderSettings}>
         {movies.map(movie => (
           <div key={movie.id}>

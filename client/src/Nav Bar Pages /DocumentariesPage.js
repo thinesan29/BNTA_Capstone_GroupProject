@@ -42,6 +42,8 @@ const DocumentariesPage = () => {
     
       return (
         <div className="documentaries-container">
+          <h2>Documentaries</h2>
+        <br/>
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>

@@ -43,6 +43,8 @@ const TopRatedPage = () => {
     
       return (
         <div className="top-rated-container">
+          <h2>Top Rated Movies</h2>
+          <br/>
           <Slider {...sliderSettings}>
             {movies.map(movie => (
               <div key={movie.id}>

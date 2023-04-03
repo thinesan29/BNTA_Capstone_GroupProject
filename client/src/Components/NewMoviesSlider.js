@@ -46,7 +46,6 @@ const NewMoviesSlider = () => {
           <div key={movie.id}>
             <center>
             <img id="image" src={pics[`${movie.title}.jpg`]} alt={movie.title} />
-            </center>
             <h3>{movie.title}</h3>
             <p>Movie Duration (mins): {movie.duration}</p>
             <p>Movie Review: {movie.review}</p>
@@ -59,7 +58,7 @@ const NewMoviesSlider = () => {
               title="YouTube video"
               allowFullScreen
               height="200"
-              width="300"
+              width="400"
             ></iframe>
           )}
           <button onClick={handleTrailerVideo}>
@@ -68,6 +67,7 @@ const NewMoviesSlider = () => {
           <Link to="/Login">
         <button>Watch Movie</button>
         </Link>
+        </center>
           </div>
         ))}
       </Slider>

@@ -551,9 +551,41 @@ button:hover {
 }
 
 
-
-
 /* newmovieslider css ends here */
+
+/* blockbuster originals hover feature here */
+
+.originals-container {
+  position: relative;
+}
+
+.originals-container #image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.originals-container #image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+.originals-container center {
+  padding: 10px;
+  overflow: visible;
+}
+
+.originals-container h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+
+/* blockbuster originals hover feature ends here */
 
 /* navbar page css starts here - ACTION PAGE */
 

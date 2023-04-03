@@ -36,7 +36,7 @@ public class DataLoader implements ApplicationRunner {
         Movie movie1 = new Movie("John Wick 4", 169, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Incredible performances, stunning cinematography.", 3, "https://www.youtube.com/embed/yjRHZEUamCc");
         Movie movie2 = new Movie("Avatar The Way of Water", 192, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Page-turner, couldn't put it down.", 4, "https://www.youtube.com/embed/d9MyW72ELq0");
         Movie movie3 = new Movie("Fast and Furious 5", 130, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Thought-provoking and emotionally resonant.", 4,"https://www.youtube.com/embed/OqjeOYeG5_A");
-        Movie movie4 = new Movie("The Dark Knight", 152, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Engaging and thoroughly entertaining throughout.", 5,"https://www.youtube.com/embed/PZpmTj1Q8Q");
+        Movie movie4 = new Movie("The Dark Knight", 152, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Engaging and thoroughly entertaining throughout.", 5,"https://www.youtube.com/embed/TQfATDZY5Y4");
         Movie movie5 = new Movie("Top Gun Maverick", 131, LanguageEnum.ENGLISH, GenreEnum.ACTION, "Masterful storytelling, beautifully crafted.", 3,"https://www.youtube.com/embed/giXco2jaZ_4");
 
         Cast cast1 = new Cast("Keanu Reeves", 58, "Keanu Reeves, a versatile actor born in Beirut in 1964, gained fame for roles in The Matrix, John Wick, and Bill & Ted. Known for his humility and philanthropy, he captivates fans worldwide.");
@@ -122,7 +122,7 @@ public class DataLoader implements ApplicationRunner {
         // HORROR
 
         Movie movie16 = new Movie("Scream", 111, LanguageEnum.ENGLISH.SPANISH.KOREAN, GenreEnum.HORROR, "Excellent, classic, well-cast", 5,"https://www.youtube.com/embed/beToTslH17s");
-        Movie movie17 = new Movie("The Conjuring", 112, LanguageEnum.ENGLISH.SPANISH.FRENCH.HINDI, GenreEnum.HORROR, "Terrifying, gripping, suspenseful", 5,"https://www.youtube.com/embed/k10ETZ41q5o");
+        Movie movie17 = new Movie("The Conjuring", 112, LanguageEnum.ENGLISH.SPANISH.FRENCH.HINDI, GenreEnum.HORROR, "Terrifying, gripping", 5,"https://www.youtube.com/embed/k10ETZ41q5o");
         Movie movie18 = new Movie("Winnie The Pooh Blood & Honey", 111, LanguageEnum.ENGLISH, GenreEnum.HORROR, "Awful.", 1,"https://www.youtube.com/embed/W3E74j_xFtg");
         Movie movie19 = new Movie("The Orphanage", 97, LanguageEnum.SPANISH.ENGLISH, GenreEnum.HORROR, "Spine-Chilling", 5,"https://www.youtube.com/embed/UkuKtS-N1rM");
         Movie movie20 = new Movie("Bird Box", 124, LanguageEnum.ENGLISH.FRENCH.SPANISH.KOREAN, GenreEnum.HORROR, "Gripping, intense, touching.", 3,"https://www.youtube.com/embed/o2AsIXSh2xo");
@@ -153,7 +153,7 @@ public class DataLoader implements ApplicationRunner {
         // DOCUMENTARIES -
         Movie movie21 = new Movie("The Last Dance", 500,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Feel-Good",5,"https://www.youtube.com/embed/JQk2hJs2ToA");
         Movie movie22 = new Movie("Tiger King", 350,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Provocative, Investigative",3,"https://www.youtube.com/embed/acTdxsoa428");
-        Movie movie23 = new Movie("I AM BOLT", 117,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inpsiring, Feel-Good, Exciting",3,"https://www.youtube.com/embed/XVje1n8K240");
+        Movie movie23 = new Movie("I AM BOLT", 117,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Feel-Good, Exciting",3,"https://www.youtube.com/embed/XVje1n8K240");
         Movie movie24 = new Movie("Harry & Meghan", 360,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Investigative, Intimate",2,"https://www.youtube.com/embed/2rlVhiXlcHU");
         Movie movie25 = new Movie("Stutz", 96,LanguageEnum.ENGLISH,GenreEnum.DOCUMENTARIES,"Inspiring, Intimate, Heartfelt",4,"https://www.youtube.com/embed/UKCmefQdplI");
 
@@ -178,10 +178,10 @@ public class DataLoader implements ApplicationRunner {
 
         // BLOCKBUSTER ORIGINALS
 
-        Movie movie26 = new Movie("Wednesday", 28, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Witty, morbid, captivating, clever, unexpected.", 3,"https://www.youtube.com/embed/Di310WS8zLk");
+        Movie movie26 = new Movie("Wednesday", 28, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Witty, morbid, captivating", 3,"https://www.youtube.com/embed/Di310WS8zLk");
         Movie movie27 = new Movie("Creed 3", 117, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Inspiring", 8,"https://www.youtube.com/embed/AHmCH7iB_IM");
         Movie movie28 = new Movie("Run", 89, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Thrilling", 4,"https://www.youtube.com/embed/EoGojQE4p-8");
-        Movie movie29 = new Movie("Fall",106, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Explosive, suspenseful, thriller", 4,"https://www.youtube.com/embed/iSspRSGc4Dk");
+        Movie movie29 = new Movie("Fall",106, LanguageEnum.ENGLISH, GenreEnum.ORIGINALS, "Explosive, suspenseful.", 4,"https://www.youtube.com/embed/iSspRSGc4Dk");
         Movie movie30 = new Movie("Luther The Fallen Sun", 130, LanguageEnum.ENGLISH.SPANISH, GenreEnum.ORIGINALS, "Ominous, gritty, dark.", 5,"https://www.youtube.com/embed/EGK5qtXuc1Q");
 
         Cast cast49 = new Cast("Jenna Ortega", 20, "Jenna Ortega, born in 2002, is an American actress known for Stuck in the Middle, You, and Wednesday");

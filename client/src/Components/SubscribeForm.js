@@ -52,7 +52,7 @@ const SubscribeForm = () => {
     const handleWatchTrailer = () => {
         setShowTrailer(!showTrailer);
     };
-
+    // second handle function
     const handleAddToMyList = () => {
         alert("Movie added to MyList!");
     };
@@ -76,6 +76,8 @@ const SubscribeForm = () => {
             </div>
 
             {/* new classname */}
+        <div className="subscribe">
+            {/* ...other divs */}
             <div className="new-movie">
                 <img
                     src="https://pbs.twimg.com/media/FoDdNAcacAEqN91.jpg"
@@ -86,10 +88,20 @@ const SubscribeForm = () => {
                     Watch Trailer
                 </button>
                 <button onClick={handleAddToMyList}>
-                Add to MyList
+                    Add to MyList
                 </button>
+                {showTrailer && (
+                    <iframe
+                        src="https://www.youtube.com/embed/qN3wfuPYTI4"
+                        title="YouTube video"
+                        allowFullScreen
+                        height="315"
+                        width="560"
+                    ></iframe>
+                )}
             </div>
-
+        </div>
+    );
             <div className="subscribed-users">
                 <h3>Subscribed Users:</h3>
                 <ul>

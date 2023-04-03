@@ -21,22 +21,16 @@ return(
     <h2>Trending Movies</h2>
     <NewMoviesSlider />
     <br/>
-    <h2>Blockbuster Originals</h2>
     <OriginalsPage/>
     <br/>
-    <h2>Top Rated</h2>
     <TopRatedPage/>
     <br/>
-    <h2>Action</h2>
     <ActionPage/>
     <br/>
-    <h2>Comedy</h2>
     <ComedyPage/>
     <br/>
-    <h2>Documentaries</h2>
     <DocumentariesPage/>
     <br/>
-    <h2>Horror</h2>
     <HorrorPage/>
     <br/>
     <SubscribeForm />

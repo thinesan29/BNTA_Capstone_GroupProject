@@ -348,7 +348,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: navy;
+  background-color:navy;
   height: 4rem;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
@@ -689,6 +689,7 @@ button:hover {
 /* horror hover feature ends here  */
 
 /* navbar page css starts here - ACTION PAGE */
+
 
 
 /* navbar ACTION PAGE ends here */

@@ -77,7 +77,6 @@ const SubscribeForm = () => {
 
             {/* new classname */}
         <div className="subscribe">
-            {/* ...other divs */}
             <div className="new-movie">
                 <img
                     src="https://pbs.twimg.com/media/FoDdNAcacAEqN91.jpg"

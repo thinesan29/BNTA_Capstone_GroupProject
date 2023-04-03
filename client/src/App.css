@@ -699,8 +699,10 @@ button:hover {
 .subscribe {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* justify-content: center; */
+  /* align-items: center; */
   background-color: #111;
   padding: 3rem;
   color: #fff;

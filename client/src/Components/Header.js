@@ -22,11 +22,6 @@ const Header = () => {
     </div>
     </div>
 
-    {/* <div className="header-search">
-      <input type="search" placeholder="Search" />
-    </div>
-  </div> */}
-
   <div className="header-avatar-container">
     <img
       src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"

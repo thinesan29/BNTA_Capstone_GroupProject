@@ -28,105 +28,96 @@ a:hover{
 
 /* Login Page CSS starts here */
 
-.login-form {
+.login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #1c2237;
-  color: white;
-}
-
-h2 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-
-form {
+  background-color: white;
+  }
+  
+  .login-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-label {
-  font-size: 1.5rem;
-  margin: 1rem 0;
-  position: relative;
-}
-
-input[type="text"], input[type="password"] {
-  font-size: 2rem;
-  padding: 10px;
-  border: none;
-  background-color: transparent;
-  border-bottom: 2px solid #fff;
-  color: #fff;
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-input[type="text"]:focus, input[type="password"]:focus {
-  outline: none;
-}
-
-input[type="text"]:focus::after {
-  content: "";
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #ffd700;
-  animation: shimmer-gold 2s infinite;
-}
-
-input[type="password"]:focus::after {
-  content: "";
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #00bfff;
-  animation: shimmer-blue 2s infinite;
-}
-
-input[type="submit"] {
-  font-size: 2rem;
-  padding: 10px;
-  border: none;
+  background-color: #1c2237;
+  color: white;
+  padding: 2rem;
   border-radius: 5px;
-  background: linear-gradient(to right, #ffd700, #00bfff, #ffd700);
-  color: #fff;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  }
+  
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+  }
+  
+  input[type="login-text"],
+  input[type="login-password"] {
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: white;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input[type="login-text"]:focus,
+  input[type="login-password"]:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 10px 2px #ffd700;
+  }
+  
+  input[type="login-text"]:focus {
+  box-shadow: 0 0 10px 2px gold;
+  }
+  
+  input[type="login-password"]:focus {
+  box-shadow: 0 0 10px 2px navy;
+  }
+  
+  input[type="login-submit"] {
+  background-color: gold;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: white;
   margin-top: 2rem;
-}
-
-input[type="submit"]:hover {
-  box-shadow: 0 0 10px 2px #e89e1c;
-}
-
-@keyframes shimmer-gold {
+  cursor: pointer;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input[type="login-submit"]:hover {
+  background-color: navy;
+  box-shadow: 0 0 10px 2px navy;
+  color: white;
+  }
+  
+  @keyframes shimmer {
   0% {
-    background-position: -300px 0;
+  background-position: left;
   }
   100% {
-    background-position: 300px 0;
+  background-position: right;
   }
-}
-
-@keyframes shimmer-blue {
-  0% {
-    background-position: -300px 0;
   }
-  100% {
-    background-position: 300px 0;
-  }
-}
-
 
 /* Login Page CSS ends here */
 
@@ -1212,6 +1203,7 @@ input[type="submit"]:hover {
   display: block;
   margin-top: 5px;
 }
+
 
 
 /* css for nav dots ends here */

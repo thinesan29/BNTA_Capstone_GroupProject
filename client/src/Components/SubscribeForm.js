@@ -82,31 +82,35 @@ const SubscribeForm = () => {
                 <div id="timer">Countdown Timer</div>
             </div>
 
+            <br/>
+
             {/* new classname */}
         <div className="subscribe">
-            <div className="new-movie">
-                <img
-                    src="https://pbs.twimg.com/media/FoDdNAcacAEqN91.jpg"
-                    alt="Leo October 2023"
-                    style={{ maxWidth: "100%", height: "auto" }}
-                />
-                <button onClick={handleWatchTrailer} style={{ display: "block", marginTop: "10px" }}>
-                    Watch Trailer
-                </button>
-                <button onClick={handleAddToMyList}>
-                    Add to MyList
-                </button>
-                {showTrailer && (
-                    <iframe
-                        src="https://www.youtube.com/embed/qN3wfuPYTI4"
-                        title="YouTube video"
-                        allowFullScreen
-                        height="315"
-                        width="560"
-                    ></iframe>
-                )}
+    <div className="new-movie">
+        <img
+            src="https://eng.cinereporters.com/wp-content/uploads/2023/02/Thalapathy-Vijay-and-Lokesh-Kanagarajs-Leo-mints-Rs-246-crore-with-pre-release-business.jpg"
+            alt="Leo October 2023"
+            style={{ maxWidth: "100%", height: "auto" }}
+        />
+        {showTrailer && (
+            <div className="trailer">
+                <iframe
+                    src="https://www.youtube.com/embed/qN3wfuPYTI4"
+                    title="Leo Movie Title Promo"
+                    allowFullScreen
+                    height="800"
+                    width="750"
+                ></iframe>
             </div>
-        </div>
+        )}
+        <button onClick={handleWatchTrailer} style={{ display: "block", marginTop: "10px" }}>
+            Watch Trailer
+        </button>
+        <button onClick={handleAddToMyList}>
+            Add to MyList
+        </button>
+    </div>
+</div>
            
         </div>
     )

@@ -47,9 +47,11 @@ const SubscribeForm = () => {
     }, 1000);
 
     // added a few handle functions
+    const [showTrailer, setShowTrailer] = useState(false);
+
     const handleWatchTrailer = () => {
-        window.open("https://www.youtube.com/watch?v=qN3wfuPYTI4", "_blank");
-    }
+        setShowTrailer(!showTrailer);
+    };
 
     const handleAddToMyList = () => {
         alert("Movie added to MyList!");

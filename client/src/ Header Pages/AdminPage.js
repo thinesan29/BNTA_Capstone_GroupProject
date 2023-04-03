@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 const AdminPage = () => {
     return(
       <div className="admin-container">
@@ -14,6 +15,7 @@ const AdminPage = () => {
         <p className="admin-description">To add or remove cast members from the database, click on the "Cast".</p>
         <Link to="/Admin/Movie" className="admin-link">Manage Movies</Link>
         <Link to="/Admin/Cast" className="admin-link">Manage Casts</Link>
+        <br/>
         <br/>
         <br/>
         <br/>

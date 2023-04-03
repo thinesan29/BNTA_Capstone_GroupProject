@@ -1,4 +1,5 @@
 import SubscribeForm from "../Components/SubscribeForm";
+
 const SubscribePage = () => {
 return(
     <>

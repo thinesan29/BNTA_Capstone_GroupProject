@@ -10,11 +10,9 @@ import SubscribeForm from "../Components/SubscribeForm";
 import ExtraInfo from "../Components/ExtraInfo";
 import Banner from "../Components/Banner";
 
-
 const HomePage = () => {
 return(
     <div className="homepage">
-    <br/>
     <Banner/>
     <br/>
     <h2>Recently Added Movies</h2>

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import VideoPage from './ Header Pages/VideoPage';
 import HomePage from './ Header Pages/HomePage';
 import MoviePage from './ Header Pages/MoviePage';
 import CastPage from './ Header Pages/CastPage';
@@ -21,10 +22,11 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      <Header/>
-      <NavBar/>
-      <br/>
+    <Header/>
+    <NavBar/>
+    <br/>
     <Routes>
+      <Route path="/" element={<VideoPage/>}/>
       <Route path="/Home" element={<HomePage/>}/>
       <Route path="/Admin" element={<AdminPage/>}/>
       <Route path="/Admin/Movie" element={<MoviePage/>}/>
@@ -40,7 +42,7 @@ function App() {
 
     </Routes>
     <br/>
-    <Footer/>
+      <Footer/>
     </div>
     </BrowserRouter>
     

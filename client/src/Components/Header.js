@@ -1,11 +1,12 @@
 import logo from './Logo.png';
+import video from './video.mp4'
 import { Link } from 'react-router-dom'; 
 
 const Header = () => { 
   return (
     <div className="header">
   <div className="header-logo-container">
-    <img src={logo} alt="logo image" height="120" width="100" />
+  <img src="https://i.imgur.com/7Y57Vlf.gif" alt="Blockbuster.gif" height="100"/>
   </div>
 
   <div className="header-nav-container">

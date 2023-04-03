@@ -153,25 +153,30 @@ a:hover{
   margin: 1rem 0;
 }
 
-.admin-link-container {
+.admin-links-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .admin-link {
   font-size: 2rem;
   padding: 1rem 2rem;
-  background: linear-gradient(to right, #1c2237, #e89e1c);
-  color: white;
+  margin: 2rem;
+  background: linear-gradient(to right, #ffd700, #ffd700 50%, #1c2237 50%, #1c2237);
+  background-size: 200% 100%;
+  background-position: left bottom;
   border-radius: 5px;
+  color: #1c2237;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .admin-link:hover {
   box-shadow: 0 0 10px 2px #e89e1c;
-  background: linear-gradient(to right, #1c2237, #ffd700);
+  background-position: right bottom;
+  color: #ffd700;
 }
 
 .admin-link:hover::before {

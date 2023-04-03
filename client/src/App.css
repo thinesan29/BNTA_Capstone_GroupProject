@@ -521,6 +521,37 @@ button:hover {
   }
 }
 
+.new-movies-slider-container {
+  position: relative;
+}
+
+#image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+#image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+.new-movies-slider-container center {
+  padding: 10px;
+  overflow: visible;
+}
+
+.new-movies-slider-container h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+
+
 
 /* newmovieslider css ends here */
 

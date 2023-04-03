@@ -28,6 +28,7 @@ a:hover{
 
 /* Login Page CSS starts here */
 
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -126,7 +127,6 @@ input[type="submit"]:hover {
     background-position: 300px 0;
   }
 }
-
 
 /* Login Page CSS ends here */
 

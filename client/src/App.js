@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import VideoPage from './ Header Pages/VideoPage';
 import HomePage from './ Header Pages/HomePage';
 import MoviePage from './ Header Pages/MoviePage';

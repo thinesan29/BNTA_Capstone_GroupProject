@@ -9,6 +9,8 @@ const Movie = ({movie,onDelete}) => {
     return (
         <div className="movie">
             <img id="image" src={pics[`${movie.title}.jpg`]} alt={movie.title}/>
+            <br/>
+            <br/>
             <h3>{movie.title}</h3>
             <p>Movie Duration (mins): {movie.duration}</p>
             <p>Movie Review: {movie.review}</p>

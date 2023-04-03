@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Button} from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 const Banner = () => {

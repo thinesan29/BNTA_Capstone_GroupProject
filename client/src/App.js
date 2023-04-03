@@ -23,6 +23,7 @@ function App() {
     <div className="App">
       <Header/>
       <NavBar/>
+      <br/>
     <Routes>
       <Route path="/Home" element={<HomePage/>}/>
       <Route path="/Admin" element={<AdminPage/>}/>

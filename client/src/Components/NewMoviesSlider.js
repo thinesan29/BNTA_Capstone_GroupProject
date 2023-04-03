@@ -27,6 +27,7 @@ const NewMoviesSlider = () => {
 
   const sliderSettings = {
     dots: true,
+    dotsClass: "slick-dots custom-dots-class", // add dotsClass property
     infinite: true,
     speed: 500,
     slidesToShow: 3,

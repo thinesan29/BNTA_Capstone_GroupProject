@@ -70,6 +70,13 @@ const SubscribeForm = () => {
                 </form>
             </div>
 
+            <div className="subscribed-users">
+                <h3>Subscribed Users:</h3>
+                <ul>
+                    {subscribedUsers.map(user => <li key={user}>{user}</li>)}
+                </ul>
+            </div>
+
             <div className="subscribe-timer">
                 <h3>Our new Blockbuster Reborn Original drops in..</h3>
                 <div id="timer">Countdown Timer</div>
@@ -100,12 +107,7 @@ const SubscribeForm = () => {
                 )}
             </div>
         </div>
-            <div className="subscribed-users">
-                <h3>Subscribed Users:</h3>
-                <ul>
-                    {subscribedUsers.map(user => <li key={user}>{user}</li>)}
-                </ul>
-            </div>
+           
         </div>
     )
 

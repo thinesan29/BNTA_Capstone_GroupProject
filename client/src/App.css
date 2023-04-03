@@ -709,6 +709,8 @@ button:hover {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
+  /* new */
+  position: relative;
 }
 
 .subscribe h2 {
@@ -813,13 +815,15 @@ button:hover {
   }
 }
 
+
 .new-movie {
   flex: 1;
   max-width: 300px;
   text-align: center;
   margin-left: 20px;
-  position: absolute; /* Add this line to position the new-movie div */
-  right: 0; /* Add this line to align the new-movie div to the right side of the screen */
+  position: absolute; /* Keep this line to position the new-movie div */
+  right: 0; /* Keep this line to align the new-movie div to the right side of the screen */
+  top: 0; /* Add this line to align the new-movie div to the top of the .subscribe container */
 }
 
 .new-movie img {
@@ -832,7 +836,6 @@ button:hover {
   display: block;
   margin: 10px auto;
 }
-
 
 
 /* End of Subscribe CSS */

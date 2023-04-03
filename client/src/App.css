@@ -581,11 +581,44 @@ button:hover {
   margin-bottom: 10px;
   padding: 0;
   z-index: 2;
+  position: relative; 
+}
+/* blockbuster originals hover feature ends here */
+
+/* toprated hover feature starts here */
+
+.top-rated-container {
   position: relative;
 }
 
+.top-rated-container #image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
 
-/* blockbuster originals hover feature ends here */
+.top-rated-container #image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+.top-rated-container center {
+  padding: 10px;
+  overflow: visible;
+}
+
+.top-rated-container h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+/* toprated hover feature ends here */
+
+/* action hover feature starts here */
 
 /* navbar page css starts here - ACTION PAGE */
 

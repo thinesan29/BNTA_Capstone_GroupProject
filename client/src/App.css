@@ -133,6 +133,64 @@ a:hover{
 
 /* admin page css starts here */
 
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1c2237;
+  color: white;
+}
+
+.admin-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.admin-description {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.admin-link {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  background-color: #e89e1c;
+  color: #1c2237;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.admin-link:hover {
+  box-shadow: 0 0 10px 2px #e89e1c;
+  background-color: #ffd700;
+  color: #1c2237;
+}
+
+.admin-link:hover::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 5px #ffd700;
+  z-index: -1;
+}
+
+.admin-link:first-child:hover::before {
+  transform: skewX(20deg) translateX(15px);
+}
+
+.admin-link:last-child:hover::before {
+  transform: skewX(-20deg) translateX(-15px);
+}
+
+
 /* admin page css ends here */
 
 
@@ -1300,6 +1358,9 @@ input[type="submit"]:hover {
 .slick-dots-custom li.slick-active button {
   background-color: aqua;
 }
+/* css for nav dots ends here */
+
+/*  */
 
 
 

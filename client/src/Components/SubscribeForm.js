@@ -101,7 +101,6 @@ const SubscribeForm = () => {
                 )}
             </div>
         </div>
-    );
             <div className="subscribed-users">
                 <h3>Subscribed Users:</h3>
                 <ul>

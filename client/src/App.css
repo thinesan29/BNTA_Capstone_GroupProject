@@ -620,6 +620,54 @@ button:hover {
 
 /* action hover feature starts here */
 
+/* action hover feature ends here */
+
+/* comedy hover feature starts here */
+
+.comedy-container {
+  position: relative;
+}
+
+.comedy-container #image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.comedy-container #image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+.comedy-container center {
+  padding: 10px;
+  overflow: visible;
+}
+
+.comedy-container h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+
+/* comedy hover feature ends here */
+
+
+/* documentary hover feature starts here */
+
+
+/* documentary hover feature ends here */
+
+/* horror hover feature starts here  */
+
+
+
+/* horror hover feature ends here  */
+
 /* navbar page css starts here - ACTION PAGE */
 
 

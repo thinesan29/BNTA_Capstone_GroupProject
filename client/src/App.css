@@ -1023,11 +1023,12 @@ input[type="submit"]:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
+/*grid template columns - defines the number and size of columns in a grid container.*/
 
 .cast {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 1rem;
   padding: 1rem;
@@ -1073,6 +1074,8 @@ input[type="submit"]:hover {
   color: navy;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
+
+/* media queries cast list */
 
 /* cast list css ends here */
 

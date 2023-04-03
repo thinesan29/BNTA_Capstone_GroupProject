@@ -1012,6 +1012,18 @@ input[type="submit"]:hover {
 
 /* cast list css starts here */
 
+.cast-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cast-tile-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
 .cast {
   display: flex;
   flex-direction: column;
@@ -1023,7 +1035,7 @@ input[type="submit"]:hover {
   border-radius: 1rem;
   background-color: #fff;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  width: 300px;
+  width: 100%;
 }
 
 .cast img {
@@ -1061,17 +1073,6 @@ input[type="submit"]:hover {
   color: navy;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
-
-/* The :nth-child selectors are used to remove the left margin of the first cast
- in each row and the right margin of the last cast in each row. */
-.cast:nth-child(3n+1) {
-  margin-left: 0;
-}
-
-.cast:nth-child(3n+3) {
-  margin-right: 0;
-}
-
 
 /* cast list css ends here */
 

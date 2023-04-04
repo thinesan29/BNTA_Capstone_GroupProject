@@ -69,14 +69,14 @@ const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$
             <p>Movie Genre: {movie.genre}</p>
             <hr/>
             <h3>Cast 1</h3>
-            <p> Name: {movie.movieCastMember[0].cast.name}</p>
+            {/* <p> Name: {movie.movieCastMember[0].cast.name}</p>
             <p> Age: {movie.movieCastMember[0].cast.age}</p>
-            <p>Actor's Bio: <br/>{movie.movieCastMember[0].cast.bio}</p>
+            <p>Actor's Bio: <br/>{movie.movieCastMember[0].cast.bio}</p> */}
             <hr/>
             <h3>Cast 2</h3>
-            {movie.movieCastMember.length >= 2 && <p>Name: {movie.movieCastMember[1].cast.name}</p>}
+            {/* {movie.movieCastMember.length >= 2 && <p>Name: {movie.movieCastMember[1].cast.name}</p>}
             {movie.movieCastMember.length >= 2 && <p>Age: {movie.movieCastMember[1].cast.age}</p>}
-            {movie.movieCastMember.length >= 2 && <p>Bio: {movie.movieCastMember[1].cast.bio}</p>}
+            {movie.movieCastMember.length >= 2 && <p>Bio: {movie.movieCastMember[1].cast.bio}</p>} */}
             <hr/>
             </div>
             )}

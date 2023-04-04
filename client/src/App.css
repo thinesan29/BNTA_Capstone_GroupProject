@@ -355,6 +355,25 @@ a:hover{
   letter-spacing: 0.05rem;
 }
 
+/* popcorngif stuff */
+
+.popcorn-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+
+.popcorn-gif {
+  margin-right: 10px;
+}
+
+.popcorn-gif img {
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
 /* more rounded appearance and transition effect */
 .navBar a {
   color: white;

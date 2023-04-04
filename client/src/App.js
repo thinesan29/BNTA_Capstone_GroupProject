@@ -5,9 +5,11 @@ import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import VideoPage from './ Header Pages/VideoPage';
 import HomePage from './ Header Pages/HomePage';
+
 import MoviePage from './ Header Pages/MoviePage';
 import CastPage from './ Header Pages/CastPage';
 import LoginPage from './ Header Pages/LoginPage';
+import MyListPage from './ Header Pages/MyListPage';
 import AdminForm from './Components/AdminForm';
 import AdminPage from './ Header Pages/AdminPage';
 import SubscribePage from './ Header Pages/SubscribePage';
@@ -29,6 +31,7 @@ function App() {
     <Routes>
       <Route path="/" element={<VideoPage/>}/>
       <Route path="/Home" element={<HomePage/>}/>
+      <Route path="/MyList" element={<MyListPage/>}/>
       <Route path="/Admin" element={<AdminForm/>}/>
       <Route path="/Admin/Manage" element={<AdminPage/>}/>
       <Route path="/Admin/Manage/Movie" element={<MoviePage/>}/>

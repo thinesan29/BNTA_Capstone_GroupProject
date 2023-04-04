@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-const NewMoviesSlider = () => {
+const NewMoviesSlider = ({cast}) => {
   function importAll(r) {
     let images = {};
     r.keys().map((item, index) => {
@@ -13,7 +13,8 @@ const NewMoviesSlider = () => {
     return images;
   }
   
-  const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$/));
+const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$/));
+
   
   const [movies, setMovies] = useState([]);
 
@@ -42,6 +43,12 @@ const NewMoviesSlider = () => {
      setShowTrailer(!showTrailer); // toggle state on button click
    }
 
+   // Cast Detail Button 
+   const [showCastDetails, setShowCastDetails] = useState(false);
+   const handleCastDetails = () => {
+    setShowCastDetails(!showCastDetails); // toggle state on button click
+  }
+
   return (
     <div className="new-movies-slider-container">
       <Slider {...sliderSettings}>
@@ -49,12 +56,29 @@ const NewMoviesSlider = () => {
           <div key={movie.id}>
             <center>
             <img id="image" src={pics[`${movie.title}.jpg`]} alt={movie.title} />
-            <h3>{movie.title}</h3>
+            <br/>
+            <h2>{movie.title}</h2>
+            <hr/>
+            {showCastDetails && (
+              <div>
             <p>Movie Duration (mins): {movie.duration}</p>
             <p>Movie Review: {movie.review}</p>
             <p>Movie Rating: {movie.rating}</p>
             <p>Movie Language: {movie.language}</p>
             <p>Movie Genre: {movie.genre}</p>
+            <hr/>
+            <h3>Cast 1</h3>
+            <p> Name: {movie.movieCastMember[0].cast.name}</p>
+            <p> Age: {movie.movieCastMember[0].cast.age}</p>
+            <p>Actor's Bio: <br/>{movie.movieCastMember[0].cast.bio}</p>
+            <hr/>
+            <h3>Cast 2</h3>
+            {movie.movieCastMember.length >= 2 && <p>Name: {movie.movieCastMember[1].cast.name}</p>}
+            {movie.movieCastMember.length >= 2 && <p>Age: {movie.movieCastMember[1].cast.age}</p>}
+            {movie.movieCastMember.length >= 2 && <p>Bio: {movie.movieCastMember[1].cast.bio}</p>}
+            <hr/>
+            </div>
+            )}
             {showTrailer && (
             <iframe
               src={`${movie.trailer}`}
@@ -64,7 +88,12 @@ const NewMoviesSlider = () => {
               width="400"
             ></iframe>
           )}
-          <button onClick={handleTrailerVideo}>
+          <button onClick={handleCastDetails}>
+            {showCastDetails ? "Hide Movie Details" : "View Movie Details"}
+          </button>
+          <br/>
+          <br/>
+         <button onClick={handleTrailerVideo}>
             {showTrailer ? "Hide Trailer" : "Watch Trailer"}
           </button> 
           <Link to="/Login">

@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
 .App {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
   text-align: center;
   background-color: black;
   color:white;
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   color: rgb(102, 102, 102);
 }
 
@@ -353,7 +357,7 @@ a:hover{
   align-items: center;
   background-color:navy;
   height: 4rem;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
 }
@@ -525,7 +529,7 @@ button:hover {
 }
 
 .originals-container #image:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
@@ -557,7 +561,7 @@ button:hover {
 }
 
 .top-rated-container #image:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
@@ -623,7 +627,7 @@ button:hover {
 }
 
 .comedy-container #image:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
@@ -656,7 +660,7 @@ button:hover {
 }
 
 .documentaries-container #image:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
@@ -689,7 +693,7 @@ button:hover {
 }
 
 .horror-container #image:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
@@ -701,6 +705,7 @@ button:hover {
 }
 
 .horror-container h3 {
+  font-size: 2.5rem;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0;
@@ -728,7 +733,7 @@ button:hover {
   background-color: #111;
   padding: 3rem;
   color: #fff;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   /* new */
@@ -873,7 +878,7 @@ button:hover {
   background-color: black;
   padding: 50px;
   color: white;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Teko', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
 }
@@ -908,6 +913,7 @@ button:hover {
 
 .footer {
   display: flex;
+  font-size: 1rem;
   justify-content: space-between;
   align-items: center;
   background-color: black;
@@ -925,7 +931,7 @@ button:hover {
 .contact p,
 .payment p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -952,7 +958,7 @@ button:hover {
 }
 
 .payment p {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .payment svg {

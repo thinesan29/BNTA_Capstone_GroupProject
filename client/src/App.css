@@ -898,9 +898,6 @@ button:hover {
   width: 750px;
   margin: 0 auto;
   text-align: center;
-  /* position: relative;
-  max-width: 40%;
-  margin-right: 20px; */
 }
 
 .new-movie img {
@@ -908,11 +905,13 @@ button:hover {
   height: auto;
   transition: 0.3s;
   border-radius: 1rem;
+  position: relative;
 }
 
 .new-movie img:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  animation: glowing-shimmer-gold 2s infinite alternate, glowing-shimmer-navy 2s infinite alternate;
+  animation-delay: 0s, 1s;
 }
 
 .new-movie button {

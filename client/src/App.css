@@ -218,7 +218,7 @@ a:hover{
 
 .header-logo-image {
   position: fixed;
-  left: 20px;
+  left: 40px;
   width: 80px;
   object-fit: contain; 
 } 
@@ -279,8 +279,8 @@ a:hover{
   border-color: blue;
   box-shadow: 0 0 5px 2px yellow;
   animation: glow-gold-navy 1s infinite;
-  } */
-/*   
+  } 
+
   @keyframes glow-gold-navy {
   0% {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
@@ -291,7 +291,7 @@ a:hover{
   100% {
   box-shadow: 0 0 20px navy;
   }
-  } */
+}
 
 
 /* modified input search adapted from Header.js */
@@ -1335,7 +1335,7 @@ input[type="submit"]:hover {
   font-weight: bold;
   }
   
-  @keyframes glow-gold {
+  /* @keyframes glow-gold {
   0% {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
   }
@@ -1345,7 +1345,7 @@ input[type="submit"]:hover {
   100% {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
   }
-  }
+  } */
   
   .header-search input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;

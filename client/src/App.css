@@ -437,7 +437,30 @@ and remove the margin on the left and right respectively. */
   height: 600px;
   width: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
 }
+
+
+@keyframes glowing-shimmer-gold {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+}
+
+.banner-image:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  position: relative;
+  animation: glowing-shimmer-gold 1.5s infinite;
+}
+
 
 
 

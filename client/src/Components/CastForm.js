@@ -4,6 +4,7 @@ const CastForm = ({onCastSubmission}) => {
     const [name, setName] = useState("");
     const [age, setAge] = useState("");
     const [bio, setBio] = useState("");
+    const [image, setImage] = useState(null);
     
 
     const handleNameChange = (event) => {
@@ -18,6 +19,10 @@ const CastForm = ({onCastSubmission}) => {
         setBio(event.target.value);
     }
 
+    const handleImageChange = (event) => {
+        setImage(event.target.files[0]);
+      };
+
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -26,6 +31,7 @@ const CastForm = ({onCastSubmission}) => {
             name: name,
             age:age,
             bio:bio,
+            image: image,
         }
 
         onCastSubmission(newCast);
@@ -46,6 +52,10 @@ const CastForm = ({onCastSubmission}) => {
                 <div className="form-element">
                     <label htmlFor="bio">Actor's Bio</label>
                     <input type="text" id="bio" value={bio} onChange={handleBioChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="image">Actor's Image:</label>
+                    <input type="file" id="image" onChange={handleImageChange} />
                 </div>
                 <input type="submit" value="Add Actor"/>
             </form>

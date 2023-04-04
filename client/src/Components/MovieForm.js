@@ -7,6 +7,8 @@ const MovieForm = ({onMovieSubmission}) => {
     const [rating, setRating] = useState("");
     const [language , setLanguage] = useState("");
     const [genre, setGenre] = useState("");
+    const [image, setImage] = useState(null);
+    const [trailer, setTrailer] = useState("");
 
     const handleTitleChange = (event) => {
         setTitle(event.target.value);
@@ -32,6 +34,14 @@ const MovieForm = ({onMovieSubmission}) => {
         setGenre(event.target.value);
     }
 
+    const handleImageChange = (event) => {
+        setImage(event.target.files[0]);
+      };
+    
+      const handleTrailerChange = (event) => {
+        setTrailer(event.target.value);
+      };
+
     const handleFormSubmit = (event) => {
         event.preventDefault();
 
@@ -42,6 +52,8 @@ const MovieForm = ({onMovieSubmission}) => {
             rating:rating,
             language:language,
             genre:genre,
+            image: image,
+            trailer: trailer,
         }
 
         onMovieSubmission(newMovie);
@@ -74,6 +86,14 @@ const MovieForm = ({onMovieSubmission}) => {
                 <div className="form-element">
                     <label htmlFor="genre">Movie's Genre:</label>
                     <input type="text" id="genre" value={genre} onChange={handleGenreChange}/>
+                </div>
+                <div className="form-element">
+                    <label htmlFor="image">Movie's Image:</label>
+                    <input type="file" id="image" onChange={handleImageChange} />
+                </div>
+                <div className="form-element">
+                    <label htmlFor="trailer">Movie's Trailer URL:</label>
+                    <input type="text" id="trailer" value={trailer} onChange={handleTrailerChange} />
                 </div>
                 <input type="submit" value="Add Movie"/>
             </form>

@@ -8,6 +8,7 @@ return(
     <video controls autoplay loop height="500" width="1200" fullscreen>
     <source src={video} type="video/mp4"></source>
     </video>
+
     <Link to="/Home">
         <button>Continue to Home Page</button>
         </Link>

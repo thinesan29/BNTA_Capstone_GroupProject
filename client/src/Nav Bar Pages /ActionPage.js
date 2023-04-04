@@ -19,7 +19,7 @@ const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$
   const [movies, setMovies] = useState([]);
 
   const loadMovieData = () => {
-    fetch("http://localhost:8080/movies/random")
+    fetch("http://localhost:8080/movies/genre/ACTION")
       .then(response => response.json())
       .then(data => setMovies(data));
   }

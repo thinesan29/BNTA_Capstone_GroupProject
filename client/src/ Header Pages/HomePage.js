@@ -16,9 +16,11 @@ return(
     <Banner/>
     <br/>
     <h2>Recently Added Movies</h2>
+    <br/>
     <NewMoviesSlider />
     <br/>
     <h2>Trending Movies</h2>
+    <br/>
     <NewMoviesSlider />
     <br/>
     <OriginalsPage/>

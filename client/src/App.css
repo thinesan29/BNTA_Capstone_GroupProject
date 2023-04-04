@@ -416,6 +416,8 @@ and remove the margin on the left and right respectively. */
 /* banner css starts here */
 
 
+
+
 /* banner css ends here */
 
 
@@ -436,6 +438,8 @@ and remove the margin on the left and right respectively. */
   width: 100%;
   object-fit: cover;
 }
+
+
 
 .banner-trailer {
   height: 600px;
@@ -497,12 +501,26 @@ button:hover {
   border-radius: 1rem;
 }
 
+@keyframes glowing-shimmer {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
 #image:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
   position: relative;
+  /* animation: glowing-shimmer 1.5s infinite; */
 }
+
 
 .new-movies-slider-container center {
   padding: 10px;

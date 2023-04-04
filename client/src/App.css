@@ -1337,7 +1337,7 @@ input[type="submit"]:hover {
   font-weight: bold;
   }
   
-  /* @keyframes glow-gold {
+   @keyframes glow-gold {
   0% {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
   }
@@ -1347,7 +1347,7 @@ input[type="submit"]:hover {
   100% {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
   }
-  } */
+  }
   
   .header-search input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;

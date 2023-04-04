@@ -908,18 +908,6 @@ button:hover {
   position: relative;
 }
 
-/* @keyframes glowing-shimmer-gold {
-  0% {
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-  }
-  50% {
-    box-shadow: 0 0 20px rgba(255, 215, 0, 1);
-  }
-  100% {
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-  }
-} */
-
 @keyframes glowing-shimmer {
   0%, 100% {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
@@ -928,10 +916,10 @@ button:hover {
     box-shadow: 0 0 20px rgba(255, 215, 0, 1);
   }
   50% {
-    box-shadow: 0 0 10px rgba(0, 0, 128, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
   }
   75% {
-    box-shadow: 0 0 20px rgba(0, 0, 128, 1);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 1);
   }
 }
 
@@ -944,7 +932,6 @@ button:hover {
   display: block;
   margin: 10px auto;
 }
-
 
 /* End of Subscribe CSS */
 

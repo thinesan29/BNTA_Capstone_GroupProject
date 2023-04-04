@@ -5,7 +5,7 @@ const VideoPage = () => {
 return(
 
     <div className="video-page">
-    <video controls autoplay loop height="500" width="1200">
+    <video controls autoplay loop height="500" width="1200" fullscreen>
     <source src={video} type="video/mp4"></source>
     </video>
     <Link to="/Home">

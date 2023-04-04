@@ -65,7 +65,7 @@ public class DataLoader implements ApplicationRunner {
         Movie movie6 = new Movie("Succession", 26, LanguageEnum.ENGLISH, GenreEnum.TOP_RATED, "Sharp, witty, compelling, complex, riveting.", 4,"https://www.youtube.com/embed/OzYxJV_rmE8");
         Movie movie7 = new Movie("Cocaine Bear", 96, LanguageEnum.SPANISH, GenreEnum.TOP_RATED, "Darkly humorous, bizarre, captivating, unpredictable, entertaining.", 3,"https://www.youtube.com/embed/DuWEEKeJLMI");
         Movie movie8 = new Movie("Vikram", 174, LanguageEnum.TAMIL, GenreEnum.TOP_RATED, "Innovative, engaging, thrilling, emotional, action-packed.", 5,"https://www.youtube.com/embed/OKBMCL-frPU");
-        Movie movie9 = new Movie("KGF 2", 26, LanguageEnum.KANNADA, GenreEnum.TOP_RATED, "Gripping, intense, visually stunning, powerful.", 4,"https://www.youtube.com/embed/JKa05nyUmuQ");
+        Movie movie9 = new Movie("KGF 2", 168, LanguageEnum.KANNADA, GenreEnum.TOP_RATED, "Gripping, intense, visually stunning, powerful.", 4,"https://www.youtube.com/embed/JKa05nyUmuQ");
         Movie movie10 = new Movie("Modern Family", 23, LanguageEnum.ENGLISH, GenreEnum.TOP_RATED, "Heartwarming, hilarious, relatable, engaging, smart.", 4,"https://www.youtube.com/embed/X0lRjbrH-L8");
 
         Cast cast11 = new Cast("Brian Cox", 76, "Brian Cox, born in 1946, is a distinguished Scottish actor known for roles in Succession, X-Men 2, and Troy.");

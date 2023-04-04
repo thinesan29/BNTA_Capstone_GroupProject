@@ -32,7 +32,8 @@ const TopRatedPage = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplaySpeed: 5000,
       }
 
   // Trailer Button Function 

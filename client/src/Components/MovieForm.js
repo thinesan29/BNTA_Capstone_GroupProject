@@ -39,11 +39,11 @@ const MovieForm = ({onMovieSubmission}) => {
         setImage(event.target.files[0]);
       };
     
-    const handleTrailerChange = (event) => {
+      const handleTrailerChange = (event) => {
         setTrailer(event.target.value);
       };
 
-    const handleValidation = () => {
+      const handleValidation = () => {
         if (!title || !duration || !review || !rating || !language || !genre || !image || !trailer) {
             setError("Please fill in all fields.");
             return false;
@@ -61,26 +61,28 @@ const MovieForm = ({onMovieSubmission}) => {
 
         setError("");
         return true;
-        };
+    };
 
-        const handleFormSubmit = (event) => {
-            event.preventDefault();
-    
-            if (handleValidation()) {
-            const newMovie = {
-                title: title,
-                duration:duration,
-                review:review,
-                rating:rating,
-                language:language,
-                genre:genre,
-                image: image,
-                trailer: trailer,
-            }
-    
-            onMovieSubmission(newMovie);
-            }
+      
+
+    const handleFormSubmit = (event) => {
+        event.preventDefault();
+
+        if (handleValidation()) {
+        const newMovie = {
+            title: title,
+            duration:duration,
+            review:review,
+            rating:rating,
+            language:language,
+            genre:genre,
+            image: image,
+            trailer: trailer,
         }
+
+        onMovieSubmission(newMovie);
+        }
+    }
 
     return (
         <div className="form-container">
@@ -111,7 +113,7 @@ const MovieForm = ({onMovieSubmission}) => {
                     <input type="text" id="genre" value={genre} onChange={handleGenreChange}/>
                 </div>
                 <div className="form-element">
-                    <label htmlFor="image">Movie's Poster:</label>
+                    <label htmlFor="image">Movie's Image:</label>
                     <input type="file" id="image" onChange={handleImageChange} />
                 </div>
                 <div className="form-element">
@@ -120,7 +122,7 @@ const MovieForm = ({onMovieSubmission}) => {
                 </div>
                 <input type="submit" value="Add Movie"/>
             </form>
-        <p>{error}</p>
+            <p>{error}</p>
         </div>
     )
 

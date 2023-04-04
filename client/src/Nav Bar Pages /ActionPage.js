@@ -51,6 +51,7 @@ const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$
 
   return (
     <div className="action-container">
+      <h2>Action Movies</h2>
       <Slider {...sliderSettings}>
         {movies.map(movie => (
           <div key={movie.id}>

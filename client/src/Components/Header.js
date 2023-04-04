@@ -1,14 +1,17 @@
 import logo from './Logo.png';
 import video from './video.mp4'
 import { Link } from 'react-router-dom'; 
+import BlockbusterRebornLogo from './BlockbusterRebornLogo.png';
 
 const Header = () => { 
   return (
     <div className="header">
   <div className="header-logo-container">
   <img src="https://i.imgur.com/NzIiXNq.png" alt="Blockbuster.gif" height="50"/>
-  <img src="https://i.imgur.com/VRd6SNn.png"alt="BlockbusterRebornLogo.gif" height="120"/>
+  <img src={BlockbusterRebornLogo} alt="BlockbusterRebornLogo.png" height="55"/>
   </div>
+
+  
 
     {/* fix popcorn gif so it's on same level as blockbuster reborn logo */}
 
@@ -26,7 +29,7 @@ const Header = () => {
     <img
       src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"
       alt="Avatar"
-      height="90"
+      height="75"
     />
   </div>
     </div>

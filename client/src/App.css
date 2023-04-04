@@ -247,8 +247,8 @@ a:hover{
 
 .header-avatar-container {
   position: relative;
-  width: 55px;
-  height: 55x;
+  width: 40px;
+  height: 40x;
   cursor: pointer;
   transition: all 0.3s ease;
   }
@@ -335,7 +335,8 @@ a:hover{
   opacity: 1;
   transform: scale(1.1);
   filter: drop-shadow(0 0 10px #fff);
-}
+} 
+
 
 
 /* header css ends here */

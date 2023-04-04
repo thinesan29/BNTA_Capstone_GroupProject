@@ -920,6 +920,19 @@ button:hover {
   }
 }
 
+@keyframes glowing-shimmer-navy {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 128, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 128, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 0, 128, 0.5);
+  }
+}
+
+
 .new-movie img:hover {
   transform: scale(1.1);
   animation: glowing-shimmer-gold 2s infinite alternate, glowing-shimmer-navy 2s infinite alternate;

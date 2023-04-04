@@ -7,7 +7,10 @@ const Header = () => {
     <div className="header">
   <div className="header-logo-container">
   <img src="https://i.imgur.com/NzIiXNq.png" alt="Blockbuster.gif" height="50"/>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJkNzU1ZmQyZDU3M2UyZTM2MjljNGVhNDExNzU1MThmNWI0NmEyMCZjdD1z/KAeUm0GNLIP3VNOFu9/giphy.gif"alt="Popcorn.gif" height="65"/>
   </div>
+
+    {/* fix popcorn gif so it's on same level as blockbuster reborn logo */}
 
   <div className="header-nav-container">
     <div className="header-nav">

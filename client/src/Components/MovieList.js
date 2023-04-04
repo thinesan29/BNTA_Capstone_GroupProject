@@ -1,8 +1,8 @@
 import Movie from "./Movie";
 
-const MovieList = ({movies, onDelete}) => {
+const MovieList = ({movies, onDelete, onUpdate}) => {
     const movieComponents = movies.map(
-        movie => <Movie movie={movie} onDelete={onDelete} key={movie.id}/>
+        movie => <Movie movie={movie} onDelete={onDelete} onUpdate={onUpdate} key={movie.id}/>
     );
 
     return (

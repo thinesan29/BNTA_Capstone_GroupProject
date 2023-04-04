@@ -22,6 +22,17 @@ const MovieContainer = () => {
             .then(loadMovieData);
     }
 
+    const updateMovie = (id, updatedMovie) => {
+        fetch(`http://localhost:8080/movies/${id}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(updatedMovie)
+        })
+            .then(loadMovieData);
+    }
+
     const removeMovie = (id) => {
         fetch(`http://localhost:8080/movies/${id}`, {
             method: "DELETE"
@@ -34,7 +45,7 @@ const MovieContainer = () => {
     return(
         <div className="grid-container">
             <MovieForm onMovieSubmission={submitNewMovie}/>
-            <MovieList movies={movies} onDelete={removeMovie}/>
+            <MovieList movies={movies} onDelete={removeMovie} onUpdate={updateMovie}/>
         </div>
     )
 

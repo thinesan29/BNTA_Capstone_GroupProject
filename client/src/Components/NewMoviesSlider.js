@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-const NewMoviesSlider = ({cast}) => {
+const NewMoviesSlider = ({}) => {
   function importAll(r) {
     let images = {};
     r.keys().map((item, index) => {
@@ -43,10 +43,10 @@ const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$
      setShowTrailer(!showTrailer); // toggle state on button click
    }
 
-   // Cast Detail Button 
-   const [showCastDetails, setShowCastDetails] = useState(false);
-   const handleCastDetails = () => {
-    setShowCastDetails(!showCastDetails); // toggle state on button click
+   // Movie Detail Button 
+   const [showMovieDetails, setShowMovieDetails] = useState(false);
+   const handleMovieDetails = () => {
+    setShowMovieDetails(!showMovieDetails); // toggle state on button click
   }
 
   return (
@@ -59,7 +59,7 @@ const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$
             <br/>
             <h2>{movie.title}</h2>
             <hr/>
-            {showCastDetails && (
+            {showMovieDetails && (
               <div>
             <p>Movie Duration (mins): {movie.duration}</p>
             <p>Movie Review: {movie.review}</p>
@@ -88,8 +88,8 @@ const pics = importAll(require.context('../pics/Movie', false, /\.(png|jpg|svg)$
               width="400"
             ></iframe>
           )}
-          <button onClick={handleCastDetails}>
-            {showCastDetails ? "Hide Movie Details" : "View Movie Details"}
+          <button onClick={handleMovieDetails}>
+            {showMovieDetails ? "Hide Movie Details" : "View Movie Details"}
           </button>
           <br/>
           <br/>

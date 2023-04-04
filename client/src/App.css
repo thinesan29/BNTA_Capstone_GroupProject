@@ -251,8 +251,8 @@ a:hover{
 
 .header-avatar-container {
   position: relative;
-  width: 55px;
-  height: 55x;
+  width: 40px;
+  height: 40x;
   cursor: pointer;
   transition: all 0.3s ease;
   }
@@ -339,7 +339,8 @@ a:hover{
   opacity: 1;
   transform: scale(1.1);
   filter: drop-shadow(0 0 10px #fff);
-}
+} 
+
 
 
 /* header css ends here */
@@ -357,6 +358,25 @@ a:hover{
   font-family: 'Teko', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
+}
+
+/* popcorngif stuff */
+
+.popcorn-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+
+.popcorn-gif {
+  margin-right: 10px;
+}
+
+.popcorn-gif img {
+  height: 60px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* more rounded appearance and transition effect */

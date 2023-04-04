@@ -111,7 +111,7 @@ const MovieForm = ({onMovieSubmission}) => {
                     <input type="text" id="genre" value={genre} onChange={handleGenreChange}/>
                 </div>
                 <div className="form-element">
-                    <label htmlFor="image">Movie's Image:</label>
+                    <label htmlFor="image">Movie's Poster:</label>
                     <input type="file" id="image" onChange={handleImageChange} />
                 </div>
                 <div className="form-element">

@@ -490,6 +490,7 @@ button:hover {
 #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 #image:hover {
@@ -519,11 +520,13 @@ button:hover {
 
 .originals-container {
   position: relative;
+  
 }
 
 .originals-container #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 .originals-container #image:hover {
@@ -556,6 +559,7 @@ button:hover {
 .top-rated-container #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 .top-rated-container #image:hover {
@@ -589,6 +593,7 @@ button:hover {
 .action-container #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 .action-container #image:hover {
@@ -622,6 +627,7 @@ button:hover {
 .comedy-container #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 .comedy-container #image:hover {
@@ -655,6 +661,7 @@ button:hover {
 .documentaries-container #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 .documentaries-container #image:hover {
@@ -667,6 +674,7 @@ button:hover {
 .documentaries-container center {
   padding: 10px;
   overflow: visible;
+  border-radius: 1rem;
 }
 
 .documentaries-container h3 {
@@ -688,6 +696,7 @@ button:hover {
 .horror-container #image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  border-radius: 1rem;
 }
 
 .horror-container #image:hover {
@@ -853,6 +862,7 @@ button:hover {
   width: 110%;
   height: auto;
   transition: 0.3s;
+  border-radius: 1rem;
 }
 
 .new-movie img:hover {

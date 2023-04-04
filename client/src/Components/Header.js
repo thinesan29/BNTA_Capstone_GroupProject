@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header">
   <div className="header-logo-container">
-  <img src="https://i.imgur.com/6dSJYYh.png" alt="Blockbuster.gif" height="50"/>
+  <img src="https://i.imgur.com/NzIiXNq.png" alt="Blockbuster.gif" height="50"/>
   </div>
 
   <div className="header-nav-container">

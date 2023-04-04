@@ -908,7 +908,7 @@ button:hover {
   position: relative;
 }
 
-@keyframes glowing-shimmer-gold {
+/* @keyframes glowing-shimmer-gold {
   0% {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
   }
@@ -918,7 +918,7 @@ button:hover {
   100% {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
   }
-}
+} */
 
 @keyframes glowing-shimmer {
   0%, 100% {

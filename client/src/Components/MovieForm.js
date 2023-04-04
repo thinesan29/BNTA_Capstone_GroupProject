@@ -9,6 +9,7 @@ const MovieForm = ({onMovieSubmission}) => {
     const [genre, setGenre] = useState("");
     const [image, setImage] = useState(null);
     const [trailer, setTrailer] = useState("");
+    const [error, setError] = useState("");
 
     const handleTitleChange = (event) => {
         setTitle(event.target.value);
@@ -38,26 +39,48 @@ const MovieForm = ({onMovieSubmission}) => {
         setImage(event.target.files[0]);
       };
     
-      const handleTrailerChange = (event) => {
+    const handleTrailerChange = (event) => {
         setTrailer(event.target.value);
       };
 
-    const handleFormSubmit = (event) => {
-        event.preventDefault();
-
-        const newMovie = {
-            title: title,
-            duration:duration,
-            review:review,
-            rating:rating,
-            language:language,
-            genre:genre,
-            image: image,
-            trailer: trailer,
+    const handleValidation = () => {
+        if (!title || !duration || !review || !rating || !language || !genre || !image || !trailer) {
+            setError("Please fill in all fields.");
+            return false;
         }
 
-        onMovieSubmission(newMovie);
-    }
+        if (language !== language.toUpperCase() || genre !== genre.toUpperCase()) {
+            setError("Please enter language and genre in uppercase.");
+            return false;
+          }
+
+        if (rating <= 1 || rating >= 10) {
+            setError("Rating must be a number between 1 and 10.");
+            return false;
+          }
+
+        setError("");
+        return true;
+        };
+
+        const handleFormSubmit = (event) => {
+            event.preventDefault();
+    
+            if (handleValidation()) {
+            const newMovie = {
+                title: title,
+                duration:duration,
+                review:review,
+                rating:rating,
+                language:language,
+                genre:genre,
+                image: image,
+                trailer: trailer,
+            }
+    
+            onMovieSubmission(newMovie);
+            }
+        }
 
     return (
         <div className="form-container">
@@ -97,6 +120,7 @@ const MovieForm = ({onMovieSubmission}) => {
                 </div>
                 <input type="submit" value="Add Movie"/>
             </form>
+        <p>{error}</p>
         </div>
     )
 

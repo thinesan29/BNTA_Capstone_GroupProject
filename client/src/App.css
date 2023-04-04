@@ -45,6 +45,7 @@ a:hover{
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
       width: 80%;
       max-width: 600px;
+      color: navy;
     }
     
     .login-container h2 {

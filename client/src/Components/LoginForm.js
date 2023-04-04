@@ -3,12 +3,18 @@ import { useState } from "react";
 const LoginForm = () => {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`Logged in as ${user}...`);
-    setUser("");
-    setPassword("");
+    if (!user || !password) {
+      setError("Please fill in all fields.");
+    } else {
+      alert(`Logged in as ${user}...`);
+      setUser("");
+      setPassword("");
+      setError("");
+    }
   };
 
 
@@ -30,6 +36,7 @@ const LoginForm = () => {
         </div>
         <input type="submit" value="Login" />
       </form>
+      <p>{error}</p>
     </div>
   );
 };

@@ -6,8 +6,8 @@ const CastPage = () => {
 return(
     <>
     <h1>Cast Database</h1>
-        <Link to="/Admin">
-        <button>Back to Admin Page</button>
+        <Link to="/Admin/Manage">
+        <button>Go Back</button>
         </Link>
     <CastContainer/>
     </>

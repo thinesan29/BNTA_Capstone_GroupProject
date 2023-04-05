@@ -126,11 +126,13 @@ const MovieForm = ({onMovieSubmission}) => {
                     <input type="text" id="genre" value={genre} onChange={handleGenreChange}/>
                 </div>
                 <div className="form-element">
-                    <label htmlFor="image">Movie's Image:</label>
+                    <label htmlFor="image">Movie's Poster:</label>
+                    <p>Please note Movie Poster name must match the Movie Title name.</p>
                     <input type="file" id="image" onChange={handleImageChange} />
                 </div>
                 <div className="form-element">
                     <label htmlFor="trailer">Movie's Trailer URL:</label>
+                    <p>Please note Trailer URL must be an embedded YouTube link.</p>
                     <input type="text" id="trailer" value={trailer} onChange={handleTrailerChange} />
                 </div>
                 <input type="submit" value="Add Movie"/>

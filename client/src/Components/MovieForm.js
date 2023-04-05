@@ -58,6 +58,19 @@ const MovieForm = ({onMovieSubmission}) => {
             setError("Rating must be a number between 1 and 10.");
             return false;
           }
+        
+        if (!trailer.includes("embed")) {
+            setError("Trailer URL must be an embedded YouTube link! Please check again!");
+            return false;
+          }
+
+          const imageName = image.name.toLowerCase();
+          const movieTitle = title.toLowerCase();
+  
+          if (!imageName.includes(movieTitle)) {
+              setError("Movie Title Name must match Movie Poster Name!");
+              return false;
+          }
 
         setError("");
         return true;

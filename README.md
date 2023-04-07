@@ -24,7 +24,7 @@ https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content
 
 PART 1: Backend Blockbuster Reborn API
 
-> Blockbuster Reborn Backend Presentation 🧑‍🎨
+> Blockbuster Reborn Backend Presentation 🧑‍🎨🎥
 
 > 1. Backend Project Description 💬
 > 2. Backend Project Diagrams 🎨
@@ -33,7 +33,7 @@ PART 1: Backend Blockbuster Reborn API
 
 PART 2: Frontend Blockbuster Reborn React Application
 
-> Blockbuster Reborn Frontend Presentation 🧑‍🎨
+> Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
 
 > 5. Blockbuster Reborn Frontend Diagrams 🎨
 > 6. Blockbuster Reborn Frontend Instructions to Run Application 🔢

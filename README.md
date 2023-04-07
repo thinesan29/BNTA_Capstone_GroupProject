@@ -21,7 +21,7 @@ PART 1: Backend Blockbuster Reborn API
 
 > 1. Backend Project Description 💬
 > 2. Backend Project Diagrams 🎨
-> 3. Blockbuster Reborn API 🧑‍💻
+> 3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍
 > 4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖
 
 PART 2: Frontend React Application
@@ -73,8 +73,7 @@ The entity relationship diagram shows the relationship between each model in the
 
 <br />
 
-## **_3. Blockbuster Reborn API 🧑‍💻_**
-
+## **_3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍💻_**
 
 <!--- ## How to use the API -->
 

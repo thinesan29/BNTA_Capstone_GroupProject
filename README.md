@@ -32,7 +32,6 @@ PART 2: Frontend Blockbuster Reborn React Application
 > 8. Blockbuster Reborn Frontend Demo 🧑‍💻
 > 9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖
 > 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
-> 11. Blockbuster Reborn Collaborators
 
 
 <!--- # Blockbuster Reborn Backend Project -->

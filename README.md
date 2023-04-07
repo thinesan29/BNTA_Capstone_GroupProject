@@ -13,7 +13,7 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 - Ryder Rashid (Github: [rrydderr](https://github.com/rrydderr))
 - Thinesan Manoseelan (Github: [thinesan29](https://github.com/thinesan29))
 
-## **_Blockbuster Reborn Presentation Link 🧑‍🎨_**
+## **_Blockbuster Reborn Presentation Link 🧑‍🎨 (Ultra Clear 😎)_**
 
 https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content=DAFeypC6k4M&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 

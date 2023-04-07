@@ -30,7 +30,7 @@ PART 2: Frontend Blockbuster Reborn React Application
 
 > 5. Blockbuster Reborn Frontend Diagrams 🎨
 > 6. Blockbuster Reborn Frontend Instructions to Run Application 🔢
-> 7. Blockbuster Reborn Frontend Routes 🗺🛣 
+> 7. Blockbuster Reborn Frontend Routes 🗺 
 > 8. Blockbuster Reborn Frontend Demo 🧑‍💻
 > 9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖
 > 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥

@@ -173,10 +173,16 @@ Our Component diagram was our initial visual representation of how the different
 
   1.	Clone project from GitHub (https://github.com/thinesan29/BNTA_Capstone_GroupProject)
         - In Terminal: `git clone https://github.com/thinesan29/BNTA_Capstone_GroupProject`
-  3.	Install node modules: 
+  2.	Install node modules: 
         -	In Terminal: `npm i` or `npm install`
-  4.	Download and open VSCode
-  5.	Run React App:
+  3.  Install React Icons.<br>
+        - In your terminal, perform the following command: `npm i react-icons`
+  4.  Install React Slick.<br>
+        - In your terminal, perform the following command: `npm i react-slick`
+  5.   Install React Bootstrap.<br>
+        - In your terminal, perform the following command: `npm i react-bootstrap`
+  6.	Download and open VSCode
+  7.	Run React App:
         -	In Terminal: `npm start`
         -	App should open automatically on browser
         -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser

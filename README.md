@@ -2,6 +2,8 @@
 
 Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn, the go-to streaming site that brings the joy of movie nights back to life. Browse through our vibrant virtual shelves, packed with blockbuster hits, indie darlings, and everything in between. Interact with fellow film aficionados in our bustling online community, and join us for unforgettable themed movie nights. Blockbuster Reborn is your one-stop shop for pure movie magic. 🪄🎬
 
+#####  ⚠️ Please note that this project was created solely for educational purposes and is not intended to be used for any personal profit through using the Blockbuster Brand. Our aim is to showcase our skills and knowledge within Full Stack Sofware Development.
+
 ## **_Blockbuster Reborn Cast & Crew (Collaborators) 🎭_**
 
 <!--- ## Collaborators -->

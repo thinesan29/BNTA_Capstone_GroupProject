@@ -209,11 +209,11 @@ https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb
 
 <br />
 
-If you would like to keep up to date with Blockbuster Reborn 🍿, our future developments 🤔 and perhaps collaborate 🤝, please STAR this repository 🌟 and/or feel free to reach out to us. 
+If you would like to keep up to date with **Blockbuster Reborn** 🍿, our **future developments** 🤔 and perhaps **collaborate** 🤝, **please STAR** this repository 🌟 and/or feel free to **reach out to us**. 
 
-Thank you and have a great day from the team at Blockbuster Reborn! ☺️
+Thank you and have a Blockbuster day from the team at Blockbuster Reborn! ☺️
 
-<img src ="./Blockbuster Reborn Logo Github.png" alt="Blockbuster Reborn Logo" width="100%"/>
+<img src ="./Blockbuster Reborn Logo Github.png" alt="Blockbuster Reborn Logo" width="50%"/>
 
 
 

@@ -101,7 +101,7 @@ https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af
 
   1.	Clone API from GitHub (https://github.com/thinesan29/BNTA_Capstone_GroupProject):
         - In Terminal: `git clone git@github.com:thinesan29/BNTA_Capstone_GroupProject.git`
-  3.	Create local database called “movies_api”: 
+  3.	Create local database called “movies”: 
          -	In Terminal: `createdb movies`
   4.	Download and install IntelliJ
   5.	Open API in IntelliJ

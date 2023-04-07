@@ -164,7 +164,6 @@ Our Component diagram was our initial visual representation of how the different
 
 <img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="85%"/>
 
-<hr />
 
 ## **_6. Blockbuster Reborn Frontend Instructions to Run Application 🔢_**
        
@@ -198,8 +197,6 @@ All Movies: `http://localhost:8080/movies`
 
 deploy React app here with link in about section as well
 
-<hr />
-
 ## **_9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
 * Spring Data JPA
 * Spring Web
@@ -226,5 +223,5 @@ https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb
 <img src ="./Blockbuster Reborn Logo Github.png" alt="Blockbuster Reborn Logo" width="50%"/>
 
 
- #### © Blockbuster Reborn, April 2023
+#### © Blockbuster Reborn, April 2023
 

@@ -188,7 +188,7 @@ deploy React app here with link in about section as well
 
 <hr />
 
-## **_8. Blockbuster Reborn Frontend Dependencies & Tech Stack**
+## **_8. Blockbuster Reborn Frontend Dependencies & Tech Stack_**
 * Spring Data JPA
 * Spring Web
 * SpringBoot Devtools
@@ -198,7 +198,16 @@ deploy React app here with link in about section as well
   * React Bootstrap
   * React Slick  
 
-## **_9. Blockbuster Reborn Collaborators_**
+## **_9. Blockbuster Reborn Cast & Crew Thank You Message 🙏🎥_**
+
+We've arrived at the end of our project, here's a message from our team:
+
+
+https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb-ad5d-c71ea5338087.mp4
+
+
+
+## **_10. Blockbuster Reborn Collaborators_**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))

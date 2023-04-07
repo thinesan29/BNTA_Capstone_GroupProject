@@ -61,7 +61,7 @@ MovieCastMember contains the movie, cast and character name.
 Genre contains ORIGINALS,TOP_RATED,ACTION,COMEDY,DOCUMENTARIES,HORROR.
 
 ### Language(Enum):
-Language contains:ENGLISH,TAMIL,SPANISH,GERMAN,KANNADA,KOREAN,HINDI
+Language contains:ENGLISH,TAMIL,SPANISH,GERMAN,KANNADA,KOREAN,HINDI.
 
 <br />
 

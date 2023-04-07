@@ -95,8 +95,6 @@ https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af
 
 ***Please also refer to the above video when using Postman 👆***
 
-### RESTful route endpoints
-
 ## How to run
 
 **Open and run back-end API in IntelliJ:**

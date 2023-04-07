@@ -91,7 +91,7 @@ https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af
 
 **Open and run back-end API in IntelliJ:**
 
-  1.	Clone API from GitHub (https://github.com/thinesan29/BTNA_Capstone_Project):
+  1.	Clone API from GitHub (https://github.com/thinesan29/BNTA_Capstone_GroupProject):
         - In Terminal: `git clone git@github.com:thinesan29/BNTA_Capstone_GroupProject.git`
   3.	Create local database called “movies_api”: 
          -	In Terminal: `createdb movies`
@@ -162,8 +162,8 @@ Our Component diagram was our initial visual representation of how the different
        
 **Open and run front-end project in VSCode:** 
 
-  1.	Clone project from GitHub (https://github.com/thinesan29/BTNA_Capstone_Project)
-        - In Terminal: `git clone https://github.com/thinesan29/BTNA_Capstone_Project`
+  1.	Clone project from GitHub (https://github.com/thinesan29/BNTA_Capstone_GroupProject)
+        - In Terminal: `git clone https://github.com/thinesan29/BNTA_Capstone_GroupProject`
   3.	Install node modules: 
         -	In Terminal: `npm i` or `npm install`
   4.	Download and open VSCode

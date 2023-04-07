@@ -147,11 +147,11 @@ Our Wireframe diagram was our initial visual representation of the Blockbuster R
 <img src ="./Blockbuster Reborn Wireframe Initial Diagram.png" alt="Blockbuster Reborn Wireframe" width="100%"/>
 
 ### Component Diagram
-Our Component diagram illustrate how the different user interface elements such as the header, footer, search bar, and videos are related and interact with each other to create the overall user experience. 
+Our Component diagram was our initial visual representation of how the different user interface elements such as the header, footer, search bar, and videos were related and interacted with each other to create the overall user experience.
 
 *This can be found in the "Blockbuster Reborn Component Initial Diagram.png" file.*
 
-<img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="90%"/>
+<img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="85%"/>
 
 <hr />
 

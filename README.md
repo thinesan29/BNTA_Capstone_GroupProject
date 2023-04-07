@@ -45,9 +45,9 @@ The class diagram shows the relationships and attributes of each model. It can b
 
 
 ### Entity Relationship Diagram  
-The entity relationship diagram shows the relationship between each model in the database. It can be found in the "Entity Relationship Diagram Final Backend.png" file.
+The entity relationship diagram shows the relationship between each model in the database. It can be found in the "Blockbuster Reborn Capstone ERD.png" file.
 
-<img src="./Entity Relationship Diagram Final Backend.png" alt="entity relationship diagram" width="80%"/>
+<img src="./Blockbuster Reborn Capstone ERD.png" alt="entity relationship diagram" width="80%"/>
 
 <br />
 

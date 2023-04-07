@@ -130,12 +130,16 @@ The movie model contains filters and a sort that allow the user to narrow their 
 ## **_5. Blockbuster Reborn Frontend Diagrams_**
 
 ### Wireframe Diagram 
-Our Wireframe diagram was our initial visual representation of the Blockbuster Reborn website's layout and functionality, showing the position of elements, content and the user interface, but without the design and style elements. It can be found in the "Blockbuster Reborn Wireframe Initial Diagram.png" file.
+Our Wireframe diagram was our initial visual representation of the Blockbuster Reborn website's layout and functionality, showing the position of elements, content and the user interface, but without the design and style elements. 
+
+*This can be found in the "Blockbuster Reborn Wireframe Initial Diagram.png" file.*
 
 <img src ="./Blockbuster Reborn Wireframe Initial Diagram.png" alt="Blockbuster Reborn Wireframe" width="80%"/>
 
 ### Component Diagram
-Our Component diagram illustrate how the different user interface elements such as the header, footer, search bar, and videos are related and interact with each other to create the overall user experience. It can be found in the "Blockbuster Reborn Component Initial Diagram.png" file.
+Our Component diagram illustrate how the different user interface elements such as the header, footer, search bar, and videos are related and interact with each other to create the overall user experience. 
+
+*This can be found in the "Blockbuster Reborn Component Initial Diagram.png" file.*
 
 <img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="80%"/>
 

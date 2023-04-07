@@ -2,6 +2,15 @@
 
 Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn, the go-to streaming site that brings the joy of movie nights back to life. Browse through our vibrant virtual shelves, packed with blockbuster hits, indie darlings, and everything in between. Interact with fellow film aficionados in our bustling online community, and join us for unforgettable themed movie nights. Blockbuster Reborn is your one-stop shop for pure movie magic. 🪄🎬
 
+## **_. Blockbuster Reborn Cast & Crew (Collaborators)_**
+
+<!--- ## Collaborators -->
+- Leah Simon (Github: [nsleeah](https://github.com/nsleeah))
+- Mohamed Abdi (Github: [mohincode](https://github.com/mohincode))
+- Ramiro Richmand (Github: [ramirorichmand](https://github.com/ramirorichmand))
+- Ryder Rashid (Github: [rrydderr](https://github.com/rrydderr))
+- Thinesan Manoseelan (Github: [thinesan29](https://github.com/thinesan29))
+
 <!-- Presentation Goes Here -->
 
 ### This README will be split into two parts, the first containing the backend API and the second containing the frontend REACT application
@@ -143,13 +152,9 @@ Our Component diagram illustrate how the different user interface elements such 
 
 <img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="80%"/>
 
------------
 <hr />
 
-## **_6. Blockbuster Reborn Frontend Instructions to Run_**
-
-
-## How to run
+## **_6. Blockbuster Reborn Frontend Instructions to Run Application_**
        
 **Open and run front-end project in VSCode:** 
 
@@ -163,11 +168,7 @@ Our Component diagram illustrate how the different user interface elements such 
         -	App should open automatically on browser
         -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser
 
-----------------
-## **_7. Blockbuster Reborn Frontend Routes**
-
-
-## Routes
+## **_7. Blockbuster Reborn Frontend Routes_**
 
 The following are the Routes available on the React app, configured using the React Router library:
 
@@ -177,8 +178,7 @@ All Movies: `http://localhost:8080/movies`
 
 <!-- Add in others as well -->
 
-<hr />
-## **_7. Blockbuster Reborn Frontend Demo**
+## **_7. Blockbuster Reborn Frontend Demo_**
 *Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
 
 ## Our Demo 
@@ -188,7 +188,17 @@ deploy React app here with link in about section as well
 
 <hr />
 
-## **_8. Blockbuster Reborn Collaborators_**
+## **_8. Blockbuster Reborn Frontend Dependencies & Tech Stack**
+* Spring Data JPA
+* Spring Web
+* SpringBoot Devtools
+* CSS
+* JavaScript
+* React
+  * React Bootstrap
+  * React Slick  
+
+## **_9. Blockbuster Reborn Collaborators_**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))

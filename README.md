@@ -2,7 +2,7 @@
 
 Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn, the go-to streaming site that brings the joy of movie nights back to life. Browse through our vibrant virtual shelves, packed with blockbuster hits, indie darlings, and everything in between. Interact with fellow film aficionados in our bustling online community, and join us for unforgettable themed movie nights. Blockbuster Reborn is your one-stop shop for pure movie magic. 🪄🎬
 
-## **_Blockbuster Reborn Cast & Crew (Collaborators)_**
+## **_Blockbuster Reborn Cast & Crew (Collaborators) 🎭_**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))
@@ -17,14 +17,27 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 
 ## **TABLE OF CONTENTS** 📖
 
-> 1. Backend Project Description
-> 2. Backend Diagrams
-> 3. Backend Technologies
-> 4. Backend Dependencies
-> 5. Blockbuster Reborn API
+PART 1: Backend Blockbuster Reborn API
+
+> 1. Backend Project Description 💬
+> 2. Backend Project Diagrams 🎨
+> 3. Blockbuster Reborn API 🧑‍💻
+> 4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖
+
+PART 2: Frontend React Application
+
+> 5. Blockbuster Reborn Frontend Diagrams 🎨
+> 6. Blockbuster Reborn Frontend Instructions to Run Application 🔢
+> 7. Blockbuster Reborn Frontend Routes 🗺🛣 
+> 8. Blockbuster Reborn Frontend Demo 🧑‍💻
+> 9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖
+> 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
+> 11. Blockbuster Reborn Collaborators
+
+
 <!--- # Blockbuster Reborn Backend Project -->
 
-## **_1. Backend Project Description_**
+## **_1. Backend Project Description 💬_**
 
 <!--- ## Description --> 
 
@@ -44,7 +57,7 @@ Cast contains an id, age, bio and name.
 MovieCastMember contains the movie, cast and character name.
 
 <br />
-## **_2. Backend Project Diagrams_**
+## **_2. Backend Project Diagrams 🎨_**
 
 ### Class Diagram 
 The class diagram shows the relationships and attributes of each model. It can be found in the "UML Diagram Backend Final.png" file.
@@ -59,20 +72,7 @@ The entity relationship diagram shows the relationship between each model in the
 
 <br />
 
-## **_3. Backend Tech Stack_**
-
-
-<!--- ## Tech Stack -->
-
-The technologies used for this project are:
-- Intellij IDEA, running JDK 17
-- Spring Boot
-- PostgreSQL 
-- Postman
-
-<br />
-
-## **_4. Blockbuster Reborn API_**
+## **_3. Blockbuster Reborn API 🧑‍💻_**
 
 
 <!--- ## How to use the API -->
@@ -126,7 +126,7 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 <br />
 
-## **_5. Blockbuster Reborn Backend Dependencies & Tech Stack_**
+## **_4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖_**
 
 <!--- ## Dependencies -->
 - Spring Web
@@ -137,7 +137,7 @@ The movie model contains filters and a sort that allow the user to narrow their 
 <!-- Add Tech Stack -->
 
 
-## **_6. Blockbuster Reborn Frontend Diagrams_**
+## **_5. Blockbuster Reborn Frontend Diagrams 🎨_**
 
 ### Wireframe Diagram 
 Our Wireframe diagram was our initial visual representation of the Blockbuster Reborn website's layout and functionality, showing the position of elements, content and the user interface, but without the design and style elements. 
@@ -155,7 +155,7 @@ Our Component diagram illustrate how the different user interface elements such 
 
 <hr />
 
-## **_7. Blockbuster Reborn Frontend Instructions to Run Application_**
+## **_6. Blockbuster Reborn Frontend Instructions to Run Application 🔢_**
        
 **Open and run front-end project in VSCode:** 
 
@@ -169,7 +169,7 @@ Our Component diagram illustrate how the different user interface elements such 
         -	App should open automatically on browser
         -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser
 
-## **_8. Blockbuster Reborn Frontend Routes_**
+## **_8. Blockbuster Reborn Frontend Routes  🗺🛣 _**
 
 The following are the Routes available on the React app, configured using the React Router library:
 
@@ -179,7 +179,7 @@ All Movies: `http://localhost:8080/movies`
 
 <!-- Add in others as well -->
 
-## **_9. Blockbuster Reborn Frontend Demo_**
+## **_9. Blockbuster Reborn Frontend Demo 🧑‍💻_**
 *Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
 
 ## Our Demo 
@@ -189,7 +189,7 @@ deploy React app here with link in about section as well
 
 <hr />
 
-## **_10. Blockbuster Reborn Frontend Dependencies & Tech Stack_**
+## **_10. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
 * Spring Data JPA
 * Spring Web
 * SpringBoot Devtools

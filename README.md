@@ -80,7 +80,9 @@ The entity relationship diagram shows the relationship between each model in the
 <!-- Demo Goes Here -->
 https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af-855c-0b2ac89f179b.mp4
 
-Please also refer to the above video when using Postman
+<br />
+
+***Please also refer to the above video when using Postman 👆***
 
 ### RESTful route endpoints
 

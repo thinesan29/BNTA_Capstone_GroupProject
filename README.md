@@ -22,18 +22,18 @@ https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content
 
 ## **TABLE OF CONTENTS** 📖
 
-PART 1: Backend Blockbuster Reborn API
+#### PART 1: Backend Blockbuster Reborn API
 
-> Blockbuster Reborn Backend Presentation 🧑‍🎨🎥
+> #### Blockbuster Reborn Backend Presentation 🧑‍🎨🎥
 
 > 1. Backend Project Description 💬
 > 2. Backend Project Diagrams 🎨
 > 3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍💻
 > 4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖
 
-PART 2: Frontend Blockbuster Reborn React Application
+#### PART 2: Frontend Blockbuster Reborn React Application
 
-> Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
+> #### Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
 
 > 5. Blockbuster Reborn Frontend Diagrams 🎨
 > 6. Blockbuster Reborn Frontend Instructions to Run Application 🔢
@@ -41,7 +41,7 @@ PART 2: Frontend Blockbuster Reborn React Application
 > 8. Blockbuster Reborn Frontend Demo 🧑‍💻
 > 9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖
 
-PART 3: Thank You & Further Information 
+#### PART 3: Thank You & Further Information 
 
 > 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
 > 11. Keeping up to date & collaboration 📌

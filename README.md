@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af
 **Open and run back-end API in IntelliJ:**
 
   1.	Clone API from GitHub (https://github.com/thinesan29/BTNA_Capstone_Project):
-        - In Terminal: `git clone git@github.com:thinesan29/BTNA_Capstone_Project.git`
+        - In Terminal: `git clone git@github.com:thinesan29/BNTA_Capstone_GroupProject.git`
   3.	Create local database called “movies_api”: 
          -	In Terminal: `createdb movies`
   4.	Download and install IntelliJ

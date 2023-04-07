@@ -75,6 +75,19 @@ Please also refer to the above video when using Postman
 
 ### RESTful route endpoints
 
+## How to run
+
+**Open and run back-end API in IntelliJ:**
+
+  1.	Clone API from GitHub (git@github.com:thinesan29/BTNA_Capstone_Project.git):
+        - In Terminal: `git clone git@github.com:thinesan29/BTNA_Capstone_Project.git`
+  3.	Create local database called “movies_api”: 
+         -	In Terminal: `createdb movies`
+  4.	Download and install IntelliJ
+  5.	Open API in IntelliJ
+  6.	Run API from `CapstoneBackEndAPIApplication` file:
+        -	Check API is running by opening `http://localhost:8080` on your desktop browser.
+
 #### To access the program, use `https://localhost:{port}/{endpoint}` - the default port is 8080.
 
 Each model - Movie, Cast and MovieCastMember - have REST controllers that provide basic CRUD functionality, specifically Index, Show, Create, Update and Delete routes. The Movie and Cast models also have additional functionality, described below: 

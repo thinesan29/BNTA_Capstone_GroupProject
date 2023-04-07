@@ -214,9 +214,8 @@ All Movies: `http://localhost:8080/movies`
 <!-- Add in others as well -->
 
 ## **_8. Blockbuster Reborn Frontend React Application 🧑‍💻_**
-*Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
 
-deploy React app here with link in about section as well
+## TBC
 
 ## **_9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
 * Spring Data JPA

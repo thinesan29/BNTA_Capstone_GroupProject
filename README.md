@@ -145,6 +145,8 @@ Our Component diagram illustrate how the different user interface elements such 
 
 -----------
 <hr />
+## **_6. Blockbuster Reborn Frontend Instructions to Run**
+
 
 ## How to run
        
@@ -161,6 +163,8 @@ Our Component diagram illustrate how the different user interface elements such 
         -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser
 
 ----------------
+## **_7. Blockbuster Reborn Frontend Routes**
+
 
 ## Routes
 
@@ -173,6 +177,8 @@ All Movies: `http://localhost:8080/movies`
 <!-- Add in others as well -->
 
 <hr />
+## **_7. Blockbuster Reborn Frontend Demo**
+*Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
 
 ## Our Demo 
 ### Demonstrating CRUD functionality
@@ -181,7 +187,7 @@ deploy React app here with link in about section as well
 
 <hr />
 
-## **_6. Blockbuster Reborn Collaborators_**
+## **_8. Blockbuster Reborn Collaborators_**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))

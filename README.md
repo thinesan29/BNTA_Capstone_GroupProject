@@ -80,7 +80,7 @@ Please also refer to the above video when using Postman
 
 **Open and run back-end API in IntelliJ:**
 
-  1.	Clone API from GitHub (git@github.com:thinesan29/BTNA_Capstone_Project.git):
+  1.	Clone API from GitHub (https://github.com/thinesan29/BTNA_Capstone_Project):
         - In Terminal: `git clone git@github.com:thinesan29/BTNA_Capstone_Project.git`
   3.	Create local database called “movies_api”: 
          -	In Terminal: `createdb movies`

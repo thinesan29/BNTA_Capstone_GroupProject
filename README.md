@@ -151,7 +151,7 @@ Our Component diagram illustrate how the different user interface elements such 
 
 *This can be found in the "Blockbuster Reborn Component Initial Diagram.png" file.*
 
-<img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="95%"/>
+<img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="90%"/>
 
 <hr />
 

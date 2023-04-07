@@ -207,6 +207,8 @@ We've arrived at the end of our project, here's a little something from our team
 
 https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb-ad5d-c71ea5338087.mp4
 
+<br />
+
 If you would like to keep up to date with Blockbuster Reborn 🍿, our future developments 🤔 and perhaps collaborate 🤝, please STAR this repository 🌟 and/or feel free to reach out to us. 
 
 Thank you and have a great day from the team at Blockbuster Reborn! ☺️

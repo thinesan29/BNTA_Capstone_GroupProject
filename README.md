@@ -213,11 +213,8 @@ All Movies: `http://localhost:8080/movies`
 
 <!-- Add in others as well -->
 
-## **_8. Blockbuster Reborn Frontend Demo 🧑‍💻_**
+## **_8. Blockbuster Reborn Frontend React Application 🧑‍💻_**
 *Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
-
-## Our Demo 
-### Demonstrating CRUD functionality
 
 deploy React app here with link in about section as well
 
@@ -231,6 +228,9 @@ deploy React app here with link in about section as well
   * React Bootstrap
   * React Slick
   * React Icons  
+
+<hr />
+
 
 ## **_10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥_**
 

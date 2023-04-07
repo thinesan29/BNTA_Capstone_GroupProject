@@ -46,7 +46,7 @@ https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content
 > 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
 > 11. Keeping up to date & collaboration 📌
 
-## Blockbuster Reborn Backend Presentation
+## Blockbuster Reborn Backend Presentation 🧑‍🎨🎥
 
 https://user-images.githubusercontent.com/122550071/230603106-461983da-00f7-4778-b9b2-248fba5444ee.mp4
 
@@ -162,7 +162,7 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 <hr />
 
-## Blockbuster Reborn Frontend Presentation 🧑‍🎨
+## Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
 
 https://user-images.githubusercontent.com/122550071/230603562-0b5f312e-fb15-4e12-9380-07cdffaf0354.mp4
 

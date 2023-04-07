@@ -145,7 +145,8 @@ Our Component diagram illustrate how the different user interface elements such 
 
 -----------
 <hr />
-## **_6. Blockbuster Reborn Frontend Instructions to Run**
+
+## **_6. Blockbuster Reborn Frontend Instructions to Run_**
 
 
 ## How to run

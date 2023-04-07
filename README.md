@@ -13,7 +13,10 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 - Ryder Rashid (Github: [rrydderr](https://github.com/rrydderr))
 - Thinesan Manoseelan (Github: [thinesan29](https://github.com/thinesan29))
 
-<!-- Presentation Goes Here -->
+## **_Blockbuster Reborn Presentation Link 🧑‍🎨 (Ultra Clear 😎)_**
+
+https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content=DAFeypC6k4M&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+
 
 ### This README will be split into two parts, the first containing the backend API and the second containing the frontend REACT application
 
@@ -21,6 +24,7 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 
 PART 1: Backend Blockbuster Reborn API
 
+> Blockbuster Reborn Backend Presentation 🧑‍🎨
 > 1. Backend Project Description 💬
 > 2. Backend Project Diagrams 🎨
 > 3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍💻
@@ -28,6 +32,7 @@ PART 1: Backend Blockbuster Reborn API
 
 PART 2: Frontend Blockbuster Reborn React Application
 
+> Blockbuster Reborn Frontend Presentation 🧑‍🎨
 > 5. Blockbuster Reborn Frontend Diagrams 🎨
 > 6. Blockbuster Reborn Frontend Instructions to Run Application 🔢
 > 7. Blockbuster Reborn Frontend Routes 🗺 
@@ -35,8 +40,10 @@ PART 2: Frontend Blockbuster Reborn React Application
 > 9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖
 > 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
 
+## Blockbuster Reborn Backend Presentation
 
-<!--- # Blockbuster Reborn Backend Project -->
+https://user-images.githubusercontent.com/122550071/230603106-461983da-00f7-4778-b9b2-248fba5444ee.mp4
+
 
 ## **_1. Backend Project Description 💬_**
 
@@ -149,6 +156,9 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 <hr />
 
+## Blockbuster Reborn Frontend Presentation 🧑‍🎨
+
+https://user-images.githubusercontent.com/122550071/230603562-0b5f312e-fb15-4e12-9380-07cdffaf0354.mp4
 
 ## **_5. Blockbuster Reborn Frontend Diagrams 🎨_**
 

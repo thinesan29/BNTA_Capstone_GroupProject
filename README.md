@@ -213,7 +213,8 @@ deploy React app here with link in about section as well
 * JavaScript
 * React
   * React Bootstrap
-  * React Slick  
+  * React Slick
+  * React Icons  
 
 ## **_10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥_**
 

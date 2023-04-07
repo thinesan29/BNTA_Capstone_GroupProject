@@ -170,7 +170,7 @@ Our Component diagram illustrate how the different user interface elements such 
         -	App should open automatically on browser
         -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser
 
-## **_8. Blockbuster Reborn Frontend Routes  🗺🛣 _**
+## **_8. Blockbuster Reborn Frontend Routes 🗺🛣_**
 
 The following are the Routes available on the React app, configured using the React Router library:
 

@@ -18,7 +18,7 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content=DAFeypC6k4M&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 -->
 
-### This README will be split into two parts, the first containing the backend API and the second containing the frontend REACT application
+### This README will be split into three parts, the first containing the backend API, the second containing the frontend REACT application and third containing extra information.
 
 ## **TABLE OF CONTENTS** 📖
 

@@ -57,6 +57,12 @@ Cast contains an id, age, bio and name.
 ### MovieCastMember:
 MovieCastMember contains the movie, cast and character name.
 
+### Genre(Enum):
+Genre contains ORIGINALS,TOP_RATED,ACTION,COMEDY,DOCUMENTARIES,HORROR.
+
+### Language(Enum):
+Language contains:ENGLISH,TAMIL,SPANISH,GERMAN,KANNADA,KOREAN,HINDI
+
 <br />
 
 ## **_2. Backend Project Diagrams 🎨_**

@@ -23,7 +23,7 @@ PART 1: Backend Blockbuster Reborn API
 
 > 1. Backend Project Description 💬
 > 2. Backend Project Diagrams 🎨
-> 3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍
+> 3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍💻
 > 4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖
 
 PART 2: Frontend Blockbuster Reborn React Application

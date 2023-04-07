@@ -62,13 +62,17 @@ MovieCastMember contains the movie, cast and character name.
 ## **_2. Backend Project Diagrams 🎨_**
 
 ### UML Diagram 
-The class diagram shows the relationships and attributes of each model. It can be found in the "Blockbuster Reborn UML Diagram Backend Final.png" file.
+The UML Diagram shows the relationships and attributes of each model. 
+
+*This can be found in the "Blockbuster Reborn UML Diagram Backend Final.png" file.*
 
 <img src ="./Blockbuster Reborn Capstone UML Diagram Final.png" alt="UML Diagram" width="80%"/>
 
 
 ### Entity Relationship Diagram  
-The entity relationship diagram shows the relationship between each model in the database. It can be found in the "Blockbuster Reborn Capstone ERD.png" file.
+The Entity Relationship Diagram shows the relationship between each model in the database. 
+
+*This can be found in the "Blockbuster Reborn Capstone ERD.png" file.*
 
 <img src="./Blockbuster Reborn Capstone ERD Final.png" alt="Entity Relationship Diagram" width="80%"/>
 

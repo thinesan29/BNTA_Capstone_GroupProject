@@ -44,7 +44,6 @@ Cast contains an id, age, bio and name.
 MovieCastMember contains the movie, cast and character name.
 
 <br />
-
 ## **_2. Backend Project Diagrams_**
 
 ### Class Diagram 

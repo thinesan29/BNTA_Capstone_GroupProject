@@ -127,16 +127,18 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 <br />
 
-## **_5. Blockbuster Reborn Dependencies_**
+## **_5. Blockbuster Reborn Backend Dependencies & Tech Stack_**
 
 <!--- ## Dependencies -->
 - Spring Web
 - SpringBoot Devtools
 - Spring Data JPA
 - PostgreSQL
---------
 
-## **_5. Blockbuster Reborn Frontend Diagrams_**
+<!-- Add Tech Stack -->
+
+
+## **_6. Blockbuster Reborn Frontend Diagrams_**
 
 ### Wireframe Diagram 
 Our Wireframe diagram was our initial visual representation of the Blockbuster Reborn website's layout and functionality, showing the position of elements, content and the user interface, but without the design and style elements. 
@@ -154,7 +156,7 @@ Our Component diagram illustrate how the different user interface elements such 
 
 <hr />
 
-## **_6. Blockbuster Reborn Frontend Instructions to Run Application_**
+## **_7. Blockbuster Reborn Frontend Instructions to Run Application_**
        
 **Open and run front-end project in VSCode:** 
 
@@ -168,7 +170,7 @@ Our Component diagram illustrate how the different user interface elements such 
         -	App should open automatically on browser
         -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser
 
-## **_7. Blockbuster Reborn Frontend Routes_**
+## **_8. Blockbuster Reborn Frontend Routes_**
 
 The following are the Routes available on the React app, configured using the React Router library:
 
@@ -178,7 +180,7 @@ All Movies: `http://localhost:8080/movies`
 
 <!-- Add in others as well -->
 
-## **_7. Blockbuster Reborn Frontend Demo_**
+## **_9. Blockbuster Reborn Frontend Demo_**
 *Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
 
 ## Our Demo 
@@ -188,7 +190,7 @@ deploy React app here with link in about section as well
 
 <hr />
 
-## **_8. Blockbuster Reborn Frontend Dependencies & Tech Stack_**
+## **_10. Blockbuster Reborn Frontend Dependencies & Tech Stack_**
 * Spring Data JPA
 * Spring Web
 * SpringBoot Devtools
@@ -198,16 +200,15 @@ deploy React app here with link in about section as well
   * React Bootstrap
   * React Slick  
 
-## **_9. Blockbuster Reborn Cast & Crew Thank You Message 🙏🎥_**
+## **_11. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥_**
 
-We've arrived at the end of our project, here's a message from our team:
-
+We've arrived at the end of our project, here's a little something from our team, roll the credits:
 
 https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb-ad5d-c71ea5338087.mp4
 
+<!-- Cut this out as we have it at the top? No point people scrolling all the way to the bottom to find collaborators tbf -->
 
-
-## **_10. Blockbuster Reborn Collaborators_**
+## **_12. Blockbuster Reborn Collaborators_**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))

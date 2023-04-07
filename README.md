@@ -143,8 +143,44 @@ Our Component diagram illustrate how the different user interface elements such 
 
 <img src ="./Blockbuster Reborn Component Initial Diagram.png" alt="Blockbuster Reborn Component" width="80%"/>
 
+-----------
+<hr />
+
+## How to run
+       
+**Open and run front-end project in VSCode:** 
+
+  1.	Clone project from GitHub (https://github.com/thinesan29/BTNA_Capstone_Project)
+        - In Terminal: `git clone https://github.com/thinesan29/BTNA_Capstone_Project`
+  3.	Install node modules: 
+        -	In Terminal: `npm i` or `npm install`
+  4.	Download and open VSCode
+  5.	Run React App:
+        -	In Terminal: `npm start`
+        -	App should open automatically on browser
+        -	Otherwise check app is running by opening `http://localhost:3000` on your desktop browser
 
 ----------------
+
+## Routes
+
+The following are the Routes available on the React app, configured using the React Router library:
+
+Landing page: `http://localhost:3000`
+
+All Movies: `http://localhost:8080/movies`
+
+<!-- Add in others as well -->
+
+<hr />
+
+## Our Demo 
+### Demonstrating CRUD functionality
+
+deploy React app here with link in about section as well
+
+<hr />
+
 ## **_6. Blockbuster Reborn Collaborators_**
 
 <!--- ## Collaborators -->

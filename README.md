@@ -147,6 +147,8 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 <!-- Add Tech Stack -->
 
+<hr />
+
 
 ## **_5. Blockbuster Reborn Frontend Diagrams 🎨_**
 

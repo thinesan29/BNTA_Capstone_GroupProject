@@ -217,5 +217,5 @@ https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb
 <img src ="./Blockbuster Reborn Logo Github.png" alt="Blockbuster Reborn Logo" width="50%"/>
 
 
- © Blockbuster Reborn, April 2023
+ #### © Blockbuster Reborn, April 2023
 

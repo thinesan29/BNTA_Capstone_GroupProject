@@ -123,24 +123,41 @@ https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af
 
 Each model - Movie, Cast and MovieCastMember - have REST controllers that provide basic CRUD functionality, specifically Index, Show, Create, Update and Delete routes. The Movie and Cast models also have additional functionality, described below: 
 
-- INDEX: 
-  - `GET http://localhost:8080/movies` returns all books in JSON format and can be accessed via web browser
-  - This method is available for all other models
+### 1. GET (SHOW)
 
-- SHOW:
-  - `GET http://localhost:8080/movies/{movieId}` returns movies with unique id = {id} and can be accessed via web browser
+**1.1 GET All Movies ** <br>
+``````
+Method: GET 
+Endpoint : /movies
+URL: http://localhost:8080/movies
+```````
+This GET request retrieves all the movies available in the API.
 
-- CREATE:
-  - `POST http://localhost:8080/movies` creates a movie with a unique id, and returns the created movie. 
-  - Attributes of this new movie must be sent within the request body in Postman.
+**1.2 GET All Casts ** <br>
+``````
+Method: GET 
+Endpoint : /casts
+URL: http://localhost:8080/casts
+```````
+This GET request retrieves all the casts available in the API.
 
-- UPDATE:
-  - `PUT http://localhost:8080/movies/{movieId}` updates movies with unique id = {id} and returns the updated book. 
-  - All attributes, changed or not, must be included in the request body in Postman.
+**1.2 GET Movie By Id** <br>
+``````
+Method: GET 
+Endpoint : /movies/1
+URL: http://localhost:8080/movies/1
+```````
 
-- DELETE:
-  - `DELETE http://localhost:8080/movies/{movieId}` deletes movie with unique id = {id}. 
-  - This must be done in Postman. If delete request is successful, Http status 202 - no content - is returned.
+This GET method retrieves a single Movie resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Movie object with all its associated properties such as the title,duration,watchList,review,rating,trailer,language and genre.
+
+**1.2 GET Cast By Id** <br>
+``````
+Method: GET 
+Endpoint : /casts/1
+URL: http://localhost:8080/casts/1
+```````
+
+This GET method retrieves a single Cast resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Cast object with all its associated properties such as the name,age and bio.
   
 ### Filters and Sort
   

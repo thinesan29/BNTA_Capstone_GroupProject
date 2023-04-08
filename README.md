@@ -176,6 +176,36 @@ URL: http://localhost:8080/movies/random
 ```````
 
 This GET method retrieves 5 random movies from the API everytime the URL link is refreshed.
+
+<hr />
+
+### 2. POST (CREATE)
+
+**2.1 POST New Movies**:<br>
+``````
+Method: POST 
+Endpoint : /movies
+URL: http://localhost:8080/movies
+```````
+
+The request body must be a JSON object containing the title,duration,watchList,review,rating,trailer,language and genre. The language and genre enum values are all listed in the API BackEnd Project Description section. If the request is successful, it will respond with a status code of 201 (Created) and the newly created Movie object in the response body.
+
+In Postman, select Body -> JSON -> raw  and enter the following for the request body: 
+```````
+{
+   id": 31,
+    "title": "Spider-Man No Way Home",
+    "duration": 166,
+    "watchList": false,
+    "review": "Good",
+    "rating": 8,
+    "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
+    "language": "ENGLISH",
+    "genre": "ACTION"
+}
+```````
+
+In this example, the language enum value is "ENGLISH" and the genre enum is "ACTION" . If you want to use other examples, please refer to the listed language and genre enum values in the BackEnd Project description. Anything not on the list will NOT work.Please Note that language enum and genre enum must be all written in uppercase letters.
   
   
 ### Filters and Sort

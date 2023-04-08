@@ -125,7 +125,7 @@ Each model - Movie, Cast and MovieCastMember - have REST controllers that provid
 
 ### 1. GET (SHOW)
 
-**1.1 GET All Movies ** <br>
+**1.1 GET All Movies** <br>
 ``````
 Method: GET 
 Endpoint : /movies
@@ -133,7 +133,7 @@ URL: http://localhost:8080/movies
 ```````
 This GET request retrieves all the movies available in the API.
 
-**1.2 GET All Casts ** <br>
+**1.2 GET All Casts** <br>
 ``````
 Method: GET 
 Endpoint : /casts
@@ -141,7 +141,7 @@ URL: http://localhost:8080/casts
 ```````
 This GET request retrieves all the casts available in the API.
 
-**1.2 GET Movie By Id** <br>
+**1.3 GET Movie By Id** <br>
 ``````
 Method: GET 
 Endpoint : /movies/1
@@ -150,7 +150,7 @@ URL: http://localhost:8080/movies/1
 
 This GET method retrieves a single Movie resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Movie object with all its associated properties such as the title,duration,watchList,review,rating,trailer,language and genre.
 
-**1.2 GET Cast By Id** <br>
+**1.4 GET Cast By Id** <br>
 ``````
 Method: GET 
 Endpoint : /casts/1

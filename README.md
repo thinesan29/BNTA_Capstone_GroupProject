@@ -193,7 +193,7 @@ The request body must be a JSON object containing the title,duration,watchList,r
 In Postman, select Body -> JSON -> raw  and enter the following for the request body: 
 ```````
 {
-   id": 31,
+    "id": 31,
     "title": "Spider-Man No Way Home",
     "duration": 166,
     "watchList": false,

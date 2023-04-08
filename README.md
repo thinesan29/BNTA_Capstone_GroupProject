@@ -158,6 +158,25 @@ URL: http://localhost:8080/casts/1
 ```````
 
 This GET method retrieves a single Cast resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Cast object with all its associated properties such as the name,age and bio.
+
+**1.5 GET Movies By Genre** <br>
+``````
+Method: GET 
+Endpoint : /movies/genre/ACTION
+URL: http://localhost:8080/movies/genre/ACTION
+```````
+
+This GET method retrieves a all the Action Movies available in the API. The following can also be done for Originals,Top-Rated,Comedy,Documentaries and Horror. Refer to Genre(Enum) in BackEnd Project Description.
+
+**1.6 GET 5 Random Movies** <br>
+``````
+Method: GET 
+Endpoint : /movies/random
+URL: http://localhost:8080/movies/random
+```````
+
+This GET method retrieves 5 random movies fromn the API everytime the URL link is refreshed.
+  
   
 ### Filters and Sort
   

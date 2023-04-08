@@ -175,7 +175,7 @@ Endpoint : /movies/random
 URL: http://localhost:8080/movies/random
 ```````
 
-This GET method retrieves 5 random movies fromn the API everytime the URL link is refreshed.
+This GET method retrieves 5 random movies from the API everytime the URL link is refreshed.
   
   
 ### Filters and Sort

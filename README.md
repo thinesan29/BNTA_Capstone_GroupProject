@@ -207,7 +207,7 @@ In Postman, select Body -> JSON -> raw  and enter the following for the request 
 
 In this example, the language enum value is "ENGLISH" and the genre enum is "ACTION" . If you want to use other examples, please refer to the listed language and genre enum values in the BackEnd Project description. Anything not on the list will NOT work.Please Note that language enum and genre enum must be all written in uppercase letters.
 
-**2.2 POST New Cast **:<br>
+**2.2 POST New Cast:**:<br>
 ``````
 Method: POST 
 Endpoint : /casts
@@ -227,6 +227,29 @@ In Postman, select Body -> JSON -> raw  and enter the following for the request 
 ```````
 
 In this example, a new Cast member named "Tom Holland has been added to the API.
+
+<hr />
+
+### 3. PUT (UPDATE)
+
+Finish this off later on 
+
+**3.1 PUT Update Movie**:
+
+``````
+Method: PUT 
+Endpoint : /todolists/1/item/5
+URL: http://localhost:8080/todolists/1/item/5
+```````
+This method is used to update the completion status of a ToDoItem. "1"  is the id of the ToDoList and "5" is the id of the specific ToDoItem being updated. The request body should contain a boolean value indicating the new completion status.If the value is true, it means the ToDoItem is completed, and if the value is false, it means the ToDoItem is not completed. 
+
+In Postman, select Body -> JSON -> raw  and enter the following for the request body:
+
+```````
+true
+```````
+
+
   
   
 ### Filters and Sort

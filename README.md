@@ -4,7 +4,7 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 
 #####  ⚠️ It is important to note that our project: Blockbuster Reborn, is solely intended for educational purposes and does not involve any commercial use of the Blockbuster, Amazon, HBO, Hulu, Netflix, or YouTube brand or material. We do not hold any rights to use their content or images. Our aim is to showcase our skills and knowledge in Full Stack Software Development.
 
-## **_Blockbuster Reborn Cast & Crew (Collaborators) 🎭_**
+## **Blockbuster Reborn Cast & Crew (Collaborators) 🎭**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))
@@ -13,12 +13,7 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 - Ryder Rashid (Github: [rrydderr](https://github.com/rrydderr))
 - Thinesan Manoseelan (Github: [thinesan29](https://github.com/thinesan29))
 
-<!-- ## **_Blockbuster Reborn Presentation Link 🧑‍🎨 (Ultra Clear 😎)_**
-
-https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content=DAFeypC6k4M&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
--->
-
-## **TABLE OF CONTENTS** 📖
+## **Table of Contents** 📖
 
 #### PART 1: Backend Blockbuster Reborn API
 
@@ -53,7 +48,7 @@ https://user-images.githubusercontent.com/122550071/230603106-461983da-00f7-4778
 
 <!--- ## Description --> 
 
-This project is a Bookkeeper API containing movies and TV shows within a 'movielist.' Each movie and TV show contains the title, cast, genre, language, rating and review.
+This project is a Blockbuster Reborn API containing movies and TV shows within a 'movielist.' Each movie and TV show contains the title, cast, genre, language, rating and review.
 
 The program allows the user to have a movie/TV show stored in their 'watchlist' as well as add their own rating and review for added personalisation.
 
@@ -261,7 +256,10 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 ## Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
 
-https://user-images.githubusercontent.com/122550071/230603562-0b5f312e-fb15-4e12-9380-07cdffaf0354.mp4
+
+https://user-images.githubusercontent.com/122550071/230789786-8adf49d8-eed0-4c17-a0f0-bbb560e350e4.mp4
+
+
 
 ## **_5. Blockbuster Reborn Frontend Diagrams 🎨_**
 
@@ -304,9 +302,35 @@ Our Component diagram was our initial visual representation of how the different
 
 The following are the Routes available on the React app, configured using the React Router library:
 
-Landing page: `http://localhost:3000`
+Landing Page: `http://localhost:3000/Home`
 
-All Movies: `http://localhost:8080/movies`
+Logo Video: `http://localhost:3000`
+
+My List: `http://localhost:3000/MyList`
+
+Login: `http://localhost:3000/Login`
+
+Admin: `http://localhost:3000/Admin`
+
+- Admin Manage: `http://localhost:3000/Admin/Manage`
+
+  - Admin Manage Movie: `http://localhost:3000/Admin/Manage/Movie`
+
+  - Admin Manage Cast: `http://localhost:3000/Admin/Manage/Cast`
+
+Subscribe: `http://localhost:3000/Subscribe`
+
+Blockbuster Originals: `http://localhost:3000/Blockbuster_Originals`
+
+Top Rated: `http://localhost:3000/Top_Rated`
+
+Action: `http://localhost:3000/Action`
+
+Comedy: `http://localhost:3000/Comedy`
+
+Documentaries: `http://localhost:3000/Documentaries`
+
+Horror: `http://localhost:3000/Horror`
 
 <!-- Add in others as well -->
 
@@ -315,9 +339,6 @@ All Movies: `http://localhost:8080/movies`
 **TBC**
 
 ## **_9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
-* Spring Data JPA
-* Spring Web
-* SpringBoot Devtools
 * CSS
 * JavaScript
 * React

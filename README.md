@@ -1,10 +1,10 @@
-# Blockbuster Reborn - '*Because Netflix is so Last Season*' 🍿🎞 (Work in Progress)
+# Blockbuster Reborn - '*Because Netflix is so Last Season*' 🍿🎞 (NOT COMPLETED)
 
 Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn, the go-to streaming site that brings the joy of movie nights back to life. Browse through our vibrant virtual shelves, packed with blockbuster hits, indie darlings, and everything in between. Interact with fellow film aficionados in our bustling online community, and join us for unforgettable themed movie nights. Blockbuster Reborn is your one-stop shop for pure movie magic. 🪄🎬
 
 #####  ⚠️ It is important to note that our project: Blockbuster Reborn, is solely intended for educational purposes and does not involve any commercial use of the Blockbuster, Amazon, HBO, Hulu, Netflix, or YouTube brand or material. We do not hold any rights to use their content or images. Our aim is to showcase our skills and knowledge in Full Stack Software Development.
 
-## **_Blockbuster Reborn Cast & Crew (Collaborators) 🎭_**
+## **Blockbuster Reborn Cast & Crew (Collaborators) 🎭**
 
 <!--- ## Collaborators -->
 - Leah Simon (Github: [nsleeah](https://github.com/nsleeah))
@@ -13,34 +13,33 @@ Get ready to feast your eyes on a cinematic smorgasbord with Blockbuster Reborn,
 - Ryder Rashid (Github: [rrydderr](https://github.com/rrydderr))
 - Thinesan Manoseelan (Github: [thinesan29](https://github.com/thinesan29))
 
-## **_Blockbuster Reborn Presentation Link 🧑‍🎨 (Ultra Clear 😎)_**
+## **Table of Contents** 📖
 
-https://www.canva.com/design/DAFeypC6k4M/5-Lwq_e8JE0yCGk9jP2GnA/view?utm_content=DAFeypC6k4M&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+#### PART 1: Backend Blockbuster Reborn API
 
+> #### Blockbuster Reborn Backend Presentation 🧑‍🎨🎥
 
-### This README will be split into two parts, the first containing the backend API and the second containing the frontend REACT application
-
-## **TABLE OF CONTENTS** 📖
-
-PART 1: Backend Blockbuster Reborn API
-
-> Blockbuster Reborn Backend Presentation 🧑‍🎨
 > 1. Backend Project Description 💬
 > 2. Backend Project Diagrams 🎨
 > 3. Blockbuster Reborn API Backend Demo: CRUD Functionality 🧑‍💻
 > 4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖
 
-PART 2: Frontend Blockbuster Reborn React Application
+#### PART 2: Frontend Blockbuster Reborn React Application
 
-> Blockbuster Reborn Frontend Presentation 🧑‍🎨
+> #### Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
+
 > 5. Blockbuster Reborn Frontend Diagrams 🎨
 > 6. Blockbuster Reborn Frontend Instructions to Run Application 🔢
 > 7. Blockbuster Reborn Frontend Routes 🗺 
 > 8. Blockbuster Reborn Frontend Demo 🧑‍💻
 > 9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖
-> 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
 
-## Blockbuster Reborn Backend Presentation
+#### PART 3: Thank You & Further Information 
+
+> 10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥
+> 11. Keeping up to date & collaboration 📌
+
+## Blockbuster Reborn Backend Presentation 🧑‍🎨🎥
 
 https://user-images.githubusercontent.com/122550071/230603106-461983da-00f7-4778-b9b2-248fba5444ee.mp4
 
@@ -49,7 +48,7 @@ https://user-images.githubusercontent.com/122550071/230603106-461983da-00f7-4778
 
 <!--- ## Description --> 
 
-This project is a Bookkeeper API containing movies and TV shows within a 'movielist.' Each movie and TV show contains the title, cast, genre, language, rating and review.
+This project is a Blockbuster Reborn API containing movies and TV shows within a 'movielist.' Each movie and TV show contains the title, cast, genre, language, rating and review.
 
 The program allows the user to have a movie/TV show stored in their 'watchlist' as well as add their own rating and review for added personalisation.
 
@@ -119,24 +118,123 @@ https://user-images.githubusercontent.com/122550071/230561091-51145ca7-480a-45af
 
 Each model - Movie, Cast and MovieCastMember - have REST controllers that provide basic CRUD functionality, specifically Index, Show, Create, Update and Delete routes. The Movie and Cast models also have additional functionality, described below: 
 
-- INDEX: 
-  - `GET http://localhost:8080/movies` returns all books in JSON format and can be accessed via web browser
-  - This method is available for all other models
+### 1. GET (SHOW)
 
-- SHOW:
-  - `GET http://localhost:8080/movies/{movieId}` returns movies with unique id = {id} and can be accessed via web browser
+**1.1 GET All Movies** <br>
+``````
+Method: GET 
+Endpoint : /movies
+URL: http://localhost:8080/movies
+```````
+This GET request retrieves all the movies available in the API.
 
-- CREATE:
-  - `POST http://localhost:8080/movies` creates a movie with a unique id, and returns the created movie. 
-  - Attributes of this new movie must be sent within the request body in Postman.
+**1.2 GET All Casts** <br>
+``````
+Method: GET 
+Endpoint : /casts
+URL: http://localhost:8080/casts
+```````
+This GET request retrieves all the casts available in the API.
 
-- UPDATE:
-  - `PUT http://localhost:8080/movies/{movieId}` updates movies with unique id = {id} and returns the updated book. 
-  - All attributes, changed or not, must be included in the request body in Postman.
+**1.3 GET Movie By Id** <br>
+``````
+Method: GET 
+Endpoint : /movies/1
+URL: http://localhost:8080/movies/1
+```````
 
-- DELETE:
-  - `DELETE http://localhost:8080/movies/{movieId}` deletes movie with unique id = {id}. 
-  - This must be done in Postman. If delete request is successful, Http status 202 - no content - is returned.
+This GET method retrieves a single Movie resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Movie object with all its associated properties such as the title,duration,watchList,review,rating,trailer,language and genre.
+
+**1.4 GET Cast By Id** <br>
+``````
+Method: GET 
+Endpoint : /casts/1
+URL: http://localhost:8080/casts/1
+```````
+
+This GET method retrieves a single Cast resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Cast object with all its associated properties such as the name,age and bio.
+
+**1.5 GET Movies By Genre** <br>
+``````
+Method: GET 
+Endpoint : /movies/genre/ACTION
+URL: http://localhost:8080/movies/genre/ACTION
+```````
+
+This GET method retrieves a all the Action Movies available in the API. The following can also be done for Originals,Top-Rated,Comedy,Documentaries and Horror. Refer to Genre(Enum) in BackEnd Project Description.
+
+**1.6 GET 5 Random Movies** <br>
+``````
+Method: GET 
+Endpoint : /movies/random
+URL: http://localhost:8080/movies/random
+```````
+
+This GET method retrieves 5 random movies from the API everytime the URL link is refreshed.
+
+<hr />
+
+### 2. POST (CREATE)
+
+**2.1 POST New Movies**:<br>
+``````
+Method: POST 
+Endpoint : /movies
+URL: http://localhost:8080/movies
+```````
+
+The request body must be a JSON object containing the title,duration,watchList,review,rating,trailer,language and genre. The language and genre enum values are all listed in the API BackEnd Project Description section. If the request is successful, it will respond with a status code of 201 (Created) and the newly created Movie object in the response body.
+
+In Postman, select Body -> JSON -> raw  and enter the following for the request body: 
+```````
+{
+    "id": 31,
+    "title": "Spider-Man No Way Home",
+    "duration": 166,
+    "watchList": false,
+    "review": "Good",
+    "rating": 8,
+    "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
+    "language": "ENGLISH",
+    "genre": "ACTION"
+}
+```````
+
+In this example, the language enum value is "ENGLISH" and the genre enum is "ACTION" . If you want to use other examples, please refer to the listed language and genre enum values in the BackEnd Project description. Anything not on the list will NOT work.Please Note that language enum and genre enum must be all written in uppercase letters.
+
+**2.2 POST New Cast:**:<br>
+``````
+Method: POST 
+Endpoint : /casts
+URL: http://localhost:8080/casts
+```````
+
+The request body must be a JSON object containing the name,age and bio. If the request is successful, it will respond with a status code of 201 (Created) and the newly created Movie object in the response body.
+
+In Postman, select Body -> JSON -> raw  and enter the following for the request body: 
+```````
+{
+    "id":59,
+    "name":"Tom Holland",
+    "age": 26,
+    "bio":"Thomas Stanley Holland is an English actor. His accolades include a British Academy Film Award and three Saturn Awards."
+}
+```````
+
+In this example, a new Cast member named "Tom Holland has been added to the API.
+
+<hr />
+
+### 3. PUT (UPDATE)
+
+Finish this off later on 
+
+**3.1 PUT Update Movie**:
+
+
+
+
+  
   
 ### Filters and Sort
   
@@ -156,9 +254,12 @@ The movie model contains filters and a sort that allow the user to narrow their 
 
 <hr />
 
-## Blockbuster Reborn Frontend Presentation 🧑‍🎨
+## Blockbuster Reborn Frontend Presentation 🧑‍🎨🎥
 
-https://user-images.githubusercontent.com/122550071/230603562-0b5f312e-fb15-4e12-9380-07cdffaf0354.mp4
+
+https://user-images.githubusercontent.com/122550071/230789786-8adf49d8-eed0-4c17-a0f0-bbb560e350e4.mp4
+
+
 
 ## **_5. Blockbuster Reborn Frontend Diagrams 🎨_**
 
@@ -201,30 +302,52 @@ Our Component diagram was our initial visual representation of how the different
 
 The following are the Routes available on the React app, configured using the React Router library:
 
-Landing page: `http://localhost:3000`
+Landing Page: `http://localhost:3000/Home`
 
-All Movies: `http://localhost:8080/movies`
+Logo Video: `http://localhost:3000`
+
+My List: `http://localhost:3000/MyList`
+
+Login: `http://localhost:3000/Login`
+
+Admin: `http://localhost:3000/Admin`
+
+- Admin Manage: `http://localhost:3000/Admin/Manage`
+
+  - Admin Manage Movie: `http://localhost:3000/Admin/Manage/Movie`
+
+  - Admin Manage Cast: `http://localhost:3000/Admin/Manage/Cast`
+
+Subscribe: `http://localhost:3000/Subscribe`
+
+Blockbuster Originals: `http://localhost:3000/Blockbuster_Originals`
+
+Top Rated: `http://localhost:3000/Top_Rated`
+
+Action: `http://localhost:3000/Action`
+
+Comedy: `http://localhost:3000/Comedy`
+
+Documentaries: `http://localhost:3000/Documentaries`
+
+Horror: `http://localhost:3000/Horror`
 
 <!-- Add in others as well -->
 
-## **_8. Blockbuster Reborn Frontend Demo 🧑‍💻_**
-*Please note the our React application link has also been attached within the about section.* <!-- Change maybe? -->
+## **_8. Blockbuster Reborn Frontend React Application 🧑‍💻_**
 
-## Our Demo 
-### Demonstrating CRUD functionality
-
-deploy React app here with link in about section as well
+**TBC**
 
 ## **_9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
-* Spring Data JPA
-* Spring Web
-* SpringBoot Devtools
 * CSS
 * JavaScript
 * React
   * React Bootstrap
   * React Slick
   * React Icons  
+
+<hr />
+
 
 ## **_10. Blockbuster Reborn Cast & Crew (Collaborators) Thank You Message 🙏🎥_**
 
@@ -233,7 +356,8 @@ We've arrived at the end of our project, here's a little something from our team
 https://user-images.githubusercontent.com/122550071/230571517-094ed92b-fd1d-41fb-ad5d-c71ea5338087.mp4
 
 <br />
-<hr />
+
+## **_11. Further Information 📌_**
 
 ### If you would like to keep up to date with **Blockbuster Reborn** 🍿, our **future developments** 🤔 and perhaps **collaborate** 🤝, **please STAR** this repository 🌟 and/or feel free to **reach out to us**. 
 

@@ -300,7 +300,7 @@ Our Component diagram was our initial visual representation of how the different
 
 ## **_7. Blockbuster Reborn Frontend Routes 🗺_**
 
-The following are the Routes available on the React app, configured using the React Router library:
+The following are the Routes available on the React app, configured using the React Router library after following the above instructions:
 
 Landing Page: `http://localhost:3000/Home`
 
@@ -336,7 +336,9 @@ Horror: `http://localhost:3000/Horror`
 
 ## **_8. Blockbuster Reborn Frontend React Application 🧑‍💻_**
 
-**TBC**
+https://blockbuster-reborn-fullstack-capstone.netlify.app/
+
+Blockbuster Reborn is now live and accessible to users! Our streaming site has been deployed using Netlify, providing a seamless experience for all users. Enjoy the vast array of movies and TV shows available at your fingertips.
 
 ## **_9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
 * CSS

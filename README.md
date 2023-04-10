@@ -227,9 +227,21 @@ In this example, a new Cast member named "Tom Holland has been added to the API.
 
 ### 3. PUT (UPDATE)
 
-Finish this off later on 
-
 **3.1 PUT Update Movie**:
+``````
+Method: PUT 
+Endpoint : /todolists/1/item/5
+URL: http://localhost:8080/todolists/1/item/5
+```````
+This method is used to update the completion status of a ToDoItem. "1"  is the id of the ToDoList and "5" is the id of the specific ToDoItem being updated. The request body should contain a boolean value indicating the new completion status.If the value is true, it means the ToDoItem is completed, and if the value is false, it means the ToDoItem is not completed. 
+
+In Postman, select Body -> JSON -> raw  and enter the following for the request body:
+
+```````
+true
+```````
+
+**NOTE: No curly brackets are required in the request body.** 
 
 
 

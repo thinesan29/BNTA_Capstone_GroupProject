@@ -93,7 +93,6 @@ The Language enum class is used to filter movies based on their language, and in
 - `KANNADA`
 - `KOREAN`
 - `HINDI`
-
 <br />
 
 ## **_2. Backend Project Diagrams 🎨_**
@@ -145,7 +144,7 @@ Each model - Movie, Cast and MovieCastMember - have REST controllers that provid
 
 ### 3.1 GET (SHOW)
 
-**3.1.1 GET All Movies** <br>
+**3.1.1 GET All Movies**: <br>
 ``````
 Method: GET 
 Endpoint : /movies
@@ -153,7 +152,7 @@ URL: http://localhost:8080/movies
 ```````
 This GET request retrieves all the movies available in the API.
 
-**3.1.2 GET All Casts** <br>
+**3.1.2 GET All Casts**: <br>
 ``````
 Method: GET 
 Endpoint : /casts
@@ -161,7 +160,7 @@ URL: http://localhost:8080/casts
 ```````
 This GET request retrieves all the casts available in the API.
 
-**3.1.3 GET Movie By Id** <br>
+**3.1.3 GET Movie By Id**: <br>
 ``````
 Method: GET 
 Endpoint : /movies/1
@@ -170,7 +169,7 @@ URL: http://localhost:8080/movies/1
 
 This GET method retrieves a single Movie resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Movie object with all its associated properties such as the title,duration,watchList,review,rating,trailer,language and genre.
 
-**3.1.4 GET Cast By Id** <br>
+**3.1.4 GET Cast By Id**: <br>
 ``````
 Method: GET 
 Endpoint : /casts/1
@@ -179,7 +178,7 @@ URL: http://localhost:8080/casts/1
 
 This GET method retrieves a single Cast resource by its unique identifier (Id) specified in the URL path parameter. In this case, the Id is 1. The method returns the Cast object with all its associated properties such as the name,age and bio.
 
-**3.1.5 GET Movies By Genre** <br>
+**3.1.5 GET Movies By Genre**: <br>
 ``````
 Method: GET 
 Endpoint : /movies/genre/ACTION
@@ -189,7 +188,7 @@ This method can be used to retrieve movies for other genres, such as Originals, 
 
 Please note, anything not listed in the Genre (Enum) will not work.
 
-**3.1.6 GET 5 Random Movies** <br>
+**3.1.6 GET 5 Random Movies**: <br>
 ``````
 Method: GET 
 Endpoint : /movies/random
@@ -202,7 +201,7 @@ This GET method retrieves 5 random movies from the API everytime the URL link is
 
 ### 3.2 POST (CREATE)
 
-**3.2.1 POST New Movies**:<br>
+**3.2.1 POST New Movie**:<br>
 ``````
 Method: POST 
 Endpoint : /movies
@@ -227,7 +226,7 @@ In Postman, select Body -> JSON -> raw  and enter the following for the request 
 ```````
 For example, in this request, the language enum value is "ENGLISH," and the genre enum is "ACTION." If you want to use other examples, please refer to the listed language and genre enum values in the BackEnd Project Description. Please note that anything not on the list will NOT work.
 
-**3.2.2 POST New Cast:**:<br>
+**3.2.2 POST New Cast**:<br>
 ``````
 Method: POST 
 Endpoint : /casts

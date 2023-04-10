@@ -214,7 +214,7 @@ The request body must be a JSON object containing the name, age, and bio. If the
 In Postman, select Body -> JSON -> raw  and enter the following for the request body: 
 ```````
 {
-    "id":59,
+    "id":58,
     "name":"Tom Holland",
     "age": 26,
     "bio":"Thomas Stanley Holland is an English actor. His accolades include a British Academy Film Award and three Saturn Awards."

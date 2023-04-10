@@ -230,18 +230,32 @@ In this example, a new Cast member named "Tom Holland has been added to the API.
 **3.1 PUT Update Movie**:
 ``````
 Method: PUT 
-Endpoint : /todolists/1/item/5
-URL: http://localhost:8080/todolists/1/item/5
+Endpoint : /movies/31
+URL: http://localhost:8080/movies/31
 ```````
-This method is used to update the completion status of a ToDoItem. "1"  is the id of the ToDoList and "5" is the id of the specific ToDoItem being updated. The request body should contain a boolean value indicating the new completion status.If the value is true, it means the ToDoItem is completed, and if the value is false, it means the ToDoItem is not completed. 
+This method updates a movie resource with ID 31 on the server. Request body contains JSON of the updated movie resource. If the update succeeds, the server will return a success response code (e.g. 200 OK) with the updated movie resource in the response body. If the update fails (e.g. incorrect movie ID), an appropriate error response code (e.g. 404 Not Found) will be returned with an error message. 
+
 
 In Postman, select Body -> JSON -> raw  and enter the following for the request body:
 
 ```````
-true
+{
+    "id": 31,
+    "title": "Spider-Man No Way Home",
+    "duration": 166,
+    "watchList": false,
+    "review": "Good",
+    "rating": 8,
+    "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
+    "language": "FRENCH",
+    "genre": "ACTION",
+    "movieCastMember": []
+}
 ```````
 
-**NOTE: No curly brackets are required in the request body.** 
+The example updates the "language" property of the movie resource with ID 31 from "ENGLISH" to "FRENCH".
+
+Similarly, other properties such as "title", "genre", "duration", etc. can also be updated using the same method. The request body should include a JSON representation of the updated resource with the modified properties.
 
 
 

@@ -55,19 +55,47 @@ The program allows the user to have a movie/TV show stored in their 'watchlist' 
 The user is able to filter movies and TV shows based on cast, genre and language.
 
 ### Movie:
-Movie contains an id, title, run time, rating, cast, watchlist, genre and language. 
+Movie contains the following information:
+- id
+- title
+- duration
+- rating
+- cast
+- watchList
+- genre
+- language
 
 ### Cast:
-Cast contains an id, age, bio and name.
+Cast contains the following information:
+- id
+- name
+- age
+- bio
 
 ### MovieCastMember:
-MovieCastMember contains the movie, cast and character name.
+MovieCastMember contains the following information:
+- movie
+- cast
+- character name
 
-### Genre(Enum):
-Genre contains Originals,Top-Rated,Action,Comedy,Documentaries and Horror.
+### Genre:
+An enum class that filters movies by genre.Genre contains the following:
+- `ORGINALS`
+- `TOP_RATED`
+- `ACTION`
+- `COMEDY`
+- `DOCUMENTARIES`
+- `HORROR`
 
-### Language(Enum):
-Language contains:English,Tamil,Spanish,German,Kannada,Korean and Hindi.
+### Language:
+An enum class that filters movies by language.Language contains the following:
+- `ENGLISH`
+- `TAMIL`
+- `SPANISH`
+- `GERMAN`
+- `KANNADA`
+- `KOREAN`
+- `HINDI`
 
 <br />
 

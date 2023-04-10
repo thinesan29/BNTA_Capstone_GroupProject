@@ -311,7 +311,7 @@ Similarly, other properties such as "age" and "bio" can also be updated using th
 
 ### 3.4 DELETE
 
-**3.4.1 DELETE Movie**:
+**3.4.1 DELETE Movie**: <br>
 ``````
 Method: DELETE
 Endpoint : /movies/31
@@ -320,7 +320,7 @@ URL: http://localhost:8080/movies/31
 
 This method deletes the movie resource with ID 31 from the server. If the deletion is successful, a success response code (e.g. 204 No Content) is returned with no response body. If the deletion fails, an appropriate error response code (e.g. 404 Not Found) is returned with an error message in the response body.
 
-**3.4.2 DELETE Cast**:
+**3.4.2 DELETE Cast**: <br>
 ``````
 Method: DELETE
 Endpoint : /casts/58

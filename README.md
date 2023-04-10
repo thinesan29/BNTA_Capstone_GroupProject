@@ -160,8 +160,9 @@ Method: GET
 Endpoint : /movies/genre/ACTION
 URL: http://localhost:8080/movies/genre/ACTION
 ```````
+This method can be used to retrieve movies for other genres, such as Originals, Top-Rated, Comedy, Documentaries, and Horror. Please refer to the Genre (Enum) in the BackEnd Project Description for more information. 
 
-This GET method retrieves a all the Action Movies available in the API. The following can also be done for Originals,Top-Rated,Comedy,Documentaries and Horror. Refer to Genre(Enum) in BackEnd Project Description.
+Please note, anything not listed in the Genre (Enum) will not work.
 
 **1.6 GET 5 Random Movies** <br>
 ``````
@@ -199,8 +200,7 @@ In Postman, select Body -> JSON -> raw  and enter the following for the request 
     "genre": "ACTION"
 }
 ```````
-
-In this example, the language enum value is "ENGLISH" and the genre enum is "ACTION" . If you want to use other examples, please refer to the listed language and genre enum values in the BackEnd Project description. Anything not on the list will NOT work.Please Note that language enum and genre enum must be all written in uppercase letters.
+For example, in this request, the language enum value is "ENGLISH," and the genre enum is "ACTION." If you want to use other examples, please refer to the listed language and genre enum values in the BackEnd Project Description. Please note that anything not on the list will NOT work.
 
 **2.2 POST New Cast:**:<br>
 ``````
@@ -209,7 +209,7 @@ Endpoint : /casts
 URL: http://localhost:8080/casts
 ```````
 
-The request body must be a JSON object containing the name,age and bio. If the request is successful, it will respond with a status code of 201 (Created) and the newly created Movie object in the response body.
+The request body must be a JSON object containing the name, age, and bio. If the request is successful, it will respond with a status code of 201 (Created) and the newly created Cast object in the response body.
 
 In Postman, select Body -> JSON -> raw  and enter the following for the request body: 
 ```````

@@ -374,7 +374,7 @@ Our Component diagram was our initial visual representation of how the different
         - In Terminal: `git clone https://github.com/thinesan29/BNTA_Capstone_GroupProject`
   2.	Install node modules: 
         -	In Terminal: `npm i` or `npm install` <br>
-        **Note: If npm i doesn't automatically install react slick, react icons, react bootstrap, and react router, you can follow steps 3, 4, and 5. Otherwise, proceed to step 6.**
+        **Note: If `npm i` doesn't automatically install react slick, react icons, react bootstrap, and react router, you can follow steps 3, 4, and 5. Otherwise, proceed to step 6.**
   3.  Install React Icons.<br>
         - In your terminal, perform the following command: `npm i react-icons`
   4.  Install React Slick.<br>

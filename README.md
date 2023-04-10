@@ -433,6 +433,7 @@ Blockbuster Reborn is now live and accessible to users! Our streaming site has b
 
 ## **_9. Blockbuster Reborn Frontend Dependencies & Tech Stack 🤖_**
 * CSS
+* HTML
 * JavaScript
 * React
   * React Bootstrap

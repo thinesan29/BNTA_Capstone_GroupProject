@@ -257,6 +257,34 @@ The example updates the "language" property of the movie resource with ID 31 fro
 
 Similarly, other properties such as "title", "genre", "duration", etc. can also be updated using the same method. The request body should include a JSON representation of the updated resource with the modified properties.
 
+**3.2 PUT Update Cast**:
+``````
+Method: PUT 
+Endpoint : /casts/58
+URL: http://localhost:8080/casts/58
+```````
+This method is used to modify the properties of a specific cast resource with ID 58. The request body should include a JSON representation of the updated cast resource, containing the properties to be changed. A successful update will return a success response code (e.g. 200 OK) with the updated cast resource in the response body. However, if the update fails (e.g. incorrect cast ID), an error response code (e.g. 404 Not Found) will be returned along with an error message.
+
+In Postman, select Body -> JSON -> raw  and enter the following for the request body:
+
+````
+{
+    "id":58,
+    "name":"Tom Stanley Holland",
+    "age": 26,
+    "bio":"Thomas Stanley Holland is an English actor. His accolades include a British Academy Film Award and three Saturn Awards",
+    "movieCastMembers": []
+
+}
+````
+
+In the given example for updating the cast resource with ID 58, the "name" property is updated from "Tom Holland" to "Tom Stanley Holland". 
+
+Similarly, other properties such as "age" and "bio" can also be updated using the same method. The request body should include a JSON representation of the updated resource with the modified properties.
+
+
+<hr/>
+
 
 
 

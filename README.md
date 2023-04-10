@@ -285,16 +285,26 @@ Similarly, other properties such as "age" and "bio" can also be updated using th
 
 <hr/>
 
+### 4. DELETE
 
+**4.1 DELETE Movie**
+``````
+Method: DELETE
+Endpoint : /movies/31
+URL: http://localhost:8080/movies/31
+```````
 
+This method deletes the movie resource with ID 31 from the server. If the deletion is successful, a success response code (e.g. 204 No Content) is returned with no response body. If the deletion fails, an appropriate error response code (e.g. 404 Not Found) is returned with an error message in the response body.
 
-  
-  
-### Filters and Sort
-  
-The movie model contains filters and a sort that allow the user to narrow their search. Filters can be applied based on genre and language. Movie can also be sorted by cast, rating and review.
+**4.2 DELETE Cast**
+``````
+Method: DELETE
+Endpoint : /casts/58
+URL: http://localhost:8080/casts/58
+```````
+This method is used to delete the cast resource with ID 58 from the server. If the deletion is successful, a success response code (e.g. 204 No Content) is returned with no response body. If the deletion fails, an appropriate error response code (e.g. 404 Not Found) is returned with an error message in the response body.
 
-<br />
+<hr />
 
 ## **_4. Blockbuster Reborn Backend Dependencies & Tech Stack 🤖_**
 

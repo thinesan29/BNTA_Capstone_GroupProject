@@ -437,7 +437,8 @@ Blockbuster Reborn is now live and accessible to users! Our streaming site has b
 * React
   * React Bootstrap
   * React Slick
-  * React Icons  
+  * React Icons
+  * React Router
 
 <hr />
 

@@ -184,7 +184,9 @@ Method: GET
 Endpoint : /movies/genre/ACTION
 URL: http://localhost:8080/movies/genre/ACTION
 ```````
-This method can be used to retrieve movies for other genres, such as Originals, Top-Rated, Comedy, Documentaries, and Horror. Please refer to the Genre (Enum) in the BackEnd Project Description for more information. 
+The endpoint is designed to retrieve all movies categorised under the action genre in the database.
+
+This method can also be used to retrieve movies for other genres, such as Originals, Top-Rated, Comedy, Documentaries, and Horror. Please refer to the Genre (Enum) in the BackEnd Project Description for more information. 
 
 Please note, anything not listed in the Genre (Enum) will not work.
 
